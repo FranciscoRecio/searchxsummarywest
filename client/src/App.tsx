@@ -95,9 +95,9 @@ const recommendedEvents = placeholderEvents.slice(0, 3);
 
 function App() {
   return (
-    <div className="min-h-screen bg-base-200">
+    <div className="min-h-screen bg-gradient-to-b from-sky-50/60 via-amber-50/50 to-blue-50/70">
       {/* Header */}
-      <header className="bg-base-100 shadow-sm">
+      <header className="bg-white bg-opacity-80 backdrop-blur-sm shadow-sm">
         <div className="container mx-auto p-4 max-w-5xl">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-1">
