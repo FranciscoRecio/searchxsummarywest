@@ -1,12 +1,15 @@
 export type Event = {
-    id: string;
+    id: number;
     name: string;
     description: string;
     location: string;
-    date: string;
     time: string;
-    price: number;
+    startDate: string;
+    endDate: string;
     thumbnailUrl: string;
     url: string;
+    price: string;
+    sponsors: string[];
     tags: string[];
+    status: string;
 }
