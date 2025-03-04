@@ -44,7 +44,7 @@ function App() {
               >
                 <figure>
                   <img
-                    src={event.thumbnailUrl}
+                    src={`/images/${event.thumbnailUrl}`}
                     alt={event.name}
                     className="h-48 w-full object-cover"
                   />

@@ -35,7 +35,7 @@ const Events = ({ events }: EventsProps) => {
   
   // Get current date for filtering past/upcoming events
   const currentDate = new Date();
-  currentDate.setHours(0, 0, 0, 0); // Set to beginning of day for accurate comparison
+  const currentDateStr = currentDate.toISOString().split('T')[0]; // Get YYYY-MM-DD
   
   // Filter events based on search term, tags, free filter, and past/upcoming
   const filteredEvents = events.filter(event => {
@@ -51,9 +51,9 @@ const Events = ({ events }: EventsProps) => {
       const matchesFree = 
         !showFreeOnly || event.price === 'Free';
       
-      // Filter based on past/upcoming using ISO date string
-      const eventDate = new Date(event.startDate);
-      const isPastEvent = eventDate < currentDate;
+      // Compare just the date parts (YYYY-MM-DD)
+      const eventDateStr = event.startDate.split('T')[0];
+      const isPastEvent = eventDateStr < currentDateStr;
       const matchesTimeFilter = showPastEvents ? isPastEvent : !isPastEvent;
       
       return matchesSearch && matchesTags && matchesFree && matchesTimeFilter;
@@ -68,13 +68,10 @@ const Events = ({ events }: EventsProps) => {
   
   filteredEvents.forEach(event => {
     try {
-      // Parse the ISO date string and get just the date part in local timezone
+      // Create date in event's timezone
       const date = new Date(event.startDate);
-      const dateKey = date.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit'
-      }).split('/').reverse().join('-'); // Convert to YYYY-MM-DD format
+      // Get YYYY-MM-DD in event's local timezone
+      const dateKey = event.startDate.split('T')[0];
       
       if (!groupedEvents[dateKey]) {
         groupedEvents[dateKey] = [];
@@ -93,13 +90,17 @@ const Events = ({ events }: EventsProps) => {
 
   // Format date for display
   const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
+    // Create date from YYYY-MM-DD string at noon to avoid timezone issues
+    const date = new Date(`${dateString}T12:00:00`);
+    
     const monthDay = date.toLocaleDateString('en-US', { 
       month: 'short', 
-      day: 'numeric'
+      day: 'numeric',
+      timeZone: 'UTC'  // Use UTC to avoid timezone shifts
     });
     const weekday = date.toLocaleDateString('en-US', { 
-      weekday: 'long'
+      weekday: 'long',
+      timeZone: 'UTC'  // Use UTC to avoid timezone shifts
     });
     return { monthDay, weekday };
   };
@@ -208,7 +209,11 @@ const Events = ({ events }: EventsProps) => {
                   {groupedEvents[dateKey].map(event => (
                     <div key={event.id} className="card card-side bg-base-100 shadow-sm border border-base-200">
                       <figure className="w-1/4">
-                        <img src={event.thumbnailUrl} alt={event.name} className="h-full w-full object-cover" />
+                        <img 
+                          src={`/images/${event.thumbnailUrl}`} 
+                          alt={event.name} 
+                          className="h-full w-full object-cover" 
+                        />
                       </figure>
                       <div className="card-body">
                         <div className="flex justify-between items-start">
