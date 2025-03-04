@@ -216,6 +216,5 @@ async function fetchAndSummarizeEvents() {
 // Remove test function since we don't need it anymore
 // async function testSingleEventPage() { ... }
 
-// Comment out test and run the full processing
-//parseEventOverviews();
+parseEventOverviews();
 fetchAndSummarizeEvents();
