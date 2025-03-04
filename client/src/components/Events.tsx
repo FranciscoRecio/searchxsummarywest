@@ -35,63 +35,73 @@ const Events = ({ events }: EventsProps) => {
   
   // Get current date for filtering past/upcoming events
   const currentDate = new Date();
-  currentDate.setHours(0, 0, 0, 0); // Set to beginning of day for accurate comparison
+  const currentDateStr = currentDate.toISOString().split('T')[0]; // Get YYYY-MM-DD
   
   // Filter events based on search term, tags, free filter, and past/upcoming
   const filteredEvents = events.filter(event => {
-    const matchesSearch = 
-      event.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
-      event.description.toLowerCase().includes(searchTerm.toLowerCase());
-    
-    const matchesTags = 
-      selectedTags.length === 0 || 
-      selectedTags.some(tag => event.tags.includes(tag));
-    
-    const matchesFree = 
-      !showFreeOnly || event.price === 0;
-    
-    // Filter based on past/upcoming
-    const eventDate = new Date(event.date);
-    const isPastEvent = eventDate < currentDate;
-    const matchesTimeFilter = showPastEvents ? isPastEvent : !isPastEvent;
-    
-    return matchesSearch && matchesTags && matchesFree && matchesTimeFilter;
+    try {
+      const matchesSearch = 
+        event.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
+        event.description.toLowerCase().includes(searchTerm.toLowerCase());
+      
+      const matchesTags = 
+        selectedTags.length === 0 || 
+        selectedTags.some(tag => event.tags.includes(tag));
+      
+      const matchesFree = 
+        !showFreeOnly || event.price === 'Free';
+      
+      // Compare just the date parts (YYYY-MM-DD)
+      const eventDateStr = event.startDate.split('T')[0];
+      const isPastEvent = eventDateStr < currentDateStr;
+      const matchesTimeFilter = showPastEvents ? isPastEvent : !isPastEvent;
+      
+      return matchesSearch && matchesTags && matchesFree && matchesTimeFilter;
+    } catch (error) {
+      console.warn(`Error filtering event: ${event.name}`, error);
+      return false;
+    }
   });
 
   // Group events by date
   const groupedEvents: Record<string, Event[]> = {};
   
   filteredEvents.forEach(event => {
-    const date = new Date(event.date);
-    const dateKey = date.toISOString().split('T')[0]; // YYYY-MM-DD format
-    
-    if (!groupedEvents[dateKey]) {
-      groupedEvents[dateKey] = [];
+    try {
+      // Create date in event's timezone
+      const date = new Date(event.startDate);
+      // Get YYYY-MM-DD in event's local timezone
+      const dateKey = event.startDate.split('T')[0];
+      
+      if (!groupedEvents[dateKey]) {
+        groupedEvents[dateKey] = [];
+      }
+      
+      groupedEvents[dateKey].push(event);
+    } catch (error) {
+      console.warn(`Error processing date for event: ${event.name}`, error);
     }
-    
-    groupedEvents[dateKey].push(event);
   });
   
-  // Sort dates (ascending for upcoming, descending for past)
+  // Sort dates
   const sortedDates = Object.keys(groupedEvents).sort((a, b) => {
     return showPastEvents ? b.localeCompare(a) : a.localeCompare(b);
   });
 
-  // Format date for display - "Mar 7 Friday" format
+  // Format date for display
   const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
+    // Create date from YYYY-MM-DD string at noon to avoid timezone issues
+    const date = new Date(`${dateString}T12:00:00`);
     
-    // Format month and day (Mar 7)
     const monthDay = date.toLocaleDateString('en-US', { 
       month: 'short', 
-      day: 'numeric'
+      day: 'numeric',
+      timeZone: 'UTC'  // Use UTC to avoid timezone shifts
     });
-    
-    // Format weekday (Friday)
     const weekday = date.toLocaleDateString('en-US', { 
-      weekday: 'long'
+      weekday: 'long',
+      timeZone: 'UTC'  // Use UTC to avoid timezone shifts
     });
-    
     return { monthDay, weekday };
   };
 
@@ -138,7 +148,6 @@ const Events = ({ events }: EventsProps) => {
               </svg>
             </label>
             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow-sm bg-base-100 rounded-box w-52">
-              {/* Free Only Option */}
               <li>
                 <label className="label cursor-pointer justify-start font-semibold">
                   <input 
@@ -151,12 +160,10 @@ const Events = ({ events }: EventsProps) => {
                 </label>
               </li>
               
-              {/* Divider */}
               <li className="menu-title">
                 <span>Filter by Tags</span>
               </li>
               
-              {/* Tag Options */}
               {allTags.map(tag => (
                 <li key={tag}>
                   <label className="label cursor-pointer justify-start">
@@ -181,14 +188,13 @@ const Events = ({ events }: EventsProps) => {
         </div>
       </div>
 
-      {/* Events List Grouped by Date */}
+      {/* Events List */}
       <div className="space-y-6">
         {filteredEvents.length > 0 ? (
           sortedDates.map(dateKey => {
             const { monthDay, weekday } = formatDate(dateKey);
             return (
               <div key={dateKey}>
-                {/* Date Header - Left aligned without divider lines */}
                 <div className="mb-4 mt-8 first:mt-0">
                   <div className="flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-secondary opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -199,16 +205,29 @@ const Events = ({ events }: EventsProps) => {
                   </div>
                 </div>
                 
-                {/* Events for this date */}
                 <div className="space-y-4">
                   {groupedEvents[dateKey].map(event => (
                     <div key={event.id} className="card card-side bg-base-100 shadow-sm border border-base-200">
                       <figure className="w-1/4">
-                        <img src={event.thumbnailUrl} alt={event.name} className="h-full w-full object-cover" />
+                        <img 
+                          src={`/images/${event.thumbnailUrl}`} 
+                          alt={event.name} 
+                          className="h-full w-full object-cover" 
+                        />
                       </figure>
                       <div className="card-body">
-                        <h3 className="card-title">{event.name}</h3>
+                        <div className="flex justify-between items-start">
+                          <h3 className="card-title">{event.name}</h3>
+                          {event.status && (
+                            <span className="badge badge-secondary">{event.status}</span>
+                          )}
+                        </div>
                         <p>{event.description}</p>
+                        {event.sponsors.length > 0 && (
+                          <div className="text-sm text-gray-500">
+                            Sponsored by: {event.sponsors.join(', ')}
+                          </div>
+                        )}
                         <div className="flex flex-wrap gap-2 mt-2">
                           {event.tags.map(tag => (
                             <div key={tag} className="badge badge-outline">{tag}</div>
@@ -235,7 +254,7 @@ const Events = ({ events }: EventsProps) => {
                               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
                               </svg>
-                              <span className="font-medium">{event.price === 0 ? 'Free' : `$${event.price}`}</span>
+                              <span className="font-medium">{event.price === 'Free' ? 'Free' : event.price}</span>
                             </div>
                             <a 
                               href={event.url} 
