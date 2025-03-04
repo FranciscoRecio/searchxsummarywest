@@ -1,6 +1,8 @@
 import "./App.css";
+import { useState } from "react";
 import { Event } from "./types";
 import Events from "./components/Events";
+import AIModal from "./components/AIModal";
 import sxswLogo from "./assets/sxsw-logo.png";
 // Placeholder events data
 const placeholderEvents: Event[] = [
@@ -94,6 +96,8 @@ const placeholderEvents: Event[] = [
 const recommendedEvents = placeholderEvents.slice(0, 3);
 
 function App() {
+  const [isAIModalOpen, setIsAIModalOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-50/60 via-amber-50/50 to-blue-50/70">
       {/* Header */}
@@ -118,7 +122,18 @@ function App() {
       <main className="container mx-auto p-4 max-w-5xl">
         {/* Recommended Events Section */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Recommended for You</h2>
+          <div className="flex justify-between items-center mb-4">
+            <h2 className="text-2xl font-bold">Recommended for You</h2>
+            <button 
+              className="btn btn-sm btn-outline btn-secondary gap-2"
+              onClick={() => setIsAIModalOpen(true)}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+              </svg>
+              Find Events I Will Like
+            </button>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {recommendedEvents.map((event) => (
               <div
@@ -212,6 +227,12 @@ function App() {
           <p>© 2025 SXSW. All rights reserved.</p>
         </div>
       </footer>
+
+      {/* AI Modal */}
+      <AIModal 
+        isOpen={isAIModalOpen}
+        onClose={() => setIsAIModalOpen(false)}
+      />
     </div>
   );
 }
