@@ -18,12 +18,30 @@ async function fetchWebPageContent(url) {
         const html = await response.text();
         const $ = cheerio.load(html);
         
+        // Extract date information from JSON-LD
+        let eventDateTime = null;
+        $('script[type="application/ld+json"]').each((i, el) => {
+            try {
+                const jsonData = JSON.parse($(el).html());
+                if (jsonData['@type'] === 'Event') {
+                    eventDateTime = {
+                        startDate: jsonData.startDate,
+                        endDate: jsonData.endDate
+                    };
+                }
+            } catch (e) {
+                console.error('Error parsing JSON-LD:', e);
+            }
+        });
+
         // Remove script tags, style tags, and other unnecessary elements
         $('script').remove();
         $('style').remove();
         
-        // Get the main content text
-        return $('body').text().trim();
+        return {
+            content: $('body').text().trim(),
+            datetime: eventDateTime
+        };
     } catch (error) {
         console.error('Error fetching webpage:', error);
         return null;
@@ -36,68 +54,168 @@ async function summarizeContent(content) {
             model: "gpt-3.5-turbo",
             messages: [{
                 role: "user",
-                content: `Analyze this SXSW event and provide a structured summary with the following:
+                content: `Analyze this SXSW event and output a JSON object with the following structure:
 
-1. Brief Description: Summarize the main event details
-2. Location: Specify venue and address
-3. Pricing & Availability: Include ticket types and costs
-4. Sponsors: List any mentioned sponsors
-5. Important Links: Preserve any URLs mentioned in the description
-6. Tags: Categorize the event using relevant tags from the following (include all that apply):
-   - Food
-   - Drinks
-   - Technology
-   - AI
-   - Music
-   - Film
-   - Art
-   - Business
-   - Startup
-   - Education
-   - Gaming
-   - Social Impact
-   - Health
-   - Networking
-   - Keynote
-   - Panel
-   - Party
-   - Exhibition
-   - Conference
-   - Workshop
+{
+    "description": "Brief summary of the main event details",
+    "tags": ["array", "of", "applicable", "tags", "from", "the", "list", "below"],
+    "price": "Pricing and ticket information",
+    "sponsors": ["Array", "of", "sponsor", "names"],
+    "status": "Event status (Live, Waitlist, Sold Out, etc.)"
+}
+
+Available tags:
+- Food
+- Drinks
+- Technology
+- AI
+- Music
+- Film
+- Art
+- Business
+- Startup
+- Education
+- Gaming
+- Social Impact
+- Health
+- Networking
+- Keynote
+- Panel
+- Party
+- Exhibition
+- Conference
+- Workshop
+- Web3
 
 Event Content: ${content}`
             }],
             max_tokens: 4096
         });
         
-        return response.choices[0].message.content;
+        // Parse the JSON response
+        return JSON.parse(response.choices[0].message.content);
     } catch (error) {
         console.error('Error getting summary from OpenAI:', error);
-        return null;
+        return {
+            description: '',
+            tags: [],
+            price: '',
+            sponsors: [],
+            status: ''
+        };
     }
 }
 
-async function parseHTML() {
+async function parseEventOverviews() {
     try {
         const htmlContent = await fs.readFile('SXSW · Events Calendar.html', 'utf-8');
         const $ = cheerio.load(htmlContent);
 
-        // Get just the first event URL
-        const firstEventUrl = $('.content-card.hoverable').first().find('a').attr('href');
-        console.log('Fetching content from:', firstEventUrl);
+        const events = [];
+        $('.content-card.hoverable').each((index, element) => {
+            const $element = $(element);
+            
+            const url = $element.find('a.event-link').attr('href');
+            const name = $element.find('h3').text().trim();
+            const timeElement = $element.find('.event-time');
+            const time = timeElement.text().trim();
+            const location = $element.find('.attribute .text-ellipses').last().text().trim();
+            const fullImageUrl = $element.find('.cover-image img').attr('src');
+            const thumbnailUrl = fullImageUrl ? fullImageUrl.split('/').pop() : 'No image found';
 
-        // Fetch and summarize the content
-        const pageContent = await fetchWebPageContent(firstEventUrl);
-        if (pageContent) {
-            console.log('Page content:', pageContent);
-            console.log('Getting summary from OpenAI...');
-            const summary = await summarizeContent(pageContent);
-            console.log('\nSummary:', summary);
-        }
+            events.push({
+                name: name || 'No name found',
+                time: time || 'No time found',
+                url: url || 'No URL found',
+                location: location || 'No location found',
+                thumbnailUrl,
+                index: index + 1
+            });
+        });
+
+        console.log(`Found ${events.length} events`);
+        await fs.writeFile('event_overviews.json', JSON.stringify(events, null, 2));
+        console.log('Events saved to event_overviews.json');
+
+        return events;
 
     } catch (error) {
-        console.error('Error reading file:', error);
+        console.error('Error parsing events:', error);
+        return [];
     }
 }
 
-parseHTML();
+// Keeping these functions for later use
+async function fetchEventDetails(events) {
+    for (let i = 0; i < events.length; i++) {
+        const event = events[i];
+        console.log(`\nProcessing event ${i + 1} of ${events.length}`);
+        console.log('Name:', event.name);
+        console.log('Time:', event.time);
+        console.log('URL:', event.url);
+
+        const pageContent = await fetchWebPageContent(event.url);
+        if (pageContent) {
+            console.log('Getting summary from OpenAI...');
+            const summary = await summarizeContent(pageContent.content);
+            console.log('\nSummary:', summary);
+            
+            // Add a delay to avoid rate limiting
+            if (i < events.length - 1) {
+                await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+        }
+    }
+}
+
+async function fetchAndSummarizeEvents() {
+    try {
+        const overviews = JSON.parse(await fs.readFile('event_overviews.json', 'utf-8'));
+        const detailedEvents = [];
+
+        for (let i = 0; i < overviews.length; i++) {
+            const event = overviews[i];
+            console.log(`\nProcessing event ${i + 1} of ${overviews.length}: ${event.name}`);
+
+            const pageData = await fetchWebPageContent(event.url);
+            if (pageData) {
+                console.log('Getting summary from OpenAI...');
+                const details = await summarizeContent(pageData.content);
+
+                detailedEvents.push({
+                    id: event.index,
+                    name: event.name,
+                    thumbnailUrl: event.thumbnailUrl,
+                    description: details.description,
+                    time: event.time,
+                    startDate: pageData.datetime?.startDate || '',
+                    endDate: pageData.datetime?.endDate || '',
+                    location: event.location,
+                    tags: details.tags,
+                    url: event.url,
+                    price: details.price,
+                    sponsors: details.sponsors,
+                    status: details.status
+                });
+
+                await fs.writeFile('event_details.json', JSON.stringify(detailedEvents, null, 2));
+                
+                if (i < overviews.length - 1) {
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+                }
+            }
+        }
+
+        console.log('\nAll events processed and saved to event_details.json');
+
+    } catch (error) {
+        console.error('Error processing events:', error);
+    }
+}
+
+// Remove test function since we don't need it anymore
+// async function testSingleEventPage() { ... }
+
+// Comment out test and run the full processing
+//parseEventOverviews();
+fetchAndSummarizeEvents();
