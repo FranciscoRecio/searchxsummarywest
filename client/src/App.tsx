@@ -108,11 +108,11 @@ function App() {
                 key={event.id}
                 className="card bg-base-100 shadow-sm border border-base-200"
               >
-                <figure>
+                <figure className="h-48">
                   <img
                     src={`/images/${event.thumbnailUrl}`}
                     alt={event.name}
-                    className="h-48 w-full object-cover"
+                    className="w-full h-full object-contain bg-gray-50"
                   />
                 </figure>
                 <div className="card-body">

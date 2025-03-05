@@ -3,18 +3,17 @@
     "id": 1,
     "name": "FOHE + Magic Edtech at SXSW EDU",
     "thumbnailUrl": "eb02d660-f85c-4be6-ad45-24759537e911.png",
-    "description": "Join us as we celebrate SXSW EDU and meet fellow educators, founders, practitioners, and innovators shaping the future of higher education! This event is sponsored by Magic Edtech.",
+    "description": "Join us as we celebrate SXSW EDU and meet fellow educators, founders, practitioners, and innovators shaping the future of higher education!",
     "time": "LIVE6:00 PM",
     "startDate": "2025-03-03T18:00:00.000-06:00",
     "endDate": "2025-03-03T20:00:00.000-06:00",
     "location": "The Stay Put",
     "tags": [
       "Education",
-      "Networking",
-      "Conference"
+      "Networking"
     ],
     "url": "https://lu.ma/h02mscf8",
-    "price": "Free, join the waitlist",
+    "price": "Free",
     "sponsors": [
       "Magic Edtech"
     ],
@@ -24,7 +23,7 @@
     "id": 2,
     "name": "Building the Future: Charter Cities, Network States & More @ Ârc Austin, with Patri Friedman & More",
     "thumbnailUrl": "9bc26ecb-b9d1-4471-8f6c-df715b8f10a3.png",
-    "description": "Building the Future: Charter Cities, Network States & more, with speakers discussing innovation in governance and improving models to run villages, cities, and countries.",
+    "description": "Building the Future: Charter Cities, Network States & more, with incredible speakers at the forefront of governance innovation and models for running villages, cities, and countries.",
     "time": "1:00 PM",
     "startDate": "2025-03-04T13:00:00.000-06:00",
     "endDate": "2025-03-04T19:00:00.000-06:00",
@@ -32,69 +31,65 @@
     "tags": [
       "Technology",
       "Business",
-      "Networking",
-      "Conference"
+      "Startup"
     ],
     "url": "https://lu.ma/hdue6sat",
-    "price": "Ticket prices vary based on access level. Require Approval for Ârc Summit + Full Access.",
+    "price": "$49",
     "sponsors": [
-      "PronomosVC",
-      "ProsperaGlobal",
-      "JacksonSteger",
-      "Balaji"
+      "Capital Factory"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 3,
     "name": "Entrepreneur Game and Social Hour - Hang out, Connect, & Play SideHustle: the Party Game for Entrepreneurs",
     "thumbnailUrl": "b06fc232-5810-487f-8ace-4da296f68e5c.jpg",
-    "description": "Entrepreneur Game and Social Hour - Hang out, Connect, & Play SideHustle: the Party Game for Entrepreneurs. Networking event to warm up for SXSW, meet founders/entrepreneurs, and play a business adjacent pitch style game.",
+    "description": "Entrepreneur Game and Social Hour is a networking event hosted by Tomer Soran and Darby Rollins at Hi Sign Brewing in Austin, Texas. Attendees can play SideHustle: the Party Game for Entrepreneurs, a business adjacent pitch style game. The event includes arrival and networking time, game playing, and exchanging contact info with new friends. Attendees can also bookmark a free copy of the digital game on their phone. Sponsored by Effortless Hire and GenAI University.",
     "time": "6:00 PM",
     "startDate": "2025-03-05T18:00:00.000-06:00",
     "endDate": "2025-03-05T21:00:00.000-06:00",
     "location": "Hi Sign Brewing",
     "tags": [
       "Networking",
-      "Event",
       "Party",
       "AI",
-      "Startup"
+      "Business"
     ],
     "url": "https://lu.ma/w59ef8hj",
-    "price": "Free event with registration. First 15 people to arrive get a free drink ticket.",
+    "price": "Free",
     "sponsors": [
       "Effortless Hire",
       "GenAI University"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 4,
     "name": "Wilbe: Unscripted | Austin, TX",
     "thumbnailUrl": "07fbed2d-2d76-4513-8009-86a3ac881acc.png",
-    "description": "Wilbe: Unscripted is a live event for off-the-record conversations with scientists and entrepreneurs reimagining the world. Limited capacity, speakers revealed on stage.",
+    "description": "Wilbe: Unscripted is a global series of events that challenge the status quo by hosting live, unapologetic, and off-the-record conversations with bright minds reimagining the world through science and entrepreneurship. The event takes place in Austin, TX, with location shared only with confirmed attendees. Capacity is limited, and attendees will be confirmed 72 hours before the event.",
     "time": "6:00 PM",
     "startDate": "2025-03-05T18:00:00.000-06:00",
     "endDate": "2025-03-05T20:00:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
       "Technology",
-      "Business",
-      "Networking"
+      "Startup",
+      "Networking",
+      "Conference"
     ],
     "url": "https://lu.ma/6qsch3wh",
-    "price": "Free with registration. Approval required.",
+    "price": "Free",
     "sponsors": [
       "Wilbe"
     ],
-    "status": "Waitlist"
+    "status": "Approval Required"
   },
   {
     "id": 5,
     "name": "OpenCoffee Club Austin - Special Edition SXSW  2025",
     "thumbnailUrl": "4e1bea1a-b513-460a-86d5-0d07c0cae6da.jpg",
-    "description": "A special edition of our regular tech entrepreneur meetup in Austin for entrepreneurs and investors to share their experiences, to motivate, and to explore ideas. Let's help each other — and Austin — win. Join us… Tech startup entrepreneurs, enthusiasts, and investors are encouraged to attend.",
+    "description": "A special edition* of a tech entrepreneur meetup in Austin for entrepreneurs and investors to share experiences, motivate, and explore ideas. Encouraged for tech startup entrepreneurs, enthusiasts, and investors.",
     "time": "8:30 AM",
     "startDate": "2025-03-06T08:30:00.000-06:00",
     "endDate": "2025-03-06T10:30:00.000-06:00",
@@ -106,58 +101,61 @@
       "Networking"
     ],
     "url": "https://lu.ma/sx25opencoffee",
-    "price": "$10.00",
+    "price": "$10",
     "sponsors": [
       "Egan Nelson, LLP",
       "RSM US LLP",
       "Green Pants Studio"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 6,
     "name": "FINN Partners X humble ventures: Future of Education Day",
     "thumbnailUrl": "b2ac3b2f-aad1-4a1a-82bb-b04b4c6486c6.jpg",
-    "description": "FINN X Humble Ventures presents Future of Education Day, a day of innovation in education featuring panels, presentations, and discussions on the future of education, workforce readiness, technology in education, cybersecurity in K-12, human-AI collaboration, information access through libraries, teacher professional development, and closing keynote on the future of education.",
+    "description": "FINN Partners X Humble Ventures presents Future of Education Day, featuring discussions on innovation in education, technology in higher education, cybersecurity in K-12 institutions, human-AI collaboration in STEM education, and the role of libraries in democracy.",
     "time": "9:00 AM",
     "startDate": "2025-03-06T09:00:00.000-06:00",
     "endDate": "2025-03-06T18:00:00.000-06:00",
     "location": "Atelier 1205",
     "tags": [
       "Technology",
-      "Education",
       "AI",
-      "Cybersecurity",
+      "Education",
+      "Networking",
+      "Keynote",
       "Panel",
-      "Keynote"
+      "Workshop"
     ],
     "url": "https://lu.ma/2b5rkxxv",
-    "price": "Registration required, closes at event start",
+    "price": "Free",
     "sponsors": [
-      "FINN X Humble Ventures"
+      "FINN Partners",
+      "Humble Ventures"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 7,
     "name": "RP1 Open House Series: #3 (SXSW)",
     "thumbnailUrl": "0ed7eb1b-b052-404f-ba39-43859c616787.png",
-    "description": "Join the RP1 Open House series to get an exclusive preview of the world’s first Metaverse Browser. Be a part of the launch of the first Metaverse Browser capable of bringing the world's population into a single 3D spatial ecosystem.",
+    "description": "RP1 Metaverse Browser is hosting an Open House series to give an exclusive preview of the world's first Metaverse Browser, with features like instant access on any device, optimization for VR, real-time connection and communication, and scalability to Earth's population in a single persistent ecosystem.",
     "time": "11:00 AM",
     "startDate": "2025-03-06T09:00:00.000-08:00",
     "endDate": "2025-03-06T10:00:00.000-08:00",
     "location": "Virtual",
     "tags": [
       "Technology",
-      "Event",
-      "Networking"
+      "Web3",
+      "Networking",
+      "Exhibition"
     ],
     "url": "https://lu.ma/9ahx5xkf",
     "price": "Free",
     "sponsors": [
       "RP1 Metaverse Browser"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 8,
@@ -171,11 +169,13 @@
     "tags": [
       "Business",
       "Startup",
+      "Education",
       "Networking"
     ],
     "url": "https://lu.ma/yyytc807",
-    "price": "Event Full - Join Waitlist",
+    "price": "Free",
     "sponsors": [
+      "dreambloc",
       "Accenture",
       "Build in Tulsa"
     ],
@@ -185,7 +185,7 @@
     "id": 9,
     "name": "TXHQ: Israel Downtown Rooftop Event (Save-the-Date)",
     "thumbnailUrl": "4dfa4f3c-4c40-4fa7-826b-00b77aee501e.png",
-    "description": "TXHQ: Israel Downtown Rooftop Event is a networking event showcasing Israel's tech innovation and government support, featuring trade relationship discussions, a venture panel, and a happy hour.",
+    "description": "TXHQ Israel Downtown Rooftop Event showcasing Israel's tech innovation, government support, and sector leadership. Features trade relationship discussions, venture panel, happy hour, and networking opportunities.",
     "time": "1:00 PM",
     "startDate": "2025-03-06T13:00:00.000-06:00",
     "endDate": "2025-03-06T19:00:00.000-06:00",
@@ -193,28 +193,29 @@
     "tags": [
       "Technology",
       "Networking",
+      "Keynote",
       "Panel",
       "Party"
     ],
     "url": "https://lu.ma/fibeml3u",
-    "price": "Registration and approval required",
+    "price": "Free",
     "sponsors": [
       "TXHQ"
     ],
-    "status": "RegistrationApproval Required"
+    "status": "Approval Required"
   },
   {
     "id": 10,
     "name": "From Sydney to Austin: EdTech and Innovation",
     "thumbnailUrl": "photo-1551352912-484163ad5be9",
-    "description": "Join Investment NSW for 'From Sydney to Austin: EdTech and Innovation,' an opportunity to connect and network with a group of leading NSW EdTech companies during SXSW EDU and SXSW, and learn more about their solutions and what they are doing with partners and customers here in the US.",
+    "description": "Join Investment NSW for 'From Sydney to Austin: EdTech and Innovation,' an opportunity to connect and network with a group of leading NSW EdTech companies during SXSW EDU and SXSW, and learn more about their solutions and what they are doing with partners and customers here in the US. Join us for this informal event and explore opportunities within Australia's vibrant tech ecosystem.",
     "time": "4:00 PM",
     "startDate": "2025-03-06T16:00:00.000-06:00",
     "endDate": "2025-03-06T18:30:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
-      "Business",
       "Education",
+      "Technology",
       "Networking"
     ],
     "url": "https://lu.ma/7j963krq",
@@ -228,47 +229,49 @@
     "id": 11,
     "name": "Padel & Pitch in Padel Haus.",
     "thumbnailUrl": "ecb8574a-d1dd-446e-b550-7b1c32291971.png",
-    "description": "Padel & Pitch is the ultimate fusion of sport, entrepreneurship, and high-impact networking. Entrepreneurs, investors, and innovators come together for high-energy padel matches, strategic networking, and game-changing opportunities. Limited to 50 exclusive spots!",
+    "description": "Padel & Pitch is the ultimate fusion of sport, entrepreneurship, and high-impact networking. Entrepreneurs, investors, and innovators come together for high-energy padel matches, strategic networking, and game-changing opportunities.",
     "time": "4:00 PM · 5:00 PM EST",
     "startDate": "2025-03-06T17:00:00.000-05:00",
     "endDate": "2025-03-06T19:00:00.000-05:00",
     "location": "Padel Haus Williamsburg",
     "tags": [
       "Networking",
-      "Business",
-      "Sport"
+      "Sports",
+      "Business"
     ],
     "url": "https://lu.ma/9j7ua48k",
-    "price": "General ticket: 1, Partner Ticket: 0. Verification of token ownership with wallet required.",
+    "price": "$40",
     "sponsors": [
-      "Elevate"
+      "Elevate",
+      "Padel Haus NYC"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 12,
     "name": "SxSW Happy Hour Kickoff - by Rho, Navan & A/F Fund",
     "thumbnailUrl": "677dcded-9035-4c99-b1af-42532d24db88.jpg",
-    "description": "Join Rho, Navan, and A/F Fund for a happy hour kickoff event at Whisler's in Austin to celebrate the start of SXSW with drinks, music, and networking. Limited spots available, RSVP now!",
+    "description": "Rho, Navan, and A/F Fund welcome you to come enjoy drinks & music together in one of the coolest cocktail bars in Austin! Come celebrate the start of SXSW with your fellow startup founders and accounting professionals. Bring a founder or accounting pro with you as we celebrate the start of SXSW week. RSVP now, as spots are limited. Food & Drinks will be provided.",
     "time": "7:00 PM",
     "startDate": "2025-03-06T19:00:00.000-06:00",
     "endDate": "2025-03-06T23:00:00.000-06:00",
     "location": "Whisler's",
     "tags": [
+      "Food",
       "Drinks",
-      "Music",
-      "Networking",
+      "Technology",
       "Startup",
-      "Finance"
+      "Networking",
+      "Party"
     ],
     "url": "https://lu.ma/xw9r3dxa",
-    "price": "Free with approved registration (subject to host approval)",
+    "price": "Free",
     "sponsors": [
       "Rho",
       "Navan",
       "A/F Fund"
     ],
-    "status": "Approval Required"
+    "status": "Waitlist"
   },
   {
     "id": 13,
@@ -285,7 +288,7 @@
       "Networking"
     ],
     "url": "https://lu.ma/ymh7z01q",
-    "price": "Event Full - Join waitlist for availability",
+    "price": "Free",
     "sponsors": [
       "Rho",
       "Fidelity Private Shares",
@@ -297,48 +300,49 @@
     "id": 14,
     "name": "SXSW: Service Design at the City of Austin",
     "thumbnailUrl": "f34cc949-d2b5-47d5-aca6-4963a75680c6.png",
-    "description": "Join Open Austin's monthly Design Community of Practice at SXSW Edu to network with public minded designers and hear from Mark Janchar about the City of Austin's website redesign.",
+    "description": "Join Open Austin's Design Community of Practice event during SXSW Edu to network with public minded designers and hear about the City of Austin's website redesign.",
     "time": "7:00 PM",
     "startDate": "2025-03-06T19:00:00.000-06:00",
     "endDate": "2025-03-06T21:00:00.000-06:00",
     "location": "Residences at The Triangle",
     "tags": [
-      "Technology",
-      "Networking"
+      "Networking",
+      "Technology"
     ],
     "url": "https://lu.ma/45e3x72z",
     "price": "Free",
     "sponsors": [
-      "Open Austin Events"
+      "Open Austin"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 15,
     "name": "SXSW 2025 - Innovation Journey Disruptivos",
     "thumbnailUrl": "4769c460-4abe-4817-be0f-b6fa56383f25",
-    "description": "Innovation Journey SXSW 2025: Curadoria + Experiências em Comunidade will take place in March 2025. Important information includes details about curation services, a closed event for the community, the headquarters in Austin, facilitation meetings, and more. Cancellation rules apply with a full refund except for an 18% administrative fee at any time.",
+    "description": "Innovation Journey SXSW 2025: Curadoria + Experiências em Comunidade, vai rolar em março de 2025. Aqui vão algumas informações importantes: Neste link vocês vão encontrar os detalhes sobre os serviços de Curadoria, a organização de um evento fechado pra nossa Comunidade, o nosso QG em Austin, encontros de facilitação e muito mais! Importante: Regras de cancelamento: Reembolso completo menos taxa de custos administrativos de 18% a qualquer momento.",
     "time": "6:00 AM",
     "startDate": "2025-03-07T06:00:00.000-06:00",
     "endDate": "2025-03-07T10:00:00.000-06:00",
     "location": "Austin Convention Center",
     "tags": [
-      "Technology",
-      "Networking",
-      "Business"
+      "Conference",
+      "Workshop",
+      "Community",
+      "Innovation"
     ],
     "url": "https://lu.ma/disruptivos-sxsw2025",
-    "price": "Registration Closed",
+    "price": "Free",
     "sponsors": [
       "Comunidade Disruptivos"
     ],
-    "status": "Event status: Not currently taking registrations. Contact the host or subscribe for updates."
+    "status": "Registration Closed"
   },
   {
     "id": 16,
     "name": "SXSW: Founder & Funder Spin, Sip, Social with Mercury & Cooley",
     "thumbnailUrl": "624b4fec-1837-40e6-b85c-44e3ab2dc79c.jpg",
-    "description": "Join us at SXSW for Sip Spin Social, an energizing morning of movement, networking, and mindful refueling. Hosted at Equinox Downtown, this exclusive event brings together healthcare and life sciences founders and funders for a high-energy spin class, followed by a refreshing breakfast at Matcha Mama. Pedal hard, sip something green, and connect with the innovators shaping the future of health. Spots are limited—only 28 so secure yours now!",
+    "description": "SXSW: Founder & Funder Spin, Sip, Social with Mercury & Cooley - Join us at SXSW for Sip Spin Social, an energizing morning of movement, networking, and mindful refueling. Hosted at Equinox Downtown, this exclusive event brings together healthcare and life sciences founders and funders for a high-energy spin class, followed by a refreshing breakfast at Matcha Mama. Pedal hard, sip something green, and connect with the innovators shaping the future of health. Spots are limited—only 28 so secure yours now!",
     "time": "8:30 AM",
     "startDate": "2025-03-07T08:30:00.000-06:00",
     "endDate": "2025-03-07T11:00:00.000-06:00",
@@ -346,34 +350,35 @@
     "tags": [
       "Health",
       "Networking",
-      "Workshop"
+      "Exclusive"
     ],
     "url": "https://lu.ma/1zo7m9ub",
-    "price": "Approval Required",
+    "price": "Free",
     "sponsors": [
-      "Mercury & Cooley"
+      "Mercury",
+      "Cooley"
     ],
-    "status": "Waitlist"
+    "status": "Approval Required"
   },
   {
     "id": 17,
     "name": "Equitech Texas Welcome Breakfast",
     "thumbnailUrl": "29972be0-9da8-4879-aa30-6dad8a44b268.png",
-    "description": "Equitech Texas Welcome Breakfast is a networking event to kick off the SXSW Festival, bringing together mission-driven, under-estimated founders, funders, and allies to make connections and celebrate each other.",
+    "description": "Equitech Texas Welcome Breakfast is a kickoff event at SXSW for mission-driven, under-estimated founders, funders, and allies to connect, share best practices, and form partnerships. Limited to 250 guests, RSVPs required.",
     "time": "9:00 AM",
     "startDate": "2025-03-07T09:00:00.000-06:00",
     "endDate": "2025-03-07T11:00:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
+      "Food",
+      "Drinks",
       "Networking",
-      "Startup",
-      "Technology",
-      "AI",
       "Business",
+      "Startup",
       "Social Impact"
     ],
     "url": "https://lu.ma/2ao2stl2",
-    "price": "RSVPs are required, space limited to 250 guests. Sponsorships available.",
+    "price": "Free",
     "sponsors": [
       "The AmFam Institute",
       "Carta",
@@ -383,24 +388,22 @@
       "EcoMap Technologies",
       "Ed Farm",
       "ImpactAlpha",
-      "Inn Cahoots",
       "Kapor Foundation",
-      "Lindsay Bailey Law Corporation (LBLC)",
+      "Lindsay Bailey Law Corporation",
       "Modern Tender",
       "TechBirmingham",
       "UpSurge Baltimore",
       "Versatility",
       "Village Capital",
-      "Wilson Isuani PLLC",
-      "Wilson Sonsini"
+      "Wilson Isuani PLLC"
     ],
-    "status": "Live"
+    "status": "Approval Required"
   },
   {
     "id": 18,
     "name": "Investor Welcome Breakfast at Midwest House",
     "thumbnailUrl": "1fe445ec-82d5-484e-89f0-ccb454ccb6a5.png",
-    "description": "Investor Welcome Breakfast at Midwest House is a private event for approved Funded House investors to enjoy a welcome-to-Austin breakfast, meet other investors, get acquainted with the private Investor Lounge, and check out special edition lookbook. Attendees can also stick around to judge practice pitches during the Startup Superconnector programming.",
+    "description": "Investor Welcome Breakfast at Midwest House - Enjoy a welcome-to-Austin breakfast, meet other investors, get acquainted with our private Investor Lounge, and check out our special edition lookbook. This private event is for approved Funded House investors only. Stick around and judge some practice pitches after breakfast during our Startup Superconnector programming.",
     "time": "9:00 AM",
     "startDate": "2025-03-07T09:00:00.000-06:00",
     "endDate": "2025-03-07T11:00:00.000-06:00",
@@ -408,10 +411,10 @@
     "tags": [
       "Business",
       "Networking",
-      "Startup"
+      "Workshop"
     ],
     "url": "https://lu.ma/4rzl6d9p",
-    "price": "Approval Required, Registration subject to approval by the host",
+    "price": "Free",
     "sponsors": [
       "Funded House"
     ],
@@ -421,76 +424,85 @@
     "id": 19,
     "name": "FINN Partners x humble ventures: Future of Health Day Brought to you by Doceree",
     "thumbnailUrl": "dff26be8-e646-4009-94e2-83d5e8ee0f53.png",
-    "description": "A Day of Healthcare Innovation in partnership with Doceree featuring discussions on space medicine, future of food and health, bioengineering approaches to solve organ shortage, local ecosystems and public-private partnerships in healthcare innovation, future of pharmacy, AI in pharma marketing, AI policy and deregulation, decentralizing public health, open innovation ecosystems, The Pearl: Charlotte's Innovation District, real world patient data, the future of patient care, and a VIP performance by a rising star to close out the day.",
+    "description": "This event is a day of healthcare innovation in partnership with Doceree. It features discussions on various topics such as space medicine, future of food and health enabled by cloud technology, bioengineering approaches to solve the US organ shortage, spurring innovation through local ecosystems and public-private partnerships, AI and the future of pharma marketing, policy and deregulation in AI, decentralizing public health, building an open innovation ecosystem across institutions, overview of Charlotte's innovation district, harnessing real-world patient data, partnering for patient-focused care, and a VIP performance by a rising star.",
     "time": "9:30 AM",
     "startDate": "2025-03-07T09:30:00.000-06:00",
     "endDate": "2025-03-07T19:30:00.000-06:00",
     "location": "Atelier 1205",
     "tags": [
-      "Technology",
       "Health",
+      "Technology",
       "AI",
-      "Art",
-      "Business",
-      "Networking"
+      "Innovation",
+      "Medical Research",
+      "Public-Private Partnerships",
+      "Pharma Marketing",
+      "Policy",
+      "Public Health",
+      "Institutional Collaboration",
+      "Innovation Ecosystem",
+      "Real World Patient Data",
+      "Patient-Centric Care"
     ],
     "url": "https://lu.ma/o3r89474",
-    "price": "Free registration required",
+    "price": "Free",
     "sponsors": [
       "FINN Partners",
       "Humble Ventures",
       "ServiceNow Ventures"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 20,
     "name": "March - PEF Austin Breakfast - SXSW - (1st Fridays)",
     "thumbnailUrl": "e5940da7-2c82-403f-8f5b-14a3b14e6870",
-    "description": "PEF Austin is hosting a bi-weekly breakfast meetup for founders in Austin. This event aims to provide a space for founders to connect, share insights, and network with each other.",
+    "description": "PEF Austin Breakfast event at SXSW for founders to network, share insights, and start the day with positive energy",
     "time": "9:30 AM",
     "startDate": "2025-03-07T09:30:00.000-06:00",
     "endDate": "2025-03-07T11:30:00.000-06:00",
     "location": "1814 E Martin Luther King Jr Blvd",
     "tags": [
-      "Business",
-      "Networking"
+      "Networking",
+      "Breakfast",
+      "Founders",
+      "Community"
     ],
     "url": "https://lu.ma/1lkl8nzx",
     "price": "Free",
     "sponsors": [
       "PEF Austin"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 21,
     "name": "Midwest House 2025 - Get On The List",
     "thumbnailUrl": "e8e3a171-6ff1-4b3b-a29e-c58ad22262d9.png",
-    "description": "Midwest House, an experiential embassy dedicated to the region's innovators and creatives, will be hosting future-focused programming and relationship-building events in downtown Austin. The event will feature discussions, a Startup Pitch Stage, and music performances from Midwest artists.",
+    "description": "Midwest House, an experiential embassy dedicated to the region’s innovators and creatives, will be taking up residence in downtown Austin for five days of future-focused programming and relationship building. Featuring discussions, a Startup Pitch Stage, and music from Midwest artists.",
     "time": "10:00 AM",
     "startDate": "2025-03-07T10:00:00.000-06:00",
     "endDate": "2025-03-11T23:00:00.000-05:00",
     "location": "315 Lavaca St",
     "tags": [
       "Technology",
-      "Business",
       "Startup",
       "Music",
-      "Networking"
+      "Panel",
+      "Exhibition"
     ],
     "url": "https://lu.ma/qpgbuopz",
-    "price": "Free general access with RSVP",
+    "price": "Free",
     "sponsors": [
-      "Luma"
+      "Midwest House"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 22,
     "name": "La Casa Argentina - ATCC TECH",
     "thumbnailUrl": "304fdc8c-3281-4588-ba58-b7ffb842f667.png",
-    "description": "La Casa Argentina - ATCC TECH is a vibrant event showcasing Argentine innovation and culture in the tech industry, featuring interactive displays, insightful talks, and networking opportunities.",
+    "description": "La Casa Argentina - ATCC TECH is a vibrant event showcasing Argentine innovation and culture in the tech industry. Attendees can expect interactive displays, insightful talks, and ample networking opportunities. The event will feature speakers discussing cross-border success stories, the state of the entrepreneurial ecosystem in Austin, M&A activity for entrepreneurs, challenges of the future of work, innovation economy for international founders, startup stories, and AI success stories across industries. The event will take place on March 7th and 8th at Buenos Aires Café in Austin, Texas.",
     "time": "10:00 AM",
     "startDate": "2025-03-07T10:00:00.000-06:00",
     "endDate": "2025-03-08T04:00:00.000-06:00",
@@ -499,10 +511,13 @@
       "Technology",
       "AI",
       "Business",
-      "Networking"
+      "Startup",
+      "Networking",
+      "Keynote",
+      "Conference"
     ],
     "url": "https://lu.ma/k0xqrcpk",
-    "price": "Free registration. Verify token ownership with your wallet.",
+    "price": "Free",
     "sponsors": [
       "GNS Law",
       "Globant",
@@ -521,13 +536,13 @@
       "Vulktech",
       "Addventure"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 23,
     "name": "Startup Casa 2025",
     "thumbnailUrl": "8c110989-aaab-4953-9cbd-135804f10a78.png",
-    "description": "Startup Casa, the second annual gathering in Austin—adjacent to SXSW—dedicated to recognizing and showcasing the dynamic Latino startup ecosystem. Hosted by Inicio, in partnership with Google for Startups.",
+    "description": "Startup Casa is a special day-long event dedicated to recognizing and showcasing the dynamic Latino startup ecosystem. Hosted by Inicio in partnership with Google for Startups, it features panels, an expo, networking opportunities, live music, and more in downtown Austin.",
     "time": "10:00 AM",
     "startDate": "2025-03-07T10:00:00.000-06:00",
     "endDate": "2025-03-07T23:00:00.000-06:00",
@@ -535,19 +550,19 @@
     "tags": [
       "Technology",
       "Startup",
-      "Latino",
+      "Business",
       "Networking",
-      "Party",
+      "Panel",
       "Exhibition",
-      "Conference"
+      "Party"
     ],
     "url": "https://lu.ma/3secv5lz",
-    "price": "Free with approval",
+    "price": "Free",
     "sponsors": [
       "Google for Startups",
       "J.P. Morgan",
       "Living Cities",
-      "Cotto Wealth Management Group at Morgan Stanley"
+      "Morgan Stanley"
     ],
     "status": "Approval Required"
   },
@@ -555,89 +570,86 @@
     "id": 24,
     "name": "Startup/Investor Superconnector featuring Practice Pitch",
     "thumbnailUrl": "14434eff-5eed-4ed3-99c8-041f7f62ae54.png",
-    "description": "Startup/Investor Superconnector event featuring Practice Pitch at Funded House. Join for networking, practice pitch sessions with investors, and investor panels.",
+    "description": "Startup/Investor Superconnector featuring Practice Pitch event at SXSW, designed to help entrepreneurs connect with investors, participate in practice pitch sessions, and attend investor panels.",
     "time": "11:00 AM",
     "startDate": "2025-03-07T11:00:00.000-06:00",
     "endDate": "2025-03-07T16:00:00.000-06:00",
     "location": "315 Lavaca St",
     "tags": [
       "Startup",
+      "Investor",
       "Networking",
       "Panel"
     ],
     "url": "https://lu.ma/ys9luzr7",
-    "price": "Event Full - Join Waitlist",
+    "price": "Free",
     "sponsors": [
       "Funded House"
     ],
-    "status": "Waitlist"
+    "status": "Available"
   },
   {
     "id": 25,
     "name": "SaaS Founders Mixer with Silverton Partners and Forum Ventures (Sponsored by Deel, Carta, and Zendesk)",
     "thumbnailUrl": "80212c61-ece6-417e-b3bd-e28b45a9837e.png",
-    "description": "Join the SaaS Founders Mixer in Austin, Texas for a networking opportunity with funded founders, investors, and industry leaders over drinks and light bites.",
+    "description": "SaaS Founders Mixer in Austin, Texas during SXSW, hosted by Deel, Carta, and Zendesk for Startups. Exclusive networking opportunity for funded founders to connect with other entrepreneurs, investors, and industry leaders over drinks and light bites.",
     "time": "11:30 AM",
     "startDate": "2025-03-07T11:30:00.000-06:00",
     "endDate": "2025-03-07T14:30:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
       "Networking",
-      "Technology",
-      "Business"
+      "Business",
+      "Startup",
+      "Event"
     ],
     "url": "https://lu.ma/f3dfcjkb",
-    "price": "Free with registration approval required",
+    "price": "Free",
     "sponsors": [
       "Deel",
       "Carta",
-      "Zendesk",
-      "Silverton Partners",
-      "Forum Ventures"
+      "Zendesk for Startups"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 26,
     "name": "TXHQ: Canada Downtown Rooftop Event (Save-the-Date)",
     "thumbnailUrl": "4dfa4f3c-4c40-4fa7-826b-00b77aee501e.png",
-    "description": "TXHQ Canada Downtown Rooftop Event is a networking event focused on Canadian venture, innovation, partnerships, and market growth in technology sectors like AI and fintech. The event will feature panels, a trade relationship discussion, happy hour, and networking opportunities.",
+    "description": "TXHQ: Canada Downtown Rooftop Event - Get a taste of Canada... venture, innovation, partnerships, networking & more! Market Growth: The Canadian venture market has shown significant growth in recent years. Innovation and Tech: Canada is increasingly becoming recognized for its innovation, particularly in technology sectors like AI and fintech. Support for startups is also growing, with more accelerator programs and events connecting entrepreneurs with investors.",
     "time": "1:00 PM",
     "startDate": "2025-03-07T13:00:00.000-06:00",
     "endDate": "2025-03-07T19:00:00.000-06:00",
     "location": "Register to See Location",
     "tags": [
       "Networking",
-      "Venture",
-      "Innovation",
-      "Technology",
-      "AI",
       "Panel",
-      "Happy Hour"
+      "Happy Hour",
+      "Exhibition"
     ],
     "url": "https://lu.ma/g4wlknxb",
-    "price": "Free, but registration is subject to approval by the host",
+    "price": "Free",
     "sponsors": [
       "TXHQ"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 27,
     "name": "Founders N' Funders: SXSW VC Reverse Pitch",
     "thumbnailUrl": "ab889257-0fb7-4790-8f8e-6707ef95a8c1.png",
-    "description": "Founders N' Funders: SXSW VC Reverse Pitch. Join us as six VCs pitch their investment thesis, industries, regions, and more.",
+    "description": "Founders N' Funders event at SXSW featuring a VC Reverse Pitch with six VCs presenting their investment thesis and networking opportunities. Highly curated event for Seed and Series A founders looking to raise capital.",
     "time": "4:00 PM",
     "startDate": "2025-03-07T16:00:00.000-06:00",
     "endDate": "2025-03-07T18:00:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
       "Business",
-      "Startup",
-      "Networking"
+      "Networking",
+      "Startup"
     ],
     "url": "https://lu.ma/ais9dokd",
-    "price": "Free with registration approval",
+    "price": "Free",
     "sponsors": [
       "Fidelity",
       "Forecastr"
@@ -648,7 +660,7 @@
     "id": 28,
     "name": "✨ ayana x Cherub 2025 Founders Panel 🚀",
     "thumbnailUrl": "1ae2bfec-7d7b-4585-abc3-07f7703be073.png",
-    "description": "Join the ayana Foundation & Cherub for an exciting kickoff event with a founder panel, happy hour mixer, pop-up shops, live music, and more!",
+    "description": "Join the ayana Foundation & Cherub for an exciting kickoff for week of energized networking and connections! 🚀​📅 Date: Friday, March 7th | 4:00 pm - 7:00 pm📍 Location: Own HQ (1114 E Cesar Chávez St Austin, TX 78701)🤝 In Partnership With: ayana, Beebizy, Cherub, Chloe Capital, Justworks & Own🌟 About: Mark your calendars - the ayana Foundation and own. is thrilled to host a dynamic event celebrating the vibrant community of entrepreneurs in Austin! Whether you're a seasoned founder, an emerging entrepreneur, or an investor, this event is designed to spark meaningful connections and provide valuable insights.",
     "time": "4:00 PM",
     "startDate": "2025-03-07T16:00:00.000-06:00",
     "endDate": "2025-03-07T19:00:00.000-06:00",
@@ -657,68 +669,55 @@
       "Networking",
       "Panel",
       "Party",
-      "Exhibition",
-      "Music"
+      "Exhibition"
     ],
     "url": "https://lu.ma/vg4vkwjp",
-    "price": "Event Full - Join Waitlist",
-    "sponsors": [
-      "Bowery Legal",
-      "Chloe Capital",
-      "Bloom Nutrition",
-      "Brae",
-      "Chareau",
-      "GutPersonal",
-      "Jeng",
-      "Kif Kefir Water",
-      "Mixim",
-      "Mom Juice Wine",
-      "Not a Celebrity Tequila",
-      "Rejuvenation",
-      "Ringa"
-    ],
-    "status": "Event Full"
+    "price": "Free",
+    "sponsors": [],
+    "status": "Waitlist"
   },
   {
     "id": 29,
     "name": "Midwest House 2025 - Friends & Family Guest List",
     "thumbnailUrl": "72b6a877-84c9-4f68-b9b2-7211f5bb6ef9.png",
-    "description": "Midwest House at SXSW 2025 will be connecting the region's creatives and innovators to a world of opportunities. RSVP to gain entry into various exclusive events and activations.",
+    "description": "Midwest House will be back in Austin for SXSW 2025 to connect the region's creatives and innovators to a world of opportunity. RSVP to receive automatic entry into various events including Founders & Funders VC Reverse Pitch, The Horizon Impact Fund VIP Event, WebAI Open House & Cocktail Party, Midwest Founder Dinner, Michigan Innovation VIP Happy Hour, and preferred entry into Midwest House throughout SXSW 2025.",
     "time": "4:30 PM",
     "startDate": "2025-03-07T16:30:00.000-06:00",
     "endDate": "2025-03-11T17:30:00.000-05:00",
     "location": "315 Lavaca St",
     "tags": [
       "AI",
-      "Networking",
       "Technology",
-      "Party",
-      "Conference",
-      "Workshop"
+      "Networking",
+      "Startup",
+      "Business",
+      "Social Impact"
     ],
     "url": "https://lu.ma/pe7hnw07",
-    "price": "Free with RSVP",
+    "price": "Free",
     "sponsors": [
-      "Luma"
+      "Lida",
+      "Pranay Baid"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 30,
     "name": "Austin: SXSW HealthTech Networking Happy Hour 🚀🍹",
     "thumbnailUrl": "94d0c2e0-a16f-4d11-a5f2-c113aed7f41e.jpg",
-    "description": "Join Columbia Alumni Association's Global Health & Wellness Network and Health Tech Nerds for an exclusive HealthTech Networking Happy Hour at Moonshine Grill in downtown Austin! Connect with investors, founders, clinicians, data scientists, and other healthtech professionals for an evening of meaningful conversations, collaboration, and innovation.",
+    "description": "Join Columbia Alumni Association’s Global Health & Wellness Network for an exclusive HealthTech Networking Happy Hour at Moonshine Grill in downtown Austin! Connect with investors, founders, clinicians, data scientists, and other healthtech professionals for an evening of meaningful conversations, collaboration, and innovation.",
     "time": "5:00 PM",
     "startDate": "2025-03-07T17:00:00.000-06:00",
     "endDate": "2025-03-07T19:00:00.000-06:00",
     "location": "Moonshine Grill",
     "tags": [
-      "Health",
       "Networking",
-      "Happy Hour"
+      "Health",
+      "Technology",
+      "Event"
     ],
     "url": "https://lu.ma/qigwwg2u",
-    "price": "Event Full - Join Waitlist",
+    "price": "Free",
     "sponsors": [
       "Columbia Alumni Association Global Health & Wellness",
       "Health Tech Nerds"
@@ -729,7 +728,7 @@
     "id": 31,
     "name": "SXSW Fantasy Sports Engagement Summit",
     "thumbnailUrl": "2fb33262-bf96-4299-84e8-984c7b85bbff.png",
-    "description": "Join the Fantasy Sports Engagement Summit at SXSW 2025 for an evening of high-octane networking, innovative discussion, and interactive experiences in the fantasy sports, esports, and gaming space.",
+    "description": "Monthly event for founders, creators, operators, and enthusiasts in the fantasy sports, esports, and gaming space. Join the Fantasy Sports Engagement Summit at SXSW 2025 to explore cutting-edge ideas in the world of fantasy sports, connect with industry leaders, and enjoy delicious food and drinks.",
     "time": "5:00 PM",
     "startDate": "2025-03-07T17:00:00.000-06:00",
     "endDate": "2025-03-07T20:00:00.000-06:00",
@@ -738,11 +737,11 @@
       "Technology",
       "Gaming",
       "Networking",
-      "Exhibition",
-      "Workshop"
+      "Keynote",
+      "Party"
     ],
     "url": "https://lu.ma/hqv4hhg4",
-    "price": "Registration approval required",
+    "price": "Free",
     "sponsors": [
       "Fantasy Sports, Esports, and Gaming Tech"
     ],
@@ -752,38 +751,35 @@
     "id": 32,
     "name": "Liberty Ventures Reception at SXSW",
     "thumbnailUrl": "ab7da9de-6432-48a7-aa2f-0b06d21f1b3e.png",
-    "description": "Join Liberty Ventures at SXSW for an exclusive gathering of values-aligned capitalists including investors, executives, and entrepreneurs committed to advancing capitalism and creating a freer, more prosperous world. Explore new investment opportunities, learn about LV success stories, and network with top industry professionals.",
+    "description": "Liberty Ventures Returns to SXSW: March 7 - Join us for an exclusive gathering of values-aligned capitalists—investors, executives, and entrepreneurs committed to advancing capitalism and creating a freer, more prosperous world. Explore new investment opportunities, hear LV success stories, and network with top investors, founders, and executives who share your values.",
     "time": "5:30 PM",
     "startDate": "2025-03-07T17:30:00.000-06:00",
     "endDate": "2025-03-07T19:00:00.000-06:00",
     "location": "The University of Austin",
     "tags": [
       "Business",
-      "Networking",
-      "Conference"
+      "Networking"
     ],
     "url": "https://lu.ma/niuy89eu",
-    "price": "Registration Required - Approval Required",
+    "price": "Free",
     "sponsors": [
       "Liberty Ventures"
     ],
-    "status": "3 Spots Remaining - Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 33,
     "name": "Austin Meetup - SXSW",
     "thumbnailUrl": "456366cf-6cb0-46db-8baf-5630771dbb6f",
-    "description": "Private event hosted by The Mycelorium at SXSW Center in Austin, Texas. Registration is required and subject to approval by the host.",
+    "description": "Private Austin Meetup hosted by The Mycelorium at SXSW Center in Austin, Texas. Registration is required and subject to approval by the host.",
     "time": "5:30 PM",
-    "startDate": "",
-    "endDate": "",
+    "startDate": "2025-03-07T15:00:00.000-06:00",
+    "endDate": "2025-03-07T16:30:00.000-06:00",
     "location": "SXSW Center",
     "tags": [
-      "Networking",
-      "Technology"
+      "Networking"
     ],
     "url": "https://lu.ma/or4umeju",
-    "price": "Free with approval required",
     "sponsors": [
       "The Mycelorium",
       "Ryden"
@@ -794,64 +790,59 @@
     "id": 34,
     "name": "Reverse VC Party At SXSW",
     "thumbnailUrl": "14e9052a-40a4-4b4d-916b-db6bbfd5c098.jpg",
-    "description": "Reverse VC Party at SXSW hosted by Larry Chiang at Hotel ZaZa Austin Downtown. Event is currently sold out but attendees can join the waitlist for a chance to attend. Venture capital networking event with opportunities for entrepreneurs and VCs to connect and engage with each other.",
+    "description": "Reverse VC Party at SXSW hosted by Larry Chiang is a sold out event focused on connecting entrepreneurs with VCs. The event promises networking opportunities and a chance for startups to pitch to VCs in a casual setting.",
     "time": "6:00 PM",
     "startDate": "2025-03-07T18:00:00.000-06:00",
     "endDate": "2025-03-07T20:00:00.000-06:00",
     "location": "Hotel ZaZa Austin Downtown",
     "tags": [
-      "Technology",
       "Networking",
-      "Startup",
-      "AI",
-      "Business",
-      "Social Impact",
-      "Education"
+      "Party",
+      "Startup"
     ],
     "url": "https://lu.ma/drde5f04",
-    "price": "For entrepreneurs it’s $40, with potential for rebate if attendees arrive on time. VC tickets are currently sold out but VCs can fund a venue upgrade for a chance to attend.",
-    "sponsors": [
-      "N/A - Event is currently sold out of all sponsorships"
-    ],
-    "status": "Waitlist"
+    "price": "Free",
+    "sponsors": [],
+    "status": "Sold Out"
   },
   {
     "id": 35,
     "name": "#OPENSHABBAT @ SXSW 2025",
     "thumbnailUrl": "51ff7e89-dec0-44fd-8b5c-ddaaf6361b71.png",
-    "description": "#openShabbat is SXSW's premiere Shabbat experience - connect Jews in tech, film and music since 2010 - and a project of Tech Tribe in conjunction with Chabad Young Professionals of Austin. Join us for an epic Shabbat meal with good food, great conversations, and unexpected connections!",
+    "description": "Experience an epic SXSW Shabbat meal with Tech Tribe and Chabad Young Professionals of Austin. Connect with Jews in tech, film, and music for a unique communal feast and networking event.",
     "time": "7:30 PM",
     "startDate": "2025-03-07T19:30:00.000-06:00",
     "endDate": "2025-03-08T00:00:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
       "Food",
-      "Networking",
-      "Social Impact"
+      "Networking"
     ],
     "url": "https://lu.ma/oltfhptd",
-    "price": "Standard tickets are suggested to be $45 with a full price of $75. Sponsorship opportunities are available for tables. Name your own price at checkout.",
+    "price": "$45",
     "sponsors": [
       "Tech Tribe",
       "Chabad Young Professionals of Austin"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 36,
     "name": "SxSW Startup Crawl Happy Hour: Hosted by Tax Hack & Relay",
     "thumbnailUrl": "dd6c0154-e56e-4c2b-bec6-fa7e9b2ebeb6.png",
-    "description": "SxSW Startup Crawl Happy Hour hosted by Tax Hack & Relay. Join startup founders, CEOs, and leaders for drinks, networking, and fun.",
+    "description": "SxSW Startup Crawl Happy Hour hosted by Tax Hack & Relay is an evening event for startup founders, CEOs, and leaders to network, relax, and enjoy drinks. The event will feature laid-back fun and the opportunity to connect with others in the tech and startup world.",
     "time": "8:00 PM",
     "startDate": "2025-03-07T20:00:00.000-06:00",
     "endDate": "2025-03-07T22:00:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
+      "Drinks",
       "Networking",
+      "Startup",
       "Party"
     ],
     "url": "https://lu.ma/y8ng0m58",
-    "price": "Registration Approval Required",
+    "price": "Free",
     "sponsors": [
       "Tax Hack",
       "Relay",
@@ -865,23 +856,23 @@
     "id": 37,
     "name": "Founder TechWalk SXSW Edition | Austin 3/8 | Sponsored by Rho",
     "thumbnailUrl": "9e0a388e-52f6-47a7-9549-668da066949c.png",
-    "description": "TechWalk SXSW Edition sponsored by Rho is a networking event for members of the Tech and SaaS communities to enjoy a casual stroll in the park while engaging in impactful conversations with industry experts and professionals.",
+    "description": "TechWalk SXSW Edition sponsored by Rho is a networking event for members of the Tech and SaaS communities to get outside, meet new people, and enjoy some fresh air while practicing mindful movement. Attendees will have the opportunity to network, share ideas, and build relationships in a healthy and refreshing setting.",
     "time": "9:00 AM",
     "startDate": "2025-03-08T09:00:00.000-06:00",
     "endDate": "2025-03-08T10:00:00.000-06:00",
     "location": "Austin",
     "tags": [
       "Networking",
-      "Technology",
-      "SaaS",
+      "Fitness",
+      "Wellness",
       "Startup"
     ],
     "url": "https://lu.ma/7osufyy5",
-    "price": "Free registration. Registration closes at [Date].",
+    "price": "Free",
     "sponsors": [
       "Rho"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 38,
@@ -894,22 +885,23 @@
     "location": "Austin, Texas",
     "tags": [
       "Technology",
-      "AI",
       "Business",
-      "Startup"
+      "Startup",
+      "AI",
+      "Networking"
     ],
     "url": "https://lu.ma/8en0ov6c",
-    "price": "Registration Approval Required - Your registration is subject to approval by the host.",
+    "price": "Free",
     "sponsors": [
       "A-Players"
     ],
-    "status": "Event status: Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 39,
     "name": "Q-Branch: Global Security and Innovation Exchange (GSIX)",
     "thumbnailUrl": "b4e3ed75-6515-497a-b690-aff6c9eeef00.png",
-    "description": "The Global Security and Innovation Exchange (GSIX) is a high-impact forum designed to advance allied collaboration at the intersection of security and innovation. Hosted by Q-Branch, GSIX convenes key stakeholders from government, military, industry, and investment to tackle the challenges and opportunities shaping the future of defense and dual-use technology. The event includes panel discussions, case studies, and networking opportunities.",
+    "description": "Global Security and Innovation Exchange (GSIX) is a high-impact forum designed to advance allied collaboration at the intersection of security and innovation. Hosted by Q-Branch, GSIX convenes key stakeholders from government, military, industry, and investment to tackle the challenges and opportunities shaping the future of defense and dual-use technology.",
     "time": "9:00 AM",
     "startDate": "2025-03-08T09:00:00.000-06:00",
     "endDate": "2025-03-08T18:00:00.000-06:00",
@@ -917,48 +909,33 @@
     "tags": [
       "Technology",
       "Business",
-      "Innovation",
+      "Conference",
       "Networking",
       "Panel",
       "Party"
     ],
     "url": "https://lu.ma/1bi9tn5f",
-    "price": "Registration Approval Required",
+    "price": "Free",
     "sponsors": [
-      "Q-Branch",
-      "WhiteSpace",
-      "Ametrine",
-      "Anduril",
-      "SAIC Ventures",
-      "BUCKY",
-      "Marque Ventures",
-      "RTX Ventures",
-      "Dr. Casey Perley",
-      "Ross Guieb",
-      "Marc Cervantes",
-      "VETCHIP",
-      "GREENROOM R",
-      "HYPERFIRE",
-      "Australia GIA Program"
+      "Q-Branch"
     ],
-    "status": "Live"
+    "status": "Approval Required"
   },
   {
     "id": 40,
     "name": "The Health Hustlers - Business & Networking for Health Entrepreneurs & Business Owners (SXSW Event - Badge Required)",
     "thumbnailUrl": "9aeea6a0-4574-4c21-a964-fa8638b6a4d1",
-    "description": "The Health Hustlers - Business & Networking for Health Entrepreneurs & Business Owners is an exclusive event for health, healthcare, fitness, and wellness business owners at SXSW.",
+    "description": "The Health Hustlers event at SXSW is a networking event exclusively for health, healthcare, fitness, and wellness business owners. It aims to foster connections, share insights, and explore new opportunities within the industry.",
     "time": "10:00 AM",
     "startDate": "2025-03-08T10:00:00.000-06:00",
     "endDate": "2025-03-08T11:00:00.000-06:00",
     "location": "JW Marriott Austin",
     "tags": [
       "Business",
-      "Networking",
-      "Health"
+      "Networking"
     ],
     "url": "https://lu.ma/xwft78a7",
-    "price": "Badge Required - Approval Required",
+    "price": "Free",
     "sponsors": [
       "The Health Hustlers"
     ],
@@ -968,17 +945,15 @@
     "id": 41,
     "name": "Unofficial SXSW: Viva Benefits “Morning After” Recovery Room + Pickleball Pre-Game",
     "thumbnailUrl": "c4857687-481f-488b-8899-05ad816171f7.png",
-    "description": "NO SXSW BADGE REQUIRED! Big plans for Friday night of SXSW? Now you can recover in style with our recovery room and casual pickleball play. Enjoy the amenities of Mirador Condos like their sauna, cold plunge, and fun pickleball court. Viva Benefits helps renters 'live well and prosper.' This event will be followed by a PropTech brunch and an exciting pickleball tournament. (Separate RSVP required)",
+    "description": "Unofficial SXSW event hosted by Mirador and Viva Benefits offering a 'Morning After' Recovery Room and Pickleball Pre-Game for attendees to recover in style on Saturday, March 8th. Enjoy catered food, sauna, cold plunge, and pickleball free play.",
     "time": "10:00 AM",
     "startDate": "2025-03-08T10:00:00.000-06:00",
     "endDate": "2025-03-08T11:30:00.000-06:00",
     "location": "Mirador ATX Condos | 78704 Austin Condominiums",
     "tags": [
       "Food",
-      "Drinks",
-      "Technology",
-      "AI",
-      "Health",
+      "Fitness",
+      "Wellness",
       "Networking"
     ],
     "url": "https://lu.ma/viva-sxsw-2025",
@@ -987,25 +962,25 @@
       "Mirador",
       "Viva Benefits"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 42,
     "name": "Coffee with Creators in Austin",
     "thumbnailUrl": "efedc488-ca5f-4f54-a187-9de3917e36a8.jpg",
-    "description": "Join The Publish Press and LTX Studio for a Coffee with Creators event during SXSW. Enjoy coffee, conversation, and a panel session while trying out the AI storyboarding platform, LTX Studio.",
+    "description": "Coffee with Creators event hosted by The Publish Press and LTX Studio during SXSW featuring a panel session and showcasing LTX Studio, an AI storyboarding platform. Limited space available, RSVP required.",
     "time": "10:00 AM",
     "startDate": "2025-03-08T10:00:00.000-06:00",
     "endDate": "2025-03-08T13:00:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
-      "Technology",
       "AI",
-      "Networking",
-      "Panel"
+      "Technology",
+      "Panel",
+      "Networking"
     ],
     "url": "https://lu.ma/2c207i0w",
-    "price": "Free with RSVP, subject to approval by the host",
+    "price": "Free",
     "sponsors": [
       "LTX Studio by Lightricks",
       "The Publish Press"
@@ -1023,22 +998,20 @@
     "location": "Four Seasons Hotel Austin",
     "tags": [
       "AI",
-      "Health",
-      "Networking",
-      "Workshop"
+      "Healthcare"
     ],
     "url": "https://lu.ma/v5b06ilk",
-    "price": "$25.00",
+    "price": "$25",
     "sponsors": [
       "SXSW 2025"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 44,
     "name": "Espacio Latino 2025",
     "thumbnailUrl": "49859831-4c55-478e-8131-75eecb5cc056",
-    "description": "The Espacio Latino Innovation Hub 2025 at ATX is a central hub for driving innovation, fostering collaboration, and connecting the Latino community with valuable resources. Presented by Wells Fargo in partnership with Univision Foundation, this event dives into the future of wealth, focusing on the transformative role of AI in the workforce, entrepreneurship, with a spotlight on sports and innovation.",
+    "description": "The Espacio Latino Innovation Hub 2025 at ATX is a gathering during SXSW focused on amplifying representation for Latino builders and entrepreneurs, driving innovation, fostering collaboration, and connecting the community with resources. The event will explore the future of wealth, AI in the workforce and entrepreneurship, with a spotlight on sports and innovation. Presented by Wells Fargo in partnership with Univision Foundation.",
     "time": "11:30 AM",
     "startDate": "2025-03-08T11:30:00.000-06:00",
     "endDate": "2025-03-08T20:30:00.000-06:00",
@@ -1047,11 +1020,7 @@
       "Technology",
       "AI",
       "Business",
-      "Startup",
-      "Networking",
-      "Keynote",
-      "Panel",
-      "Party"
+      "Social Impact"
     ],
     "url": "https://lu.ma/b58ub60b",
     "price": "Free",
@@ -1059,37 +1028,38 @@
       "Wells Fargo",
       "Univision Foundation"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 45,
     "name": "The Creators Playground: Brought to you by Kajabi",
     "thumbnailUrl": "24b8bb15-8866-47ef-b50d-ffcf9a66f77e.png",
-    "description": "The Creators Playground event brought to you by Kajabi is the ultimate event for creators looking to have fun, push boundaries, and level up their craft. It includes powerful panels, hands-on workshops, interactive games, and high-energy entertainment.",
+    "description": "The Creators Playground event by Kajabi is the ultimate event for creators featuring panels, workshops, interactive games, and entertainment. Attendees can enjoy life-size lawn games, custom creator merch, artisanal pizzas, a dance floor, and more.",
     "time": "12:00 PM",
     "startDate": "2025-03-08T12:00:00.000-06:00",
     "endDate": "2025-03-08T22:00:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
-      "Art",
       "Technology",
+      "Art",
+      "Business",
       "Networking",
       "Panel",
       "Workshop",
       "Party"
     ],
     "url": "https://lu.ma/vrclaquw",
-    "price": "Free registration, verification of token ownership required",
+    "price": "Free",
     "sponsors": [
       "Kajabi"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 46,
     "name": "Unofficial SXSW: PropTech Brunch + Epic Pickleball Tournament",
     "thumbnailUrl": "165d3a4e-d316-420c-85b2-60a84879c9a5.jpg",
-    "description": "Join the hottest PropTech event during SXSW for a brunch, epic pickleball tournament, live DJ, Taco Deli, Via 313 Pizza, drinks, and networking. No SXSW badge required!",
+    "description": "Unofficial SXSW event featuring a PropTech Brunch and Epic Pickleball Tournament with catered food, networking, and live DJ",
     "time": "12:00 PM",
     "startDate": "2025-03-08T12:00:00.000-06:00",
     "endDate": "2025-03-08T16:00:00.000-06:00",
@@ -1097,17 +1067,16 @@
     "tags": [
       "Food",
       "Drinks",
-      "Technology",
       "Networking",
       "Party"
     ],
     "url": "https://lu.ma/proptech-brunch-sxsw-2025",
-    "price": "Free entry, separate RSVP for pickleball tournament",
+    "price": "Free",
     "sponsors": [
       "Mirador",
       "Viva Benefits"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 47,
@@ -1122,37 +1091,34 @@
       "Technology",
       "Business",
       "Startup",
-      "Networking",
-      "Panel",
-      "Party"
+      "Education",
+      "Networking"
     ],
     "url": "https://lu.ma/a3nm3yzh",
-    "price": "Free with registration. Verification of token ownership required with wallet.",
+    "price": "Free",
     "sponsors": [
       "DealMaker",
       "EnergyX"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 48,
     "name": "Impact Investment Lunch SXSW (Austin, TX)",
     "thumbnailUrl": "3703faf6-5623-44e3-8dc1-5b8cf5fe610f.jpg",
-    "description": "Join the Impact Investment luncheon at SXSW 2025 in Austin, Texas to explore creative activism and impact filmmaking opportunities. Includes presentations, trailer screenings, and 1 on 1 remote meetings with industry professionals.",
+    "description": "Impact Investment Lunch SXSW event with focus on creative activism and impact filmmaking. Includes a luncheon with international leadership in funding for creative activism, sneak peek program and trailer screening for upcoming projects, and 1 on 1 remote meeting with a NEW MOON executive producer.",
     "time": "12:30 PM",
     "startDate": "2025-03-08T12:30:00.000-06:00",
     "endDate": "2025-03-08T14:00:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
       "Film",
-      "Art",
+      "Social Impact",
       "Business",
-      "Startup",
-      "Networking",
-      "Keynote"
+      "Art"
     ],
     "url": "https://lu.ma/1ovntzqb",
-    "price": "$100.00",
+    "price": "$100",
     "sponsors": [
       "NEW MOON Films"
     ],
@@ -1162,52 +1128,51 @@
     "id": 49,
     "name": "TXHQ: Mexico Downtown Rooftop Event (Save-the-Date)",
     "thumbnailUrl": "4dfa4f3c-4c40-4fa7-826b-00b77aee501e.png",
-    "description": "TXHQ Mexico Downtown Rooftop Event is a networking event focused on automotive innovation, nearshoring, tech sustainability, and venture investments in Mexico. The event includes a trade relationship discussion, a venture panel, a happy hour, and a welcome message.",
+    "description": "TXHQ Mexico Downtown Rooftop Event during SXSW focusing on automotive innovation, nearshoring, tech startups, and sustainability in Mexico. Includes trade relationship discussion, venture panel, happy hour, and networking opportunities.",
     "time": "1:00 PM",
     "startDate": "2025-03-08T13:00:00.000-06:00",
     "endDate": "2025-03-08T19:00:00.000-06:00",
     "location": "Register to See Location",
     "tags": [
-      "Technology",
-      "Business",
       "Networking",
       "Panel",
-      "Party"
+      "Happy Hour"
     ],
     "url": "https://lu.ma/bmy0okk2",
-    "price": "RegistrationApproval Required",
+    "price": "Free",
     "sponsors": [
       "TXHQ"
     ],
-    "status": "Event status (Waiting for Approval)"
+    "status": "Approval Required"
   },
   {
     "id": 50,
     "name": "DivInc IWD Pop-Up 2025",
     "thumbnailUrl": "cd232e5d-224b-4fe2-a2c3-ff808d6fd839.png",
-    "description": "Join DivInc in celebrating International Women's Day with a panel of WNBA Champion athletes discussing the past, present, and future of the league",
+    "description": "Join DivInc in celebrating International Women's Day with a power-packed panel of WNBA champions and executives, including Fran Harris, Yolanda Moore, and Monica Rogers. The event will include a panel discussion, networking reception, and insights into the future of women's sports industry.",
     "time": "1:00 PM",
     "startDate": "2025-03-08T13:00:00.000-06:00",
     "endDate": "2025-03-08T16:00:00.000-06:00",
     "location": "506 Congress Ave.",
     "tags": [
       "Sports",
-      "Technology",
       "Entrepreneurship",
+      "Women in Sports",
+      "Panel",
       "Networking"
     ],
     "url": "https://lu.ma/divincsx25",
-    "price": "Free registration required",
+    "price": "Free",
     "sponsors": [
       "DivInc"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 51,
     "name": "✨💛 Austin IWD Trail Walk & Social | March",
     "thumbnailUrl": "779c22cf-cb2b-485a-9852-b2b3f63d22a8",
-    "description": "Join the Austin International Women's Day Trail Walk & Social for a day of connecting, walking, and celebrating, hosted by WAC Austin City Lead and Women and Climate Co-Founder, Michelle Li. Enjoy a trail walk around Lady Bird Lake followed by drinks and bites at Better Half Coffee&Cocktails & Hold Out Brewing.",
+    "description": "Austin International Women's Day Trail Walk & Social event for March featuring a trail walk around Lady Bird Lake and drinks and bites at local establishments, organized by WAC Austin City Lead and Women and Climate Co-Founder, Michelle Li.",
     "time": "1:30 PM",
     "startDate": "2025-03-08T13:30:00.000-06:00",
     "endDate": "2025-03-08T17:30:00.000-06:00",
@@ -1215,16 +1180,16 @@
     "tags": [
       "Networking",
       "Social Impact",
-      "Health",
-      "Networking"
+      "Community",
+      "Women Empowerment",
+      "Climate"
     ],
     "url": "https://lu.ma/hrcyi613",
-    "price": "Registration Closed",
+    "price": "Free",
     "sponsors": [
-      "WAC Austin City Lead",
       "Women and Climate"
     ],
-    "status": "Event status (Waitlist)"
+    "status": "Registration Closed"
   },
   {
     "id": 52,
@@ -1237,22 +1202,21 @@
     "location": "Austin",
     "tags": [
       "Food",
-      "Networking",
-      "Business"
+      "Networking"
     ],
     "url": "https://lu.ma/hj83cnla",
-    "price": "Free registration, approval required",
+    "price": "Free",
     "sponsors": [
       "GetResponse",
       "TikTok"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 53,
     "name": "B2B Marketing Austin Experience: Unique Networking-Tour",
     "thumbnailUrl": "f38ee2ab-1640-4330-a626-b9e5212673eb.png",
-    "description": "Unique Austin Networking Experience: AppsFactory & BDX Media bring together a select group of founders, entrepreneurs, and industry leaders for a networking event featuring a Duck Tour through Austin, snacks, food, and live music.",
+    "description": "Unique Austin Networking Experience bringing together founders, entrepreneurs, and industry leaders for a night of networking, conversations, food, drinks, and live music.",
     "time": "3:30 PM",
     "startDate": "2025-03-08T15:30:00.000-06:00",
     "endDate": "2025-03-08T20:00:00.000-06:00",
@@ -1264,34 +1228,31 @@
       "Music"
     ],
     "url": "https://lu.ma/by6z654a",
-    "price": "Approval Required for Registration",
+    "price": "Free",
     "sponsors": [
       "AppsFactory",
-      "BDX Media",
-      "NEW TREND SOCIETY"
+      "BDX Media"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 54,
     "name": "CULTURE3 @ SXSW: Brands & Impact In A Changing World",
     "thumbnailUrl": "e80c6a80-a343-4368-b2ff-d5f78eccecd0.png",
-    "description": "CULTURE3 @ SXSW: Brands & Impact In A Changing World featuring celebrated filmmaker Misan Harriman and founder of Conspirators, Louis Levin, discussing the role of brands in societal conversations",
+    "description": "CULTURE3 @ SXSW: Brands & Impact In A Changing World is a conversation event hosted by Nadia Alam featuring Oscar nominated filmmaker Misan Harriman and founder of Conspirators Louis Levin. They will discuss the role of brands in societal conversations and creating social impact.",
     "time": "4:00 PM",
     "startDate": "2025-03-08T16:00:00.000-06:00",
     "endDate": "2025-03-08T17:00:00.000-06:00",
     "location": "Palm Door On Sixth",
     "tags": [
-      "Technology",
-      "Film",
       "Art",
       "Business",
       "Social Impact"
     ],
     "url": "https://lu.ma/630o7pcv",
-    "price": "Registration Approval Required. Verify token ownership with wallet",
+    "price": "Free",
     "sponsors": [
-      "UK House"
+      "CULTURE3"
     ],
     "status": "Approval Required"
   },
@@ -1299,7 +1260,7 @@
     "id": 55,
     "name": "Film, Tech, & AI Converge",
     "thumbnailUrl": "332d68ab-363d-4e11-945a-cfd401454ee4.png",
-    "description": "Interlocutors on film, tech, and AI will converge in Austin Texas for insightful conversations about the latest filmmaking technologies. Come network with filmmakers, AI artists, and technologists pioneering the use of these new technologies. Attendees will get a sneak preview of WROOM’s latest production workflows and enjoy snacks and refreshments.",
+    "description": "Interlocutors on film, tech, and AI will converge in Austin Texas for insightful conversations about the latest filmmaking technologies. Come network with filmmakers, AI artists, and technologists pioneering the use of these new technologies. Those in attendance will get a sneak preview of WROOM’s latest production workflows and enjoy snacks and refreshments.",
     "time": "4:00 PM",
     "startDate": "2025-03-08T16:00:00.000-06:00",
     "endDate": "2025-03-08T20:00:00.000-06:00",
@@ -1308,65 +1269,71 @@
       "Film",
       "Technology",
       "AI",
-      "Networking"
+      "Networking",
+      "Food",
+      "Drinks"
     ],
     "url": "https://lu.ma/ua28glgz",
-    "price": "Approval required",
+    "price": "Free",
     "sponsors": [
       "WROOM"
     ],
-    "status": "Live"
+    "status": "Approval Required"
   },
   {
     "id": 56,
     "name": "The Founder's Deal (Poker) @ Lumos House",
     "thumbnailUrl": "0658b3b9-8e5d-4ce4-a5da-5f652948b6ed.png",
-    "description": "The Founder's Deal is an exclusive high-stakes poker night event for technology founders, investors, and media and entertainment leaders hosted by Lumos House during SXSW 2025.",
+    "description": "The Founder's Deal: High-Stakes Poker Night at Lumos House is an invite-only event series for visionary founders, builders, and leaders in media & tech. Attendees will have the opportunity to network and engage with notable technology founders, investors, and leaders in media and entertainment while enjoying an exclusive poker night experience.",
     "time": "4:00 PM",
     "startDate": "2025-03-08T16:00:00.000-06:00",
     "endDate": "2025-03-08T19:00:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
-      "Technology",
       "Networking",
-      "Party"
+      "Exclusive",
+      "Tech",
+      "Media",
+      "Entertainment",
+      "Poker"
     ],
     "url": "https://lu.ma/foundersdeal",
-    "price": "Event Full - Join Waitlist",
+    "price": "Free",
     "sponsors": [
       "Blindspot",
-      "Andrew Yeung",
       "Agree.com"
     ],
-    "status": "Waitlist"
+    "status": "Sold Out"
   },
   {
     "id": 57,
     "name": "Bold Prompts: Meet Germany’s Top AI Startups",
     "thumbnailUrl": "6651bf4e-992b-4299-8795-fed972507d66.png",
-    "description": "Germany's most ambitious AI startups showcasing the future of artificial intelligence at SXSW. Gain insight into the German AI landscape, connect with industry leaders, and explore collaborations.",
+    "description": "Germany's most ambitious AI startups showcase the future of artificial intelligence at SXSW. Gain insight into Germany’s AI landscape, connect with industry leaders, and explore collaborations that drive innovation forward. Opening remarks by German Consul General in Houston, live startup pitches, deep dive into AI trends, and networking opportunities.",
     "time": "4:30 PM",
     "startDate": "2025-03-08T16:30:00.000-06:00",
     "endDate": "2025-03-08T18:00:00.000-06:00",
     "location": "Speakeasy",
     "tags": [
-      "Technology",
       "AI",
+      "Technology",
+      "Startup",
       "Networking",
+      "Keynote",
       "Panel"
     ],
     "url": "https://lu.ma/0xkjqxo0",
-    "price": "Free with SXSW badge. Limited capacity, arrive early.",
+    "price": "Free",
     "sponsors": [
       "German Accelerator"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 58,
     "name": "Make a Splash: Filmmaker x Industry Mixer",
     "thumbnailUrl": "8e2ef608-3e8d-4316-926f-d6ab8fa2faf7.png",
-    "description": "Mix and mingle with filmmakers and industry leaders at a celebration of film teams featured at SXSW. Co-hosted by Portrait Creative Network, Switchboard, and ShotDeck.",
+    "description": "Join a celebration of filmmakers and industry leaders hosted by Portrait Creative Network, Switchboard, and ShotDeck at The Aquarium during SXSW.",
     "time": "5:00 PM",
     "startDate": "2025-03-08T17:00:00.000-06:00",
     "endDate": "2025-03-08T20:00:00.000-06:00",
@@ -1377,30 +1344,31 @@
       "Party"
     ],
     "url": "https://lu.ma/240smrod",
-    "price": "Free with invitation request",
+    "price": "Free",
     "sponsors": [
-      "Portrait Creative Network",
-      "Switchboard",
-      "ShotDeck",
       "DPA"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 59,
     "name": "🎉 LaFamilia @ SXSW '25 (unofficial)",
     "thumbnailUrl": "39dec8ee-5eb5-435f-9f73-817fe98cd90c.png",
-    "description": "Join LaFamilia (VCFamilia + FounderFamilia + AngelFamilia) + PeakNL for our Austin Chapter launch party! Top Latine investors, founders, and ecosystem leaders, Live DJ, Snacks, Drinks, Exclusive event. Secret Location – RSVP for details. Saturday, March 8, 2025, 6:00 PM - 10:00 PM. Hosted by: Eddy Hernandez & Alonso Mujica.",
+    "description": "LaFamilia Austin Chapter launch party featuring top Latine investors, founders, and ecosystem leaders, live DJ, snacks, drinks, and exclusive event at a secret location.",
     "time": "6:00 PM",
     "startDate": "2025-03-08T18:00:00.000-06:00",
     "endDate": "2025-03-08T22:00:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
       "Networking",
-      "Party"
+      "Party",
+      "Food",
+      "Drinks",
+      "Business",
+      "Startup"
     ],
     "url": "https://lu.ma/bx8m8e3r",
-    "price": "Free, Approval Required",
+    "price": "Free",
     "sponsors": [
       "Innovare",
       "Tequila Gran Misterio",
@@ -1421,87 +1389,89 @@
     "id": 60,
     "name": "Lumos House Opening Night",
     "thumbnailUrl": "4de90184-b975-4185-9547-e2bdbe23ceb2.png",
-    "description": "Lumos House Opening Night is an invite-only event series for visionary founders, builders, and leaders in media & tech. It is set in an exclusive mansion and serves as the kick-off event for Lumos House, where ambition meets its match, and attendees can network and connect.",
+    "description": "Lumos House Opening Night is an invite-only event for visionary founders, builders, and leaders in media & tech. Hosted in an exclusive mansion in Austin during SXSW 2025, the event brings together notable technology founders, investors, and leaders in media and entertainment.",
     "time": "8:00 PM",
     "startDate": "2025-03-08T20:00:00.000-06:00",
     "endDate": "2025-03-08T22:30:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
       "Technology",
-      "Networking",
       "Business",
-      "Media",
-      "Investors"
+      "Networking",
+      "Startup",
+      "Conference",
+      "Exhibition"
     ],
     "url": "https://lu.ma/wafjr38p",
-    "price": "Free to attend, but requires approval for General and VIP ticket types",
+    "price": "Free",
     "sponsors": [
       "Blindspot",
-      "Andrew Yeung",
       "Notion",
       "Cooley",
       "Agree.com"
     ],
-    "status": "Live"
+    "status": "Invite Only"
   },
   {
     "id": 61,
     "name": "Work For Higher Austin",
     "thumbnailUrl": "70ba7a46-054c-408b-8c58-78db7ea18b9e.png",
-    "description": "Work for Higher is a mindset. A celebration of the attitude that elevates us in all aspects of life. Join the event to explore and embrace this concept.",
+    "description": "Work for Higher is a mindset. A celebration of the attitude that elevates us in all aspects of life. Join this event at Summit Rooftop in Austin, Texas.",
     "time": "9:00 PM",
     "startDate": "2025-03-08T21:00:00.000-06:00",
     "endDate": "2025-03-09T03:00:00.000-05:00",
     "location": "Summit Rooftop",
     "tags": [
+      "Business",
       "Networking"
     ],
     "url": "https://lu.ma/9kutc8t2",
-    "price": "Registration Approval Required",
+    "price": "Free",
     "sponsors": [
       "Work For Higher",
       "wubler"
     ],
-    "status": "Waiting for Approval"
+    "status": "Approval Required"
   },
   {
     "id": 62,
     "name": "Sunday Morning Networking Run - For Founders & Marketers",
     "thumbnailUrl": "4d2dbfb3-0a25-4738-82e8-b048e82e6245.jpg",
-    "description": "Casual networking run for founders, CEOs, and marketers at SXSW",
+    "description": "Join us for a casual networking run through Austin to wrap up the first South by weekend. Whether you're a founder, CEO, or marketer, come enjoy a relaxed 5.5K run with us!",
     "time": "8:00 AM",
     "startDate": "2025-03-09T08:00:00.000-05:00",
     "endDate": "2025-03-09T09:00:00.000-05:00",
     "location": "1413 1/2 W 38th St",
     "tags": [
-      "Networking",
-      "Social Impact"
+      "Fitness",
+      "Networking"
     ],
     "url": "https://lu.ma/xpa40y0s",
     "price": "Free",
     "sponsors": [
-      "NEW TREND SOCIETY"
+      "BDX MEDIA"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 63,
     "name": "The Prelude at Lumos House",
     "thumbnailUrl": "79c5707b-d20d-4c64-bd34-9919942a011d.png",
-    "description": "The Prelude at Lumos House is an invite-only event series for visionary founders, builders, and leaders in media & tech. It features live music, showcases creativity and technology, and offers networking opportunities. The event includes breakfast, coffee, and conversations with industry professionals.",
+    "description": "An invite-only event series for the most visionary founders, builders, and leaders in media & tech. Powered by Blindspot and Andrew Yeung, set in an exclusive mansion—free to attend. The event features live music, breakfast bites, coffee, and conversations with creative minds in tech and venture.",
     "time": "8:30 AM",
     "startDate": "2025-03-09T08:30:00.000-05:00",
     "endDate": "2025-03-09T11:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
-      "Music",
-      "Technology",
       "AI",
+      "Music",
+      "Tech",
       "Networking",
-      "Breakfast"
+      "Breakfast",
+      "Creativity"
     ],
     "url": "https://lu.ma/9x378mnw",
-    "price": "Free to attend (invite-only)",
+    "price": "Free",
     "sponsors": [
       "Blindspot",
       "Next Wave NYC",
@@ -1509,20 +1479,22 @@
       "Rho",
       "Cooley"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 64,
     "name": "Accelerating Innovation Across the Open Social Web — AM",
     "thumbnailUrl": "1f4a9c0d-a167-4ccc-8254-9f8f5fbc4ed5.jpg",
-    "description": "Accelerating Innovation Across the Open Social Web - A morning of inspirational talks on the future of social and the internet, featuring speakers like Mike McCue, Molly White, David Imel, Mike Masnick, Evan Prodromou, and Peter Cottle.",
+    "description": "Accelerating Innovation Across the Open Social Web event hosted by Flipboard + Surf and Marci McCue featuring talks on the future of social and the internet, networking session, and various keynote speakers and presenters.",
     "time": "9:00 AM",
     "startDate": "2025-03-09T09:00:00.000-05:00",
     "endDate": "2025-03-09T13:30:00.000-05:00",
     "location": "412 Congress Ave.",
     "tags": [
       "Technology",
-      "Networking"
+      "Networking",
+      "Keynote",
+      "Conference"
     ],
     "url": "https://lu.ma/oc052rvr",
     "price": "Free",
@@ -1530,91 +1502,97 @@
       "Flipboard",
       "Surf"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 65,
     "name": "Casa TechMex 2025",
     "thumbnailUrl": "1d43b597-7d36-4497-89a9-ffe5b05420db.png",
-    "description": "Casa TechMex 2025 is a premier gathering for Mexican entrepreneurs, technologists, and investors showcasing the best of Mexico's innovation ecosystem through panels, networking, and a pitch competition.",
+    "description": "Casa TechMex 2025 is a full-day event for Mexican entrepreneurs, technologists, and investors featuring panel discussions, networking opportunities, and a pitch competition for startups.",
     "time": "9:00 AM",
     "startDate": "2025-03-09T09:00:00.000-05:00",
     "endDate": "2025-03-09T20:00:00.000-05:00",
     "location": "Capital Factory",
     "tags": [
       "Technology",
-      "Networking",
-      "Startup",
       "Business",
+      "Startup",
+      "Networking",
       "Panel",
       "Exhibition"
     ],
     "url": "https://lu.ma/hnyq5mi2",
-    "price": "Free registration via Capital Factory House",
+    "price": "Free",
     "sponsors": [
-      "TechMex Austin",
       "Capital Factory"
     ],
-    "status": "Open for registration"
+    "status": "Available"
   },
   {
     "id": 66,
     "name": "Fediverse House (All Events)",
     "thumbnailUrl": "d79bff91-6e4a-493a-98d8-a273107ea153.jpg",
-    "description": "Join us to learn about this brave new world of decentralized social media and why it promises a better way for consumers, creators, brands, and even democracy itself. The event will feature inspirational talks, networking sessions, developer meetups, fireside chats, and parties focused on accelerating innovation across the open social web.",
+    "description": "Join us to learn about this brave new world of decentralized social media and why it promises a better way for consumers, creators, brands, and even democracy itself. Located just three blocks from the Austin Convention Center, at the Speakeasy, the Fediverse House creates a space for strategic conversations, networking opportunities, and refreshments throughout the day. You’ll hear from visionaries, builders, and open-source advocates from places like Bluesky, Threads, and the Social Web Foundation.",
     "time": "9:00 AM",
     "startDate": "2025-03-09T09:00:00.000-05:00",
     "endDate": "2025-03-10T15:00:00.000-05:00",
     "location": "412 Congress Ave.",
     "tags": [
       "Technology",
-      "AI",
       "Networking",
+      "Keynote",
       "Panel",
-      "Party",
-      "Exhibition"
+      "Party"
     ],
     "url": "https://lu.ma/xbve5fa0",
-    "price": "Free with RSVP",
+    "price": "Free",
     "sponsors": [
       "Flipboard",
-      "Surf"
+      "Surf",
+      "Bluesky",
+      "Threads",
+      "Social Web Foundation"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 67,
     "name": "Going BIG in TEXAS - Slovak House",
     "thumbnailUrl": "8e4f51b1-f4f7-4312-8ad2-4d2c9b973837.png",
-    "description": "Slovak House 2025 at SXSW is a high-energy one-day event designed for entrepreneurs, investors, and professionals eager to expand in Texas, featuring panels, TEDx talks, pitch sessions, and networking opportunities.",
+    "description": "Going BIG in Texas! Bridging Slovakia & Texas for Unstoppable Business Growth. A high-energy, one-day event designed for entrepreneurs, investors, and professionals eager to expand in Texas - the land of limitless opportunities. Featuring practical panels, TEDx talks, pitch sessions, networking opportunities, and more.",
     "time": "9:30 AM",
     "startDate": "2025-03-09T09:30:00.000-05:00",
     "endDate": "2025-03-09T20:00:00.000-05:00",
     "location": "Q-Branch Global Collaboration Center",
     "tags": [
       "Business",
-      "Technology",
+      "Startup",
+      "Education",
       "Networking",
-      "Conference",
-      "Workshop"
+      "Panel",
+      "Keynote",
+      "Workshop",
+      "Food",
+      "Drinks"
     ],
     "url": "https://lu.ma/hc5gepdn",
-    "price": "Approval Required. Registration subject to host approval.",
+    "price": "Free",
     "sponsors": [
-      "SARIO - Slovak Investment and Trade Development Agency",
+      "SARIO – Slovak Investment and Trade Development Agency",
+      "Slovak PRO",
       "Embassy of Slovakia in Washington D.C.",
       "Consulate of Slovakia in Texas",
       "European Union",
       "Programme Slovakia",
       "HR4U"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 68,
     "name": "Breaking the 18-Month CMO Curse: Redefining the Future of Marketing Leadership",
     "thumbnailUrl": "16613cd9-9770-402e-a318-81b6a3fe6bc7.png",
-    "description": "CMO Mixer: A closed-door, peer-only breakfast session for forward-thinking CMOs to explore challenges and opportunities in the marketing industry.",
+    "description": "Breaking the 18-Month CMO Curse: Redefining the Future of Marketing Leadership is an exclusive breakfast event hosted by Sandra Lopez, Brandon Rodriguez, and Katherine Struve in Austin, Texas. This closed-door session is designed for CMOs and marketing executives to discuss challenges and opportunities in the industry, with a focus on extending CMO tenure and securing board-level positions.",
     "time": "9:30 AM",
     "startDate": "2025-03-09T09:30:00.000-05:00",
     "endDate": "2025-03-09T11:30:00.000-05:00",
@@ -1622,18 +1600,20 @@
     "tags": [
       "Business",
       "Networking",
-      "Conference"
+      "Keynote"
     ],
     "url": "https://lu.ma/cxj7jcw9",
-    "price": "Free - Registration Approval Required",
-    "sponsors": [],
+    "price": "Free",
+    "sponsors": [
+      "Luma"
+    ],
     "status": "Approval Required"
   },
   {
     "id": 69,
     "name": "SXSW Early-Stage B2B SaaS Founders & Funders Breakfast Club",
     "thumbnailUrl": "4fcfef3d-f2b7-4321-b4de-742ac2e5c4d3.png",
-    "description": "Join us for a morning of meaningful connections at SXSW! This event is an exclusive breakfast designed for pre-Series B founders and early-stage investors who are actively building, funding, and scaling the next wave of SaaS innovation. The event is hosted in partnership with Forum Ventures, Drive Capital, and Capitalize VC, and sponsored by Wilson Sonsini, Cake Equity, and Microsoft for Startups.",
+    "description": "Join us for a morning of meaningful connections at SXSW! Bringing together the B2B SaaS community for an exclusive breakfast designed for pre-Series B founders and early-stage investors actively building and scaling the next wave of SaaS innovation. Sponsored by Wilson Sonsini, Cake Equity, and Microsoft for Startups.",
     "time": "9:30 AM",
     "startDate": "2025-03-09T09:30:00.000-05:00",
     "endDate": "2025-03-09T11:30:00.000-05:00",
@@ -1641,10 +1621,11 @@
     "tags": [
       "Business",
       "Startup",
+      "Technology",
       "Networking"
     ],
     "url": "https://lu.ma/wizj0q6i",
-    "price": "Approval Required - Registration link provided, Invite only event",
+    "price": "Free",
     "sponsors": [
       "Wilson Sonsini",
       "Cake Equity",
@@ -1656,19 +1637,20 @@
     "id": 70,
     "name": "AI House @ SXSW - Day 1",
     "thumbnailUrl": "acc99fea-e0af-4aa3-8fd1-61db7717795a.png",
-    "description": "The AI House @ SXSW is a two-day immersive experience showcasing Austin's booming AI ecosystem. The event features top AI startups with hands-on demos, fireside chats, interactive showcases, and great food, all designed to spark ideas and collaborations.",
+    "description": "SXSW AI House is a two-day immersive experience showcasing Austin's booming AI ecosystem. Attendees can expect hands-on demos, deep-dive conversations, and connections with top AI startups in a curated space. The event features fireside chats, interactive showcases, and great food, all designed to spark collaborations and ideas. Day 1 will focus on AI innovation and the startup ecosystem.",
     "time": "10:00 AM",
     "startDate": "2025-03-09T10:00:00.000-05:00",
     "endDate": "2025-03-09T17:00:00.000-05:00",
     "location": "1705 Guadalupe St ste 300",
     "tags": [
-      "AI",
       "Technology",
+      "AI",
+      "Startup",
       "Networking",
-      "Startup"
+      "Panel"
     ],
     "url": "https://lu.ma/sxsw-ai-house-day1",
-    "price": "Registration approval required, subject to approval by the host. Token ownership verification is needed to join.",
+    "price": "Free",
     "sponsors": [
       "Manifold Labs",
       "AITX",
@@ -1682,73 +1664,72 @@
     "id": 71,
     "name": "Builders’ Brunch: Connecting Innovators & Investors",
     "thumbnailUrl": "photo-1520950237264-dfe336995c34",
-    "description": "Builders’ Brunch: Connecting Innovators & Investors is a morning event at SXSW where attendees can network, enjoy delicious brunch bites, and engage in conversations about building and scaling software companies. Hosted by BuildGroup and D.A. Davidson, this event is designed for investors, founders, operators, and tech enthusiasts.",
+    "description": "Start your SXSW experience with a morning of great connections, delicious brunch bites, and energizing conversations! Whether you're an investor, founder, operator, or simply passionate about building and scaling software companies, this event is the perfect way to fuel your day and connect with others shaping the future of tech.",
     "time": "10:30 AM",
     "startDate": "2025-03-09T10:30:00.000-05:00",
     "endDate": "2025-03-09T12:30:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
-      "Networking"
+      "Networking",
+      "Business"
     ],
     "url": "https://lu.ma/3ymnhsfe",
-    "price": "Event Full - Join Waitlist",
+    "price": "Free",
     "sponsors": [
       "BuildGroup",
       "D.A. Davidson"
     ],
-    "status": "Waitlist"
+    "status": "Event Full"
   },
   {
     "id": 72,
     "name": "Brews & Bots @ SXSW '25 (unofficial)",
     "thumbnailUrl": "74e2031d-f57c-4bd6-a4e7-88fa179d8e73.jpg",
-    "description": "Brews & Bots @ SXSW '25 (unofficial) is a casual mixer-style event hosted by Sightbox, featuring innovators, AI and agent startups, and tech enthusiasts for networking, live demos, and discussions with notable speakers. Craft beers and coffee provided by Luna Espresso, sponsored by Veracode.",
+    "description": "Brews & Bots @ SXSW '25 (unofficial) is a casual mixer-style event hosted by Sightbox bringing together innovators, AI startups, and tech enthusiasts for networking, live demos, and discussions. Sponsored by Veracode, the event features craft beers, coffee, and snacks while exploring the cutting edge of AI technology.",
     "time": "11:00 AM",
     "startDate": "2025-03-09T11:00:00.000-05:00",
     "endDate": "2025-03-09T14:00:00.000-05:00",
     "location": "3901 Woodbury Dr",
     "tags": [
+      "Drinks",
       "Technology",
       "AI",
       "Networking",
-      "Party",
-      "Exhibition"
+      "Panel"
     ],
     "url": "https://lu.ma/zgkfs16z",
-    "price": "Event Full - Join Waitlist",
+    "price": "Free",
     "sponsors": [
       "Veracode"
     ],
-    "status": "Event Full"
+    "status": "Waitlist"
   },
   {
     "id": 73,
     "name": "Industry Journalists Tell All",
     "thumbnailUrl": "a1d83aba-b220-4d17-87da-8e1c964819dc.png",
-    "description": "Join top industry journalists from Axios and AdWeek as they reveal how they choose which trends to cover, which voices to amplify, and what separates a standout pitch from the hundreds they receive daily. Learn how to craft stories that cut through the noise, secure media coverage, and avoid common mistakes. Hosted by UK Advertising at SXSW.",
+    "description": "Join industry journalists from Axios and AdWeek for an exclusive conversation on what makes a story unmissable, how to secure media coverage that matters, and common mistakes to avoid. Get insider tips on crafting standout pitches and trends to cover.",
     "time": "11:15 AM",
     "startDate": "2025-03-09T11:15:00.000-05:00",
     "endDate": "2025-03-09T11:45:00.000-05:00",
     "location": "Palm Door On Sixth",
     "tags": [
       "Business",
-      "Education",
       "Networking",
       "Panel"
     ],
     "url": "https://lu.ma/znnk8960",
-    "price": "Free with SXSW badge",
+    "price": "Free",
     "sponsors": [
-      "UK Advertising",
       "UKAEG"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 74,
     "name": "The Attention Economy: How to Entertain in 2025",
     "thumbnailUrl": "c81f2fb5-9896-4892-8627-9067abda9a8f.png",
-    "description": "Explore the secrets of brands dominating culture and turning earned media into brand fame. Should every brand entertain to stay relevant or is it just a marketing buzzword? Join the debate on brand fame and attention as currency.",
+    "description": "The event explores how brands can create culture and achieve brand fame in a world where attention is currency",
     "time": "12:30 PM",
     "startDate": "2025-03-09T12:30:00.000-05:00",
     "endDate": "2025-03-09T13:00:00.000-05:00",
@@ -1756,45 +1737,44 @@
     "tags": [
       "Business",
       "Networking",
-      "Keynote",
       "Panel"
     ],
     "url": "https://lu.ma/9jyfkooe",
-    "price": "Free, registration required. Token ownership verification needed.",
+    "price": "Free",
     "sponsors": [
-      "UKAEG",
       "UK Advertising"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 75,
     "name": "TXHQ: Ireland Downtown Rooftop Event (Save-the-Date)",
     "thumbnailUrl": "4dfa4f3c-4c40-4fa7-826b-00b77aee501e.png",
-    "description": "TXHQ: Ireland Downtown Rooftop Event is a networking event showcasing Ireland's tech, life sciences, government initiatives, and global connectivity. Featuring panels, happy hour, and more.",
+    "description": "TXHQ: Ireland Downtown Rooftop Event is a networking event focusing on Ireland's tech and life sciences sectors, government initiatives, and global connectivity. The event features trade relationships, a venture panel, happy hour, and more.",
     "time": "1:00 PM",
     "startDate": "2025-03-09T13:00:00.000-05:00",
     "endDate": "2025-03-09T19:00:00.000-05:00",
     "location": "Register to See Location",
     "tags": [
-      "Technology",
-      "AI",
       "Networking",
+      "AI",
+      "Technology",
+      "Business",
       "Panel",
       "Party"
     ],
     "url": "https://lu.ma/nujtuemc",
-    "price": "RegistrationApproval Required",
+    "price": "Free",
     "sponsors": [
       "TXHQ"
     ],
-    "status": "RegistrationApproval Required"
+    "status": "Approval Required"
   },
   {
     "id": 76,
     "name": "Culture House ATX @ SXSW - VIP Guest",
     "thumbnailUrl": "df148c37-1e00-4f91-a8c9-fb0b702a6aae.png",
-    "description": "Culture House ATX @ SXSW is a VIP event on Sunday, March 9th with compelling programming, delicious food & drink, and notable DJs planned at a private residence. The event is focused on community successes, professional development, relationship-building, and deal-making.",
+    "description": "Culture House ATX @ SXSW - VIP Guest event featuring compelling programming, delicious food & drink, and notable DJs at a beautiful private residence",
     "time": "1:00 PM",
     "startDate": "2025-03-09T13:00:00.000-05:00",
     "endDate": "2025-03-09T20:00:00.000-05:00",
@@ -1803,11 +1783,10 @@
       "Food",
       "Drinks",
       "Networking",
-      "Business",
-      "Startup"
+      "Party"
     ],
     "url": "https://lu.ma/4pykutnt",
-    "price": "Registration approval required. Pricing details upon approval.",
+    "price": "Free",
     "sponsors": [
       "Culture House",
       "MaC Venture Capital"
@@ -1818,69 +1797,69 @@
     "id": 77,
     "name": "Tech Founders and Investors at Padel39",
     "thumbnailUrl": "e0ce9a1e-7819-45a7-adf9-bf7d4c327af6.jpg",
-    "description": "Join us for Tech & Padel, a curated event for tech founders and investors to network, play padel, and enjoy a social hour with live DJ music.",
+    "description": "Tech & Padel event featuring a curated sportsmanship, entrepreneurship, and networking experience for tech founders and investors. Includes padel play, social and happy hour, and live DJ. Limited spots available.",
     "time": "1:00 PM",
     "startDate": "2025-03-09T13:00:00.000-05:00",
     "endDate": "2025-03-09T15:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
-      "Technology",
       "Networking",
-      "Music",
-      "Sports"
+      "Social Impact",
+      "Technology",
+      "Startup"
     ],
     "url": "https://lu.ma/50eaq1xm",
-    "price": "Tickets are limited, registration required. Standard ticket for network and play padel, sponsor ticket included event access.",
+    "price": "Free",
     "sponsors": [
       "fCTO Labs",
       "Padel39"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 78,
     "name": "From Storytelling to Storyselling - The Commercial Power of Narrative",
     "thumbnailUrl": "9cc6e9a8-6541-49af-9fd5-a05b73ccc6e3.png",
-    "description": "From Storytelling to Storyselling - The Commercial Power of Narrative. A debate bringing together voices from academia, technology, and advertising to explore how stories shape behavior, influence industries, and create real value.",
+    "description": "From Storytelling to Storyselling - The Commercial Power of Narrative is an event that explores the importance of storytelling in driving action and creating real value. Speakers from academia, technology, and advertising will discuss how narratives shape behavior, influence industries, and drive commercial success.",
     "time": "1:00 PM",
     "startDate": "2025-03-09T13:00:00.000-05:00",
     "endDate": "2025-03-09T13:30:00.000-05:00",
     "location": "Palm Door On Sixth",
     "tags": [
       "Business",
-      "Technology",
-      "Art"
+      "Art",
+      "Technology"
     ],
     "url": "https://lu.ma/crfq2k5m",
-    "price": "Free with registration. Token ownership verification required.",
+    "price": "Free",
     "sponsors": [
       "UKAEG",
       "UK Advertising"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 79,
     "name": "Culture House ATX @ SXSW - All Events Tickets",
     "thumbnailUrl": "789651e8-7443-4ff6-87cd-e72850666e3a.png",
-    "description": "Culture House ATX @ SXSW is a networking event featuring compelling programming, delicious food & drink, notable DJs, and opportunities for professional development, relationship-building, and deal-making.",
+    "description": "Culture House ATX @ SXSW is a day of compelling programming, delicious food & drink, and notable DJs planned at a private residence in Austin, Texas.",
     "time": "1:00 PM",
     "startDate": "2025-03-09T13:00:00.000-05:00",
     "endDate": "2025-03-09T20:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
-      "Networking",
       "Food",
       "Drinks",
-      "Music"
+      "Networking",
+      "Party"
     ],
     "url": "https://lu.ma/qcx30huq",
-    "price": "Approval Required - register for ticket pricing information",
+    "price": "Free",
     "sponsors": [
       "Culture House",
       "MaC Venture Capital"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 80,
@@ -1893,39 +1872,46 @@
     "location": "Austin, Texas",
     "tags": [
       "Food",
-      "Networking",
       "Music",
-      "Startup"
+      "Business",
+      "Startup",
+      "Networking"
     ],
     "url": "https://lu.ma/xkca9795",
-    "price": "Approval Required",
+    "price": "Free",
     "sponsors": [
       "Culture House",
       "MaC Venture Capital"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 81,
     "name": "Earth's Biggest Brief: The World's First Agency For Nature",
     "thumbnailUrl": "5eb11b7c-24a7-4cd0-8e49-999652dc0936.png",
-    "description": "Join UKAEG @ SXSW for the launch of Agency for Nature, the world's first creative agency for all life on Earth. Explore conversations with Talking Tree and industry experts on nature-driven advertising campaigns.",
+    "description": "Join us for a special launch event by Agency for Nature, the world's first creative agency for all life on Earth. Featuring 5 UK agencies and conversations with Austin's very own Talking Tree.",
     "time": "1:30 PM",
     "startDate": "2025-03-09T13:30:00.000-05:00",
     "endDate": "2025-03-09T14:00:00.000-05:00",
     "location": "Palm Door On Sixth",
     "tags": [
+      "Art",
       "Business",
-      "Networking",
-      "Keynote",
-      "Exhibition"
+      "Social Impact"
     ],
     "url": "https://lu.ma/fdt561t7",
-    "price": "Free event, registration required. Token ownership verification with wallet.",
+    "price": "Free",
     "sponsors": [
-      "UK Advertising"
+      "UKAEG",
+      "Purpose Disruptors",
+      "Locate Productions",
+      "VCCP",
+      "IRIS",
+      "AMV BBDO",
+      "House 337",
+      "Droga5"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 82,
@@ -1946,13 +1932,13 @@
       "Flipboard",
       "Surf"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 83,
     "name": "East Meets West: CREATORPALOOZA 2025 in ATX",
     "thumbnailUrl": "419ea327-37ae-40f6-84f0-8da74ad8f7b0.png",
-    "description": "A creator meetup at SXSW featuring insightful conversations, epic connections, and a party to cap it all off. Expect a full day of networking, programming, and good vibes with creative people.",
+    "description": "The premier hub connecting thousands of content creators and creator economy professionals through in-person events and insightful media. A full day of networking, programming, and good vibes with creative people, featuring insightful conversations, epic connections, and a party to cap it all off.",
     "time": "2:00 PM",
     "startDate": "2025-03-09T14:00:00.000-05:00",
     "endDate": "2025-03-09T20:00:00.000-05:00",
@@ -1963,11 +1949,10 @@
       "Party"
     ],
     "url": "https://lu.ma/lgyj84vt",
-    "price": "Registration approval required. RSVP now & arrive early, entry is subject to capacity!",
+    "price": "Free",
     "sponsors": [
-      "Passionfruit",
-      "Creator Economy NYC",
       "Teachable",
+      "Creator Economy NYC",
       "Bay Area Creator Economy",
       "What's Trending",
       "SAG-AFTRA"
@@ -1978,21 +1963,21 @@
     "id": 84,
     "name": "From Touchdowns to Goals: Texas, the World Cup, and the Future of Football",
     "thumbnailUrl": "8415bf73-8882-49a1-bf6d-aca2fc504cce.png",
-    "description": "An Exclusive Event for Brand Marketing and Sports Leaders. Texas is gearing up to host the 2026 FIFA World Cup, and this event explores how the state can leverage this opportunity to grow the game, expand fan bases, and create lasting impact.",
+    "description": "An Exclusive Event for Brand Marketing and Sports Leaders focusing on Texas' role in hosting the 2026 FIFA World Cup and the future of football in the U.S.",
     "time": "3:00 PM",
     "startDate": "2025-03-09T15:00:00.000-05:00",
     "endDate": "2025-03-09T16:00:00.000-05:00",
     "location": "Palm Door On Sixth",
     "tags": [
+      "Business",
       "Sports",
       "Marketing",
-      "Brand",
-      "Football",
-      "Soccer",
-      "Leadership"
+      "Networking",
+      "Panel",
+      "Workshop"
     ],
     "url": "https://lu.ma/v9p5mhfs",
-    "price": "Free with approval required for registration",
+    "price": "Free",
     "sponsors": [
       "UKAEG",
       "UK Advertising"
@@ -2003,7 +1988,7 @@
     "id": 85,
     "name": "Accelerating Innovation Across the Open Social Web — PM",
     "thumbnailUrl": "ae255204-dc0d-4f9a-bda1-1d67dead6ec4.jpg",
-    "description": "Accelerating Innovation Across the Open Social Web event featuring Fireside chat with Bluesky CTO and Flipboard/Surf CEO, and Dot Social Live with David Imel and Mike McCue.",
+    "description": "Accelerating Innovation Across the Open Social Web event hosted by Flipboard + Surf and Marci McCue featuring a pre-chat bluesky cocktail, fireside chat with Bluesky CTO Paul Frazee and Flipboard CEO Mike McCue, and Dot Social Live with David Imel and Mike McCue.",
     "time": "4:00 PM",
     "startDate": "2025-03-09T16:00:00.000-05:00",
     "endDate": "2025-03-09T19:00:00.000-05:00",
@@ -2014,53 +1999,51 @@
       "Keynote"
     ],
     "url": "https://lu.ma/cnr8fi3j",
-    "price": "Free registration required",
+    "price": "Free",
     "sponsors": [
       "Flipboard",
       "Surf"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 86,
     "name": "London Calling - A New York Times Must Visit Hub in 2025 Fueled by Creativity & Innovation",
     "thumbnailUrl": "fad77d34-2568-4948-b17a-6029de77b78d.png",
-    "description": "London Calling: Where pioneering ideas meet business opportunities - an exclusive networking event for innovative businesses and investors looking to explore investment opportunities in London and the UK.",
+    "description": "London Calling: Where pioneering ideas meet business opportunities event showcasing investment opportunities in London and the UK.",
     "time": "4:00 PM",
     "startDate": "2025-03-09T16:00:00.000-05:00",
     "endDate": "2025-03-09T19:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
       "Networking",
-      "Business",
-      "Technology"
+      "Business"
     ],
     "url": "https://lu.ma/ud8fs3l0",
-    "price": "Approval Required - Register for more information",
+    "price": "Free",
     "sponsors": [
       "Here East",
       "London & Partners",
       "Oury Clark"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 87,
     "name": "Culture House ATX @ SXSW - Day Party",
     "thumbnailUrl": "321c73a9-8d16-449d-ba50-8665e0c66cfb.png",
-    "description": "Culture House ATX @ SXSW - Day Party hosted by Culture House & MaC Venture Capital featuring good vibes, great food and drinks, and notable DJs for professional development and relationship building.",
+    "description": "Culture House ATX @ SXSW - Day Party hosted by Culture House & MaC Venture Capital featuring good vibes, great food and drinks, and notable DJs.",
     "time": "4:00 PM",
     "startDate": "2025-03-09T16:00:00.000-05:00",
     "endDate": "2025-03-09T20:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
       "Party",
-      "Food",
-      "Drinks",
-      "Networking"
+      "Networking",
+      "Music"
     ],
     "url": "https://lu.ma/nx5yrnnf",
-    "price": "RegistrationApproval Required",
+    "price": "Free",
     "sponsors": [
       "Culture House",
       "MaC Venture Capital"
@@ -2078,22 +2061,21 @@
     "location": "Austin, Texas",
     "tags": [
       "Technology",
-      "Networking",
-      "Exhibition"
+      "Networking"
     ],
     "url": "https://lu.ma/o6lgwwww",
-    "price": "Approval Required",
+    "price": "Free",
     "sponsors": [
       "intent",
       "Whipsaw"
     ],
-    "status": "RegistrationApproval Required"
+    "status": "Approval Required"
   },
   {
     "id": 89,
     "name": "Asian Founders & Creators by Austin Creator House",
     "thumbnailUrl": "9c1977f3-65e8-4090-878a-e2131a26ca73.png",
-    "description": "Join us for a fun evening of mingling and connecting with other fellow Asian founders, creators, and speakers around SXSW. Enjoy good company, drinks, food (thanks Panda Express) and a fun time! No need a SXSW badge to attend.",
+    "description": "Join us for a fun evening of mingling and connecting with other fellow Asian founders, creators, and speakers around SXSW. Enjoy good company, drinks, food, and a fun time! No need for a SXSW badge to attend. Doors open at 5:30pm, with a word from hosts at 6:00pm and the event ending at 7:30pm at Austin Creator House.",
     "time": "5:30 PM",
     "startDate": "2025-03-09T17:30:00.000-05:00",
     "endDate": "2025-03-09T19:30:00.000-05:00",
@@ -2107,8 +2089,6 @@
     "url": "https://lu.ma/epcepza5",
     "price": "Free",
     "sponsors": [
-      "Singapore Global Network (SGN)",
-      "Design Buddies/UXGO",
       "Panda Express"
     ],
     "status": "Approval Required"
@@ -2117,7 +2097,7 @@
     "id": 90,
     "name": "Lumos House VIP Founder Dinner",
     "thumbnailUrl": "f25b4020-db89-4286-9207-ba24f774f09a.png",
-    "description": "An invite-only VIP Founder Dinner event at Lumos House during SXSW 2025, featuring prominent CEOs, founders, and investors in the tech and business industries. Set in an exclusive mansion in Austin, guests will enjoy world-class cuisine and engage in real conversations and deal-making.",
+    "description": "An invite-only event series for the most visionary founders, builders, and leaders in media & tech. Powered by Blindspot and Andrew Yeung, set in an exclusive mansion. The event includes The Founder’s Table: VIP Dinner, an intimate VIP dinner for founders, investors, and industry leaders.",
     "time": "6:00 PM",
     "startDate": "2025-03-09T18:00:00.000-05:00",
     "endDate": "2025-03-09T21:00:00.000-05:00",
@@ -2126,114 +2106,113 @@
       "Technology",
       "Business",
       "Networking",
-      "VIP",
-      "Dinner",
-      "Event Series",
-      "SXSW"
+      "Event"
     ],
     "url": "https://lu.ma/083ysswy",
-    "price": "Free to attend, but require approval for General and VIP tickets",
+    "price": "Free",
     "sponsors": [
+      "Lumos House",
       "Blindspot",
-      "Andrew Yeung",
-      "Builders",
       "Agree.com"
     ],
-    "status": "Waitlist"
+    "status": "Invite Only"
   },
   {
     "id": 91,
     "name": "[SXSW] Not-Your-Regular-Meetup : Build Your Village",
     "thumbnailUrl": "c7609b2c-24f2-4132-9560-6aba44af8114.png",
-    "description": "Founders, Funders, & Fractionals is dedicated to enhancing the startup ecosystem by promoting the strategic use of fractional talent and creating high-ROI experiences through education and networking. The event includes mix & mingle, a power panel + Q&A, structured networking, and community leaders sharing their success stories.",
+    "description": "Founders, Funders, & Fractionals is an event dedicated to enhancing the startup ecosystem by promoting the strategic use of fractional talent and creating high-ROI experiences through education and networking. The event includes a mix & mingle session, a power panel + Q&A, structured networking, and features community leaders who have built success through relationships.",
     "time": "6:00 PM",
     "startDate": "2025-03-09T18:00:00.000-05:00",
     "endDate": "2025-03-09T20:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
       "Business",
+      "Startup",
       "Networking",
-      "Panel",
-      "Education"
+      "Panel"
     ],
     "url": "https://lu.ma/d1amvwqm",
-    "price": "Free for Founders, Funders, & Fractionals members. Tickets for non-members require approval based on ticket type.",
+    "price": "Free",
     "sponsors": [
-      "Luma"
+      "Founders, Funders, & Fractionals"
     ],
-    "status": "Registration required"
+    "status": "Available"
   },
   {
     "id": 92,
     "name": "Ending Hunger Today, Tomorrow, and Forever with Kellanova & Albertsons",
     "thumbnailUrl": "83e9d673-3287-4266-b6eb-0e2b7dd80c3c",
-    "description": "Join Albertsons Companies Foundation’s Nourishing Neighbors program, Kellanova, and No Kid Hungry to discuss viable solutions to tackle hunger. Addressing food pantry access today, to effectively accessing state and federal programs tomorrow, ideating, solving, and pledging to create real impact together, forever.",
+    "description": "Ending Hunger Today, Tomorrow, and Forever with Kellanova & Albertsons event hosted by Regen House focusing on discussing viable solutions to tackle hunger and create real impact together",
     "time": "6:00 PM",
     "startDate": "2025-03-09T18:00:00.000-05:00",
     "endDate": "2025-03-09T20:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
-      "Food",
       "Social Impact",
-      "Networking"
+      "Food",
+      "Networking",
+      "Panel"
     ],
     "url": "https://lu.ma/08l5vxro",
-    "price": "Approval Required",
+    "price": "Free",
     "sponsors": [
-      "Regen House"
+      "Albertsons Companies Foundation",
+      "Kellanova"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 93,
     "name": "The Open Social Social",
     "thumbnailUrl": "f1379193-fb12-473d-a4ce-21cfadb3a191.jpg",
-    "description": "Evening party with refreshments and tunes for attendees to socialize and network with new friends in Austin, Texas.",
+    "description": "Evening party — refreshments and tunes with your new fedi friends",
     "time": "7:00 PM",
     "startDate": "2025-03-09T19:00:00.000-05:00",
     "endDate": "2025-03-09T22:00:00.000-05:00",
     "location": "412 Congress Ave.",
     "tags": [
-      "Drinks",
-      "Social Impact",
+      "Party",
       "Networking",
-      "Party"
+      "Music"
     ],
     "url": "https://lu.ma/vqb0crrl",
-    "price": "Free event, registration required",
+    "price": "Free",
     "sponsors": [
       "Flipboard",
       "Surf"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 94,
     "name": "Austin Marketers Dinner Presented by Popular Pays",
     "thumbnailUrl": "9af21635-b0fa-4b59-a0c9-07b7c23c23ed.png",
-    "description": "An exclusive, intimate dinner for influencer marketing leaders at SXSW, featuring steak, seafood, cocktails, and mingling. Hosted by Avni Barman (500K+ across platforms) and focused on collaboration, shared insights, and technology advancements in influencer marketing strategies.",
+    "description": "An exclusive, intimate dinner for influencer marketing leaders at SXSW. Join us for an evening of steak, seafood, cocktails, and mingling—hosted by creator Avni Barman (500K+ across platforms), known for inspiring ambitious women in tech, entrepreneurship, and media.",
     "time": "7:30 PM · 6:30 PM CST",
     "startDate": "2025-03-09T18:30:00.000-06:00",
     "endDate": "2025-03-09T21:00:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
+      "Networking",
+      "Panel",
       "Food",
       "Drinks",
       "Technology",
-      "Networking"
+      "Business"
     ],
     "url": "https://lu.ma/k3s7gsm9",
-    "price": "Approval Required. Limited spots available. RSVP by February 28th.",
+    "price": "Free",
     "sponsors": [
       "Popular Pays"
     ],
-    "status": "Waitlist"
+    "status": "Limited Spots"
   },
   {
     "id": 95,
     "name": "Connecting the Americas | During SXSW | Special Brazil Edition",
     "thumbnailUrl": "88d1cb6b-c27d-4d95-a498-b7492a7efa18.jpg",
-    "description": "Connecting the Americas is a special Brazil Edition event during SXSW that provides a unique opportunity to start the day with powerful ideas and inspiration. It includes an exclusive breakfast where connections happen and discussions shape the future, as well as a panel discussion on the real-world application of Artificial Intelligence in business.",
+    "description": "Connecting the Americas is a unique opportunity to start the day with energy, powerful ideas, and inspiration for what's to come at SXSW. Join a select group of visionaries for an exclusive breakfast before the storm, where connections happen and discussions shape the future. Panel: Beyond the Hype of Artificial Intelligence: Real-world Application in the Business World. A direct chat with leaders who are applying Generative AI to transform operations and create competitive advantage in the American and global markets. Featuring special guests Leandro Balbinot, Liz Bacelar, Ricardo Alem, Alberto Silveira, and Antonio Alves. Participate actively in the conversation and share your perspectives and insights in a strategic debate on the real impact of AI on businesses. Interact directly with the speakers and exchange high-level experiences.",
     "time": "8:00 AM",
     "startDate": "2025-03-10T08:00:00.000-05:00",
     "endDate": "2025-03-10T09:45:00.000-05:00",
@@ -2241,27 +2220,24 @@
     "tags": [
       "Technology",
       "AI",
-      "Networking",
-      "Panel"
+      "Business",
+      "Startup"
     ],
     "url": "https://lu.ma/kvsjs584",
-    "price": "Registration is required and subject to approval by the host. Token ownership verification is necessary to join.",
+    "price": "Free",
     "sponsors": [
       "Whole Foods Market",
       "Under Armour",
       "AWS",
-      "HireVue",
-      "Auramind.ai",
-      "Infomach",
-      "Cultura Brasil Austin"
+      "HireVue"
     ],
-    "status": "Event status: Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 96,
     "name": "2nd Annual SX Pitch and Run!🤠",
     "thumbnailUrl": "4ec4e9c5-fd7c-436b-9a18-8c4594fafe6d.png",
-    "description": "Pitch and Run was founded to make it easy for founders to connect with Angels and VCs without the pressure of a pitch meeting and to allow founders and startup employees to connect. Join for a run every Friday at Merit Coffee on West Ave.",
+    "description": "Pitch and Run ATX is a community event for founders, funders, and startup employees to connect with each other and with Angels and VCs. Attendees can join a run and participate in networking opportunities. The event includes free coffee, Knockaround eyewear giveaways, and Bravo Sierra body wipes at the 2nd Annual SX Pitch and Run in Austin, Texas.",
     "time": "9:00 AM",
     "startDate": "2025-03-10T09:00:00.000-05:00",
     "endDate": "2025-03-10T12:00:00.000-05:00",
@@ -2269,22 +2245,24 @@
     "tags": [
       "Startup",
       "Networking",
-      "Health"
+      "Health",
+      "Social Impact",
+      "Technology"
     ],
     "url": "https://lu.ma/8jsxct16",
     "price": "Free",
     "sponsors": [
       "Knockaround",
       "Bravo Sierra",
-      "The Loop"
+      "The LOOP"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 97,
     "name": "SXSW Low-Code Builders Meetup (with Zapier & Ops Department)",
     "thumbnailUrl": "d24c9b9d-4517-42d7-8445-7b8dfec0c0cb.png",
-    "description": "Join this casual meetup during SXSW Interactive to network with other consultants and share projects in the low-code space. Great for those interested in low-code/no-code development and AI.",
+    "description": "Join us for a casual meetup during SXSW Interactive to network with other consultants and share projects you're working on in the low-code space. Want to get into low-code and build the next, great AI Agent? This is a great space to ask questions and learn more!",
     "time": "9:00 AM",
     "startDate": "2025-03-10T09:00:00.000-05:00",
     "endDate": "2025-03-10T11:00:00.000-05:00",
@@ -2292,7 +2270,8 @@
     "tags": [
       "Technology",
       "AI",
-      "Networking"
+      "Networking",
+      "Workshop"
     ],
     "url": "https://lu.ma/em99fz1d",
     "price": "Free",
@@ -2300,28 +2279,29 @@
       "Zapier",
       "Ops Department"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 98,
     "name": "The New Playbook",
     "thumbnailUrl": "e85968cd-bfec-4bba-923f-708c67f02533.jpg",
-    "description": "Explore the next evolution of brand storytelling, creators in the Fediverse, building communities across the social web, and a demo of Surf, a new kind of browser unifying the social web.",
+    "description": "The event will feature discussions on the evolution of brand storytelling, creators and the Fediverse, building communities across the social web, and a demo of Surf, a new kind of browser unifying the social web.",
     "time": "9:00 AM",
     "startDate": "2025-03-10T09:00:00.000-05:00",
     "endDate": "2025-03-10T13:30:00.000-05:00",
     "location": "412 Congress Ave.",
     "tags": [
       "Technology",
-      "Networking"
+      "Networking",
+      "Panel"
     ],
     "url": "https://lu.ma/dvfp9lri",
-    "price": "Free with registration",
+    "price": "Free",
     "sponsors": [
       "Flipboard",
       "Surf"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 99,
@@ -2334,11 +2314,11 @@
     "location": "110 E 2nd St",
     "tags": [
       "Technology",
-      "Networking",
-      "Business"
+      "Business",
+      "Startup"
     ],
     "url": "https://lu.ma/i0hulfu4",
-    "price": "Registration approval required",
+    "price": "Free",
     "sponsors": [
       "intent",
       "Whipsaw"
@@ -2349,7 +2329,7 @@
     "id": 100,
     "name": "TEXAS EMBASSY: Health & Human Performance",
     "thumbnailUrl": "8ff09ab9-0740-4a71-a091-dc9ab6fd3d26.png",
-    "description": "Join the 1st annual Texas Embassy Event showcasing the latest innovations in health and human performance, featuring panels with CEOs and founders in the health technology industry.",
+    "description": "Texas Embassy: Health & Human Performance event showcasing latest innovations in health technology and human performance, featuring panels with industry experts.",
     "time": "9:00 AM",
     "startDate": "2025-03-10T09:00:00.000-05:00",
     "endDate": "2025-03-10T18:00:00.000-05:00",
@@ -2357,19 +2337,21 @@
     "tags": [
       "Health",
       "Technology",
-      "Panel",
-      "Networking"
+      "Networking",
+      "Panel"
     ],
     "url": "https://lu.ma/cu7cbvmk",
-    "price": "Registration required, approval by host needed",
-    "sponsors": [],
-    "status": "Live"
+    "price": "Free",
+    "sponsors": [
+      "Q-Branch"
+    ],
+    "status": "Approval Required"
   },
   {
     "id": 101,
     "name": "AI x Journalism House 2025",
     "thumbnailUrl": "0b2dd223-42a1-41af-821a-0444b76d4c19",
-    "description": "The AI x Journalism House 2025 event, presented by Hacks/Hackers in partnership with the Online News Association and supported by the MacArthur Foundation, aims to explore how artificial intelligence is transforming the creation and distribution of news and information.",
+    "description": "The AI x Journalism House 2025 event is presented by Hacks/Hackers in partnership with the Online News Association and supported by the MacArthur Foundation. It includes workshops, speakers, and networking opportunities focused on how artificial intelligence is impacting news and information creation and distribution.",
     "time": "9:30 AM",
     "startDate": "2025-03-10T09:30:00.000-05:00",
     "endDate": "2025-03-11T16:30:00.000-05:00",
@@ -2377,23 +2359,23 @@
     "tags": [
       "Technology",
       "AI",
-      "Journalism",
       "Networking",
-      "Workshop"
+      "Workshop",
+      "Conference"
     ],
     "url": "https://lu.ma/aj74ayou",
-    "price": "Approval Required. Your registration is subject to approval by the host.",
+    "price": "Free",
     "sponsors": [
       "Online News Association",
       "MacArthur Foundation"
     ],
-    "status": "Registration Open"
+    "status": "Approval Required"
   },
   {
     "id": 102,
     "name": "AI House @ SXSW - Day 2",
     "thumbnailUrl": "3ba846d0-0057-4cd7-bb2e-70524be37a77.png",
-    "description": "The SXSW AI House is a two-day immersive experience showcasing Austin’s booming AI ecosystem, featuring top AI startups, live panels, interactive showcases, and great food.",
+    "description": "The SXSW AI House is a two-day immersive experience showcasing Austin’s booming AI ecosystem. Step into a curated space where top AI startups bring their tech to life with hands-on demos, deep-dive conversations, and connection. Expect live panels, interactive showcases, and great food—all designed to spark ideas and collaborations. Come see the future of AI, Austin-style.",
     "time": "10:00 AM",
     "startDate": "2025-03-10T10:00:00.000-05:00",
     "endDate": "2025-03-10T17:00:00.000-05:00",
@@ -2406,7 +2388,7 @@
       "Exhibition"
     ],
     "url": "https://lu.ma/sxsw-ai-house-day2",
-    "price": "Approval Required - Registration subject to host approval. Verification of token ownership with wallet required.",
+    "price": "Free",
     "sponsors": [
       "Manifold Labs",
       "AITX",
@@ -2414,35 +2396,36 @@
       "Toolhouse",
       "Groq"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 103,
     "name": "Marketing Leaders Brunch",
     "thumbnailUrl": "411ffbfb-1250-4e94-8522-554405fa1758.png",
-    "description": "The Marketer's Brunch: Conversations & Strategy is an invite-only event series for top marketing leaders, CMOs, and strategists, taking place at a luxe Austin property during SXSW 2025. Expect high-impact conversations, curated connections, and visionary ideas in media & tech.",
+    "description": "The Marketer's Brunch: Conversations & Strategy, an exclusive invite-only event as part of Lumos House event series, bringing together top marketing leaders, CMOs, and strategists for a catered brunch at a luxe Austin property during SXSW 2025.",
     "time": "11:00 AM",
     "startDate": "2025-03-10T11:00:00.000-05:00",
     "endDate": "2025-03-10T14:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
-      "Technology",
       "Business",
+      "Technology",
       "Networking",
-      "Conference"
+      "Keynote"
     ],
     "url": "https://lu.ma/r7ljhgg8",
-    "price": "Free to attend, but require approval for General and VIP tickets. Friends of Andrew and Blindspot can apply for tickets.",
+    "price": "Free",
     "sponsors": [
+      "Lumos House",
       "Blindspot"
     ],
-    "status": "Require Approval"
+    "status": "Invite Only"
   },
   {
     "id": 104,
     "name": "Frontiers of Innovation Day in Austin TX (SXSW 2025) | Presented by the Frontier Collective",
     "thumbnailUrl": "6400038e-4031-4b77-a741-02c2de49fa7a.png",
-    "description": "Frontiers of Innovation Day at SXSW 2025 - Explore the future of technology and innovation with thought-provoking panels, demos, and exclusive networking opportunities.",
+    "description": "Frontiers of Innovation Day at SXSW 2025 is a full-day event featuring discussions, demos, and networking opportunities with industry leaders in AI, computing, EV, climate-tech, and more.",
     "time": "12:30 PM · 10:30 AM PDT",
     "startDate": "2025-03-10T10:30:00.000-07:00",
     "endDate": "2025-03-10T17:00:00.000-07:00",
@@ -2450,23 +2433,25 @@
     "tags": [
       "Technology",
       "AI",
-      "Business",
       "Networking",
       "Conference",
+      "Workshop",
+      "Exhibition",
       "Party"
     ],
     "url": "https://lu.ma/v4a9d6ix",
-    "price": "Registration required with token ownership verification. VIP Party included with ticket.",
+    "price": "Free",
     "sponsors": [
+      "Frontiers of Innovation",
       "Frontier Collective"
     ],
-    "status": "Open for Registration"
+    "status": "Available"
   },
   {
     "id": 105,
     "name": "TXHQ: Australia Downtown Rooftop Event (Save-the-Date)",
     "thumbnailUrl": "4dfa4f3c-4c40-4fa7-826b-00b77aee501e.png",
-    "description": "TXHQ: Australia Downtown Rooftop Event featuring tech, government initiatives, mining, and agriculture tech innovations from Australia.",
+    "description": "TXHQ: Australia Downtown Rooftop Event is a networking event showcasing Australia's tech innovation, government initiatives, and mining/agriculture tech. The event includes a trade relationship discussion, venture panel, happy hour, and more.",
     "time": "1:00 PM",
     "startDate": "2025-03-10T13:00:00.000-05:00",
     "endDate": "2025-03-10T19:00:00.000-05:00",
@@ -2474,79 +2459,83 @@
     "tags": [
       "Technology",
       "Business",
-      "Startup",
       "Networking",
+      "Keynote",
       "Panel",
       "Party"
     ],
     "url": "https://lu.ma/xfzg480b",
-    "price": "Free with registration approval",
+    "price": "Free",
     "sponsors": [
       "TXHQ"
     ],
-    "status": "RegistrationApproval Required"
+    "status": "Approval Required"
   },
   {
     "id": 106,
     "name": "Publishers and Journalists in the Fediverse",
     "thumbnailUrl": "54b7c609-7e1e-42a6-83fe-aa3591ab1d33.jpg",
-    "description": "Join Flipboard + Surf for a series of events including a fireside chat with Cory Doctorow and a panel on publishers' audience and autonomy",
+    "description": "Join Flipboard + Surf and Marci McCue for a series of discussions and panels on publishing, journalism, and audience engagement.",
     "time": "3:00 PM",
     "startDate": "2025-03-10T15:00:00.000-05:00",
     "endDate": "2025-03-10T17:00:00.000-05:00",
     "location": "412 Congress Ave.",
     "tags": [
       "Technology",
+      "Media",
       "Journalism",
-      "Networking"
+      "Networking",
+      "Panel"
     ],
     "url": "https://lu.ma/k5meba69",
-    "price": "Free with registration",
+    "price": "Free",
     "sponsors": [
       "Flipboard",
       "Surf"
     ],
-    "status": "Registration Open"
+    "status": "Available"
   },
   {
     "id": 107,
     "name": "Crowdstake @ SXSW 2025",
     "thumbnailUrl": "88a0bd24-8f12-4596-a7b0-26e1929bc01f.png",
-    "description": "Blockchain Crowdfunding for Film & Games. Designed to unite film producers, game developers, and blockchain enthusiasts. Event will be catered with complimentary Spanish Tapas and drinks for all attendees.",
+    "description": "Join the Blockchain Crowdfunding for Film & Games event at Mort Subite Belgian Beer Bar during SXSW 2025. This event is designed to unite film producers, game developers, and blockchain enthusiasts. Enjoy complimentary Spanish Tapas, beer, wine, cider, and bubbly water while networking.",
     "time": "5:00 PM",
     "startDate": "2025-03-10T17:00:00.000-05:00",
     "endDate": "2025-03-10T20:00:00.000-05:00",
     "location": "Mort Subite Belgian Beer Bar",
     "tags": [
+      "Food",
+      "Drinks",
       "Technology",
       "Film",
-      "Networking",
-      "Party"
+      "Networking"
     ],
     "url": "https://lu.ma/qgwzs5ha",
-    "price": "Free with registration and verification of token ownership",
+    "price": "Free",
     "sponsors": [
       "Crowdstake Global, Inc."
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 108,
     "name": "LTX Studio: Austin Workshop & Mixer at Hotel Magdalena",
     "thumbnailUrl": "5bf672ed-c18c-4dd0-9be3-7ae70c1c8017.png",
-    "description": "Join us for an immersive workshop with LTX Studio, a groundbreaking AI platform that transforms creative ideas into frame-by-frame narratives. Learn how to unleash your creativity and enjoy gourmet appetizers.",
+    "description": "LTX Studio: Austin Workshop & Mixer at Hotel Magdalena is an immersive workshop for creative agencies, marketers, and entertainment professionals to learn about LTX Studio, an AI-driven filmmaking platform. The event includes real-world examples and hands-on experience with the platform, as well as gourmet appetizers.",
     "time": "5:00 PM · 4:00 PM CST",
     "startDate": "2025-03-10T16:00:00.000-06:00",
     "endDate": "2025-03-10T19:00:00.000-06:00",
     "location": "Austin, Texas",
     "tags": [
       "AI",
+      "Technology",
       "Workshop",
-      "Food",
-      "Technology"
+      "Networking",
+      "Food"
     ],
     "url": "https://lu.ma/aes90j4y",
-    "price": "Registration Approval Required",
+    "price": "Free",
     "sponsors": [
       "LTX Studio"
     ],
@@ -2556,7 +2545,7 @@
     "id": 109,
     "name": "SXSW XR Mixer: VR, AR, XR Meetup",
     "thumbnailUrl": "cf44299a-b476-4552-b145-7ee92e9e6c39.gif",
-    "description": "The SXSW XR Mixer is an exclusive AR/VR/XR meetup bringing together innovators, creators, and industry professionals for networking, collaboration, and showcasing cutting-edge projects. With drinks, snacks, and hands-on tech demos, attendees can connect with the AR/VR/XR community and experience the future firsthand.",
+    "description": "Join us for the SXSW XR Mixer, an exclusive AR/VR/XR meetup put on by ATXR and hosted at Viewer Ready! Austin’s tech scene is booming, and this event is all about bringing together innovators, creators, and industry professionals from both inside and outside the city for SXSW. With drinks, snacks, and hands-on tech demos, we’re creating a space for networking, collaboration, and showcasing cutting-edge projects.",
     "time": "5:00 PM · 3:00 PM PDT",
     "startDate": "2025-03-10T15:00:00.000-07:00",
     "endDate": "2025-03-10T17:00:00.000-07:00",
@@ -2564,29 +2553,30 @@
     "tags": [
       "Technology",
       "Networking",
+      "Social Impact",
       "Exhibition"
     ],
     "url": "https://lu.ma/8ofb2d9x",
-    "price": "Free registration, token ownership verification required",
+    "price": "Free",
     "sponsors": [
       "Viewer Ready",
       "Nova Design",
-      "Justin Wiebelhaus"
+      "Justin Wieb"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 110,
     "name": "404 Takeover and Party",
     "thumbnailUrl": "dea5291b-7ae5-40dd-a6bb-64305cc48819.jpg",
-    "description": "Meet the team at 404media.co, a new independent media company founded by tech journalists Jason Koebler, Emanuel Maiberg, Samantha Cole, and Joseph Cox. The event includes discussions on generative AI, setting up and running an independent media outlet, and an afterparty.",
+    "description": "404 Takeover and Party hosted by Flipboard + Surf, featuring discussions on AI and independent media, followed by an afterparty sponsored by DeleteMe.",
     "time": "5:00 PM",
     "startDate": "2025-03-10T17:00:00.000-05:00",
     "endDate": "2025-03-10T22:00:00.000-05:00",
     "location": "412 Congress Ave.",
     "tags": [
-      "Technology",
       "AI",
+      "Media",
       "Networking",
       "Party"
     ],
@@ -2597,48 +2587,50 @@
       "Surf",
       "DeleteMe"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 111,
     "name": "The Untold Story of Spin with Euwyn Poon (Founder, Spin)",
     "thumbnailUrl": "aace6ece-bc4f-4168-8cf0-8a9945100b44.png",
-    "description": "An invite-only event series for visionary founders, builders, and leaders in media & tech. A Fireside Chat with Euwyn Poon, founder of Spin, discussing the transformation of urban mobility.",
+    "description": "An invite-only event series for the most visionary founders, builders, and leaders in media & tech. Powered by Blindspot and Andrew Yeung, set in an exclusive mansion—free to attend. A curated list of notable technology founders, investors, and leaders in media and entertainment will discuss the transformation of urban mobility and scaling a startup.",
     "time": "6:30 PM",
     "startDate": "2025-03-10T18:30:00.000-05:00",
     "endDate": "2025-03-10T22:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
       "Technology",
-      "Networking",
-      "Workshop"
+      "Business",
+      "Startup",
+      "Networking"
     ],
     "url": "https://lu.ma/48yb2cpe",
-    "price": "Free to attend, invite-only event",
+    "price": "Free",
     "sponsors": [
-      "Blindspot",
-      "Lumos House"
+      "Blindspot"
     ],
-    "status": "Registration required, approval needed"
+    "status": "Invite Only"
   },
   {
     "id": 112,
     "name": "GP&LP FAMILY OFFICES 🌟 MICHELIN STAR 🌟 DINNER & SXSW KICKOFF",
     "thumbnailUrl": "a74ad4ee-d14c-49d1-96ef-a0e60de27d1e",
-    "description": "Exclusive dinner event hosted by VCPE GROUPS for GP&LP Family Offices. Limited seats are available for a curated group to network and share best practices.",
+    "description": "SXSW 2025 KICK OFF​🌟 MICHELIN STAR 🌟 ​GP&LP FAMILY OFFICES DINNER 2025 MARCH​INVITE ONLY!​VC/PE GROUPS & ENTREPRENEUR.VC would like to invite you to a small private curated group of GP&LP.  ​Get to know each other, share best practices, deal flow and trade war stories.  ​APPROVAL will be done by the planning committee.  ​LIMITED SEATS!  ​INVITES NON-TRANSFERABLE. ​ NO + 1s​PLEASE, RSVP ASAP!  ​LOVE ❤️ TO SEE 😍 U!",
     "time": "8:00 PM",
     "startDate": "2025-03-10T20:00:00.000-05:00",
     "endDate": "2025-03-10T23:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
+      "Business",
       "Networking",
-      "Business"
+      "Invite Only",
+      "Limited Spots"
     ],
     "url": "https://lu.ma/r8iomy94",
-    "price": "Free but registration approval required",
+    "price": "Free",
     "sponsors": [
-      "ENTREPRENEUR.VC",
-      "VC/PE GROUPS"
+      "VCPE GROUPS",
+      "ENTREPRENEUR.VC"
     ],
     "status": "Approval Required"
   },
@@ -2646,7 +2638,7 @@
     "id": 113,
     "name": "Topgolf Tech Mixer with BairesDev",
     "thumbnailUrl": "73554a98-698d-409a-8df1-4c9f4b17514f.png",
-    "description": "Join us for an exclusive Topgolf Tech Mixer with BairesDev—a premier networking event designed for tech leaders looking to connect during #SXSW. Enjoy great company, casual conversations, and a little friendly competition—all in a relaxed and engaging environment. No golf experience? No problem! Whether you're looking to expand your network, share insights, or just unwind with fellow tech innovators, this is the perfect place to drive connections while having fun. Spots are limited—RSVP today!",
+    "description": "Join us for an exclusive Topgolf Tech Mixer with BairesDev—a premier networking event designed for tech leaders looking to connect during #SXSW. Enjoy great company, casual conversations, and a little friendly competition—all in a relaxed and engaging environment. Spots are limited—RSVP today!",
     "time": "8:00 PM · 7:00 PM CST",
     "startDate": "2025-03-10T19:00:00.000-06:00",
     "endDate": "2025-03-10T21:00:00.000-06:00",
@@ -2657,11 +2649,11 @@
       "Party"
     ],
     "url": "https://lu.ma/b9njszqs",
-    "price": "Free, RSVP required for approval",
+    "price": "Free",
     "sponsors": [
       "BairesDev"
     ],
-    "status": "Live"
+    "status": "Approval Required"
   },
   {
     "id": 114,
@@ -2682,13 +2674,13 @@
     "sponsors": [
       "Founders Common"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 115,
     "name": "Responsible AI Investors - SXSW",
     "thumbnailUrl": "835b54db-438c-4363-8287-1720bd6a5846",
-    "description": "Polygraf AI is hosting an exclusive event for investors at SXSW to discuss Responsible AI and AI in Defense. This is not a pitch event, but a networking opportunity to connect with like-minded peers and experts in the field of AI Ethics, Deepfakes, and AI/Data Governance.",
+    "description": "Polygraf AI is hosting an exclusive and invitation-only event at SXSW for investors to discuss Responsible AI and AI in Defense. This event is focused on AI Ethics, Deepfakes, and AI/Data Governance, and will bring together top investors, academics, and industry professionals in the AI ecosystem.",
     "time": "8:30 AM",
     "startDate": "2025-03-11T08:30:41.895-05:00",
     "endDate": "2025-03-11T11:30:41.895-05:00",
@@ -2696,20 +2688,21 @@
     "tags": [
       "AI",
       "Technology",
+      "Business",
       "Networking"
     ],
     "url": "https://lu.ma/PolygrafAI",
-    "price": "Ticket prices vary depending on the type, ranging from requiring approval to sold out. Suggested price is shown, but attendees can name their own price at checkout.",
+    "price": "$250",
     "sponsors": [
       "Polygraf.AI"
     ],
-    "status": "Live"
+    "status": "Sold Out"
   },
   {
     "id": 116,
     "name": "TEXAS EMBASSY: Texas Innovation Ecosystem",
     "thumbnailUrl": "e74a8d35-89b8-476e-88be-047881380f20.png",
-    "description": "Join the 1st annual Texas Innovation Ecosystem event at the Texas Embassy showcasing the latest innovations in Texas and global security and exchange.",
+    "description": "Join the 1st annual Texas Innovation Ecosystem event at the Texas Embassy, showcasing the latest innovations in Texas tech entrepreneurship, investing, and updates.",
     "time": "9:00 AM",
     "startDate": "2025-03-11T09:00:00.000-05:00",
     "endDate": "2025-03-11T18:00:00.000-05:00",
@@ -2717,33 +2710,35 @@
     "tags": [
       "Technology",
       "Business",
-      "Networking",
-      "Conference"
+      "Startup",
+      "Networking"
     ],
     "url": "https://lu.ma/qa7z5etu",
-    "price": "Registration Approval Required",
+    "price": "Free",
     "sponsors": [
       "Q-Branch"
     ],
-    "status": "Live"
+    "status": "Approval Required"
   },
   {
     "id": 117,
     "name": "AI for Women",
     "thumbnailUrl": "c8eb2478-6a6c-4af3-83aa-b3937685821f.png",
-    "description": "Join us for an exclusive morning of panels, networking, and brunch, where we explore how AI is reshaping the women's health landscape. This event is designed for founders, investors, industry leaders, and professionals in the women’s health space who are interested in how AI can improve health outcomes and drive innovation. Whether you're in femtech, healthcare, AI development, or building a brand that serves women, this gathering will offer invaluable insights and connections.",
+    "description": "Join us for an exclusive morning of panels, networking, and brunch, where we explore how AI is reshaping the women's health landscape. This event is designed for founders, investors, industry leaders, and professionals in the women’s health space who are interested in how AI can improve health outcomes and drive innovation.",
     "time": "10:00 AM",
     "startDate": "2025-03-11T10:00:00.000-05:00",
     "endDate": "2025-03-11T13:00:00.000-05:00",
     "location": "Austin",
     "tags": [
+      "Technology",
       "AI",
       "Health",
       "Networking",
-      "Panel"
+      "Panel",
+      "Brunch"
     ],
     "url": "https://lu.ma/c23uxbvl",
-    "price": "Registration Approval Required",
+    "price": "Free",
     "sponsors": [
       "How Women Invest",
       "Kubera Venture Capital",
@@ -2756,7 +2751,7 @@
     "id": 118,
     "name": "UKHOUSE @ SXSW - The Future of AI: Who wins, who loses and how do we shape it?",
     "thumbnailUrl": "f353f216-af5d-4222-a580-da48cd05a71e.png",
-    "description": "Join us at UK House for a deep dive panel exploring money and power in the world of AI. Investment into AI is projected to hit $600bn by 2027. Our panel will debate whether current AI investments amount to a bubble or are the tip of an iceberg and debate which countries are making the smartest AI plays.",
+    "description": "Join us at UK House for a deep dive panel exploring money and power in the world of AI. Our panel will debate whether current AI investments amount to a bubble or are the tip of an iceberg and debate which countries are making the smartest AI plays. This is not just a question about money, it is also about power – who gets to shape the future of AI– governments, tech giants or entirely new players?",
     "time": "10:00 AM",
     "startDate": "2025-03-11T10:00:00.000-05:00",
     "endDate": "2025-03-11T12:00:00.000-05:00",
@@ -2764,21 +2759,25 @@
     "tags": [
       "AI",
       "Technology",
+      "Business",
       "Panel",
       "Networking"
     ],
     "url": "https://lu.ma/gi7x8i6j",
-    "price": "Free with registration approval required",
+    "price": "Free",
     "sponsors": [
-      "Luma"
+      "Arm",
+      "Meta",
+      "SeedAI",
+      "British Consulate San Francisco"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 119,
     "name": "Entertainment, Music, & Media Brunch",
     "thumbnailUrl": "c23e005c-9198-470c-9bd5-293b0beeea62.png",
-    "description": "The Lumos House Entertainment, Music, & Media Brunch is an invite-only event series that brings together top executives from entertainment industry for a morning of food and connection. Hosted by Lumos House @ Austin 2025, powered by Blindspot and Andrew Yeung, set in an exclusive mansion in Austin, Texas.",
+    "description": "The Lumos House Entertainment, Music, & Media Brunch is an invite-only event series that brings together top executives from record labels, management firms, & agencies for a morning of food and connection. Hosted in an exclusive mansion in Austin, Texas during SXSW 2025, this event promises to spark engaging conversations among notable technology founders, investors, and leaders in media and entertainment.",
     "time": "11:00 AM",
     "startDate": "2025-03-11T11:00:00.000-05:00",
     "endDate": "2025-03-11T14:00:00.000-05:00",
@@ -2786,44 +2785,46 @@
     "tags": [
       "Food",
       "Networking",
-      "Music",
-      "Entertainment",
-      "Business"
+      "Technology"
     ],
     "url": "https://lu.ma/bsz61k6c",
-    "price": "Free if approved, registration required",
+    "price": "Free",
     "sponsors": [
       "Blindspot"
     ],
-    "status": "Require Approval"
+    "status": "Invite Only"
   },
   {
     "id": 120,
     "name": "Mionetto Salone",
     "thumbnailUrl": "5ac060d6-a92a-45cf-912d-38f19192fecc.jpg",
-    "description": "Experience The Italian Orange Soul with Mionetto at Mexic-Arte Museum. Enjoy art, music, cuisine, spritzes, and Prosecco while immersing in the rich heritage of Italy in Austin.",
+    "description": "Experience The Italian Orange Soul with Mionetto! Enjoy art, music, cuisine, spritzes, and Prosecco to soak in the essence of Italy in Austin. Special programming includes live drawing, photography discussion, live music sessions, and DJ night.",
     "time": "12:00 PM",
     "startDate": "2025-03-11T12:00:00.000-05:00",
     "endDate": "2025-03-11T21:00:00.000-05:00",
     "location": "Mexic-Arte Museum",
     "tags": [
+      "Food",
+      "Drinks",
       "Art",
       "Music",
-      "Food",
-      "Drinks"
+      "Networking",
+      "Workshop",
+      "Exhibition",
+      "Party"
     ],
     "url": "https://lu.ma/vesqrkf7",
-    "price": "Registration Closed",
+    "price": "Free",
     "sponsors": [
       "Mionetto"
     ],
-    "status": "Event status: Registration Closed"
+    "status": "Registration Closed"
   },
   {
     "id": 121,
     "name": "WE ARE ARISING GREEN CARPET EVENT",
     "thumbnailUrl": "6e401872-c970-4cd1-8961-20f714b9dcf3",
-    "description": "The We Are Arising Green Carpet Event is a transformative gathering during SXSW 2025 featuring music, art, workshops, panels, networking, and a concert. The event aims to inspire, empower, and activate change in various areas of life and communities.",
+    "description": "We Are Arising Green Carpet Event is a transformative gathering during SXSW 2025 showcasing music, art, workshops, networking, and conscious solutions for a sustainable future. The event features workshops, panels, a concert, and opportunities to connect with thought leaders and change-makers.",
     "time": "1:00 PM",
     "startDate": "2025-03-11T13:00:00.000-05:00",
     "endDate": "2025-03-11T22:00:00.000-05:00",
@@ -2832,51 +2833,54 @@
       "Music",
       "Art",
       "Workshop",
-      "Panel",
       "Networking",
-      "Conference",
+      "Social Impact",
       "Keynote",
+      "Panel",
+      "Party",
       "Exhibition",
-      "Social Impact"
+      "Conference"
     ],
     "url": "https://lu.ma/z8tubmx9",
-    "price": "$100 for one workshop and one concert ticket. Additional ticket options available.",
+    "price": "$33",
     "sponsors": [
+      "We Are Arising Tour",
       "Splendid Alkaline",
       "Omnipresent Media",
       "The Center for Advancement",
-      "Indra's Awarehouse"
+      "Indras Awarehouse"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 122,
     "name": "GLEAN'S SXSW AI OPEN HOUSE",
     "thumbnailUrl": "eaf3cdf4-48ae-431e-a604-216abd1c21cd.jpg",
-    "description": "Join Glean at Electric Shuffle during SXSW for a Glean Open House showcasing the future of Work AI. Experience live demos and meet the Glean team while enjoying drinks and food.",
+    "description": "Join Glean at Electric Shuffle during SXSW for a casual AI Open House event featuring live demos and networking opportunities.",
     "time": "1:00 PM",
     "startDate": "2025-03-11T13:00:00.000-05:00",
     "endDate": "2025-03-11T16:00:00.000-05:00",
     "location": "Electric Shuffle Austin",
     "tags": [
+      "Food",
+      "Drinks",
       "Technology",
       "AI",
       "Networking",
-      "Drinks",
-      "Food"
+      "Exhibition"
     ],
     "url": "https://lu.ma/odm58cjd",
-    "price": "Free with SXSW badge",
+    "price": "Free",
     "sponsors": [
       "Glean"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 123,
     "name": "Authenticity Is Currency - How to Build a Brand People Genuinely Want to Follow",
     "thumbnailUrl": "0c852baa-1926-43c9-be87-988df2760d11.png",
-    "description": "An invite-only event series for the most visionary founders, builders, and leaders in media & tech. Powered by Blindspot and Andrew Yeung, set in an exclusive mansion—free to attend. Featuring a Fireside Chat on Authenticity is Currency.",
+    "description": "An invite-only event series for the most visionary founders, builders, and leaders in media & tech. Powered by Blindspot and Andrew Yeung, set in an exclusive mansion—free to attend.",
     "time": "3:30 PM",
     "startDate": "2025-03-11T15:30:00.000-05:00",
     "endDate": "2025-03-11T17:00:00.000-05:00",
@@ -2885,21 +2889,20 @@
       "Technology",
       "Business",
       "Networking",
-      "Keynote"
+      "Panel"
     ],
     "url": "https://lu.ma/gug5sprq",
-    "price": "Free to attend, invite-only event",
+    "price": "Free",
     "sponsors": [
-      "Blindspot",
-      "Andrew Yeung"
+      "Blindspot"
     ],
-    "status": "Registration required, invite-only"
+    "status": "Invite Only"
   },
   {
     "id": 124,
     "name": "7BC Global VC Demo Day & VC Fund of Funds launch announcement & Austin Boomtown VC Insight Panel",
     "thumbnailUrl": "8d6e10d7-2797-4d96-92f9-0c8622059390.png",
-    "description": "7BC Global VC Demo Day & VC Fund of Funds launch announcement & Austin Boomtown VC Insight Panel is a networking reception for VCs and LPs interested in VC funds. The event includes drinks, bites, panels, portfolio showcases, and networking opportunities.",
+    "description": "7BC Global VC Demo Day & VC Fund of Funds launch announcement & Austin Boomtown VC Insight Panel hosted by 7BC Venture Capital, Andrew Romans & Mehron Sharq. Celebrate the launch of the Global VC Demo Day event circuit and 7BC Capital. Networking reception exclusively for VCs and LPs. Serve drinks, bites, and free copies of Andrew Romans' latest books.",
     "time": "4:00 PM",
     "startDate": "2025-03-11T16:00:00.000-05:00",
     "endDate": "2025-03-11T20:00:00.000-05:00",
@@ -2907,68 +2910,67 @@
     "tags": [
       "Networking",
       "Drinks",
+      "Food",
       "Panel",
-      "Exhibition"
+      "Business",
+      "Technology",
+      "Conference"
     ],
     "url": "https://lu.ma/mgsso7p2",
-    "price": "Pricing varies based on ticket type and requires approval for certain categories",
+    "price": "$75",
     "sponsors": [
       "CBRE",
       "Zive AI"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 125,
     "name": "SXSW Rooftop Tech Mixer",
     "thumbnailUrl": "666965d8-4dd4-45b3-8cfa-376b6d830973.png",
-    "description": "Private SXSW Rooftop Tech Mixer hosted by Entre and Fidelity, featuring an open bar and networking opportunities with founders and investors.",
+    "description": "Join us for a private SXSW Rooftop Tech Mixer hosted by Entre and Fidelity. Enjoy an open bar and good vibes with top tier founders and investors at a special rooftop location in downtown Austin. Entre is a professional network helping individuals and companies connect through events, content, and community. Fidelity Private Shares is committed to supporting the startup & venture capital community. Engine is a free travel platform for booking and managing work trips. Genius Wallet is the easiest way to buy meme coins and invest in crypto. TSIB specializes in risk management and insurance consulting for private equity firms, venture capitalists, high-growth startups, and other industries. WeWork provides flexible workspaces for individuals and companies. Rho is a banking platform offering corporate cards, banking, treasury, expense management, and more.",
     "time": "4:00 PM",
     "startDate": "2025-03-11T16:00:00.000-05:00",
     "endDate": "2025-03-11T18:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
-      "Networking",
       "Technology",
-      "Startup",
-      "Crypto",
-      "Business"
+      "Networking",
+      "Party"
     ],
     "url": "https://lu.ma/ymrg3h06",
-    "price": "Registration Approval Required",
+    "price": "Free",
     "sponsors": [
       "Entre",
       "Fidelity",
-      "Engine",
+      "WeWork",
       "Genius Wallet",
       "TSIB",
-      "WeWork",
       "Rho"
     ],
-    "status": "Live"
+    "status": "Approval Required"
   },
   {
     "id": 126,
     "name": "SXSW She Means Business: Ask Her Anything Hot Seat",
     "thumbnailUrl": "1f7aa54c-b81f-41d2-a544-709e9fb85451.png",
-    "description": "A networking event connecting female investors with founders and VC professionals, featuring top investors and founders answering questions on raising capital and thriving in business.",
+    "description": "Connecting female investors with founders, fostering collaborations between startups and advisors, & uniting women angel investors with other investing and VC professionals. Top investors from $100M+ funds and founders who’ve raised over $400M in the hot seat to answer burning questions. No scripts, no filters, just real talk on raising capital, scaling, and thriving as a woman in business. Expect bold conversations, high-impact networking, and a room full of women who get it.",
     "time": "4:00 PM",
     "startDate": "2025-03-11T16:00:00.000-05:00",
     "endDate": "2025-03-11T18:30:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
       "Networking",
-      "Investment",
+      "Keynote",
       "Business",
       "Startup",
-      "Keynote",
-      "Panel"
+      "Panel",
+      "Women in Business"
     ],
     "url": "https://lu.ma/z7vcyzns",
-    "price": "Free with approval required for registration",
+    "price": "Free",
     "sponsors": [
-      "No Pressure Networking",
-      "Luma"
+      "No Pressure Networking"
     ],
     "status": "Approval Required"
   },
@@ -2976,19 +2978,21 @@
     "id": 127,
     "name": "NachoTuesday: SaaS & AI Founder + Investor Happy Hour",
     "thumbnailUrl": "eed91567-5e5c-4d8b-a3c6-1c9ef9ddfe4e.png",
-    "description": "NachoTuesday: SaaS & AI Founder + Investor Happy Hour hosted by NachoNacho, Hubspot, LendFlow, Deel, Koop AI, and Skrillo. Exclusive networking event for SaaS & AI Founders, C-Suites, investors, tech media, and tech leaders.",
+    "description": "NachoTuesday: SaaS & AI Founder + Investor Happy Hour hosted by NachoNacho, Hubspot, LendFlow, Deel, Koop AI, and Skrillo. Exclusive event for SaaS & AI Founders, C-Suites, investors, tech media, and tech leaders.",
     "time": "5:00 PM",
     "startDate": "2025-03-11T17:00:00.000-05:00",
     "endDate": "2025-03-11T20:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
-      "AI",
-      "Technology",
       "Networking",
-      "Party"
+      "AI",
+      "Business",
+      "Technology",
+      "Drinks",
+      "Food"
     ],
     "url": "https://lu.ma/4stbro58",
-    "price": "Registration approval required",
+    "price": "Free",
     "sponsors": [
       "NachoNacho",
       "Hubspot",
@@ -2997,13 +3001,13 @@
       "Koop AI",
       "Skrillo"
     ],
-    "status": "Live"
+    "status": "Approval Required"
   },
   {
     "id": 128,
     "name": "Bo$$ Bites Austin (During SXSW)",
     "thumbnailUrl": "34c2600d-851d-41ef-9821-9d1673b765de.png",
-    "description": "Boss Bites is an event for venture backed founders and investors in the Austin area to grow their network during SXSW. The event includes panels from local startup/investor all stars, a VIP dinner where attendees switch seats to meet new people, a morning workout, and an after party. Only 30 seats are available and attendees must apply to join.",
+    "description": "Boss Bites is an exclusive event for venture-backed founders and investors in Austin during SXSW. It features panels with local startup and investor all-stars, followed by a VIP dinner where attendees switch seats to meet new people. Limited to 30 seats and attendees must apply to join.",
     "time": "5:00 PM",
     "startDate": "2025-03-11T17:00:00.000-05:00",
     "endDate": "2025-03-11T20:30:00.000-05:00",
@@ -3015,35 +3019,38 @@
       "Party"
     ],
     "url": "https://lu.ma/boss-bites-austin",
-    "price": "Sold Out",
-    "sponsors": [],
+    "price": "$399",
+    "sponsors": [
+      "Kamp"
+    ],
     "status": "Sold Out"
   },
   {
     "id": 129,
     "name": "Datasent VIP Lounge: Founders & Investors Cocktail Hour",
     "thumbnailUrl": "2be6ed56-70f2-4afd-85e9-496d1f8d3b60.jpg",
-    "description": "This event is an invite-only cocktail hour during SXSW, bringing together top founders, investors, and industry leaders in AI, privacy, and data-driven innovation for high-caliber networking over curated cocktails and delicious bites.",
+    "description": "Join Datasent for an intimate, invite-only cocktail hour during SXSW, bringing together top founders, investors, and industry leaders shaping the future of AI, privacy, and data-driven innovation. This exclusive gathering is designed for high-caliber networking over curated cocktails and delicious bites, fostering candid conversations and meaningful connections with Austin's most exclusive entrepreneurship community.",
     "time": "5:00 PM",
     "startDate": "2025-03-11T17:00:00.000-05:00",
     "endDate": "2025-03-11T21:00:00.000-05:00",
     "location": "The Red Fridge Society",
     "tags": [
       "AI",
-      "Networking"
+      "Networking",
+      "Social Impact"
     ],
     "url": "https://lu.ma/aho5t6f2",
-    "price": "Approval Required. Space is limited, and invitations will be granted on a rolling basis.",
+    "price": "Free",
     "sponsors": [
-      "Red Fridge Society"
+      "Datasent"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 130,
     "name": "The Future of Middleware: Bridging the Gap to Modernization",
     "thumbnailUrl": "0e917fe9-7cc0-4ef4-b8d2-694e7f73d51f.png",
-    "description": "Join us for an exclusive evening of thought-provoking conversation and networking focused on the transformative role of middleware in today’s technology landscape. Learn how middleware is shaping the future of application development, cloud infrastructure, and the delivery of professional services.",
+    "description": "Join us for an exclusive evening of thought-provoking conversation and networking focused on the transformative role of middleware in today’s technology landscape. This event is designed for investors and technology operators looking to deepen their understanding of middleware’s impact on scaling applications, driving innovation, and enabling transformation across industries.",
     "time": "5:30 PM",
     "startDate": "2025-03-11T17:30:00.000-05:00",
     "endDate": "2025-03-11T19:30:00.000-05:00",
@@ -3056,67 +3063,68 @@
     "url": "https://lu.ma/7e2tnkz3",
     "price": "Free",
     "sponsors": [
-      "Immoderata"
+      "Immoderata",
+      "Winstead PC"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 131,
     "name": "AI Night ATX ~ w/ Cloudflare, GitHub, ElevenLabs & Jam.dev",
     "thumbnailUrl": "8ba6619e-5f80-4106-b204-eb361da555dd.png",
-    "description": "Join Cloudflare, GitHub, ElevenLabs & Jam.dev for AI Night ATX at Cloudflare's Austin HQ featuring AI demos, food, drinks, and a good time!",
+    "description": "AI Night ATX event featuring AI demos at Cloudflare's Austin HQ, with food, drinks, and networking opportunities. Hosted by Cloudflare, GitHub, ElevenLabs, and Jam.dev.",
     "time": "6:00 PM",
     "startDate": "2025-03-11T18:00:00.000-05:00",
     "endDate": "2025-03-11T20:00:00.000-05:00",
     "location": "Cloudflare",
     "tags": [
-      "AI",
       "Technology",
+      "AI",
+      "Networking",
       "Food",
       "Drinks",
-      "Networking",
       "Panel"
     ],
     "url": "https://lu.ma/ai-night-atx",
-    "price": "Registration Approval Required - Your registration is subject to approval by the host",
+    "price": "Free",
     "sponsors": [
       "Cloudflare",
       "GitHub",
       "ElevenLabs",
       "Jam.dev"
     ],
-    "status": "Live"
+    "status": "Approval Required"
   },
   {
     "id": 132,
     "name": "Batter Up! Austin",
     "thumbnailUrl": "6a14a7a0-bae7-46b3-a6d7-3ad8268642af",
-    "description": "Hustle Fund Events presents Batter Up!, a live pitch event for founders with feedback from investors. Winners take home a prize and attendees can learn about investor decisions.",
+    "description": "Batter Up! is a live pitch event for founders hosted by Hustle Fund, where founders can pitch their companies to investors and receive feedback. It's an in-person event with no virtual option, and the winner takes home a prize. The event includes networking opportunities, investor panels, and pizza for attendees.",
     "time": "6:00 PM",
     "startDate": "2025-03-11T18:00:00.000-05:00",
     "endDate": "2025-03-11T21:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
-      "Startup",
       "Business",
+      "Startup",
       "Networking",
-      "Workshop"
+      "Panel",
+      "Exhibition"
     ],
     "url": "https://lu.ma/BU-ATX2025",
     "price": "Free",
     "sponsors": [
-      "Hustle Fund",
       "Oracle NetSuite Accelerator",
       "Amplitude",
       "Braze"
     ],
-    "status": "Scheduled"
+    "status": "Available"
   },
   {
     "id": 133,
     "name": "Berlin Flat — Austin Edition",
     "thumbnailUrl": "bff998ef-5b2a-4f1c-b612-855af6d977f5.gif",
-    "description": "Berlin Flat returns to Austin 2025! An event where global minds come together to shape the future, filled with innovation, creativity, and connections. From groundbreaking startups to creative pioneers, this event is all about sparking ideas and forming partnerships.",
+    "description": "Berlin Flat returns to Austin, bringing together global minds for innovation, creativity, and connections. From startups to creatives, this event fosters collaboration and partnership-building.",
     "time": "6:00 PM",
     "startDate": "2025-03-11T18:00:00.000-05:00",
     "endDate": "2025-03-11T21:00:00.000-05:00",
@@ -3125,60 +3133,61 @@
       "Technology",
       "Startup",
       "Networking",
-      "Collaboration"
+      "Keynote",
+      "Exhibition"
     ],
     "url": "https://lu.ma/hnz0zs1x",
-    "price": "Registration required. Verify token ownership with your wallet.",
+    "price": "Free",
     "sponsors": [
       "Fake",
       "KMB",
       "Quadriga"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 134,
     "name": "Austin Digital Social Networking Mixer During SXSW",
     "thumbnailUrl": "1dd24ef9-3460-400b-962d-c67fcda2dec2.webp",
-    "description": "Join us for a special night of networking and connections at the Austin Digital Social Networking Mixer during SXSW. Hosted by Sean Kelly, this event brings together influential individuals to connect, share ideas, and form partnerships.",
+    "description": "The Digital Social Hour Podcast event hosted by Sean Kelly during SXSW in Austin, Texas, bringing together influential individuals for networking, idea sharing, and partnerships.",
     "time": "6:00 PM",
     "startDate": "2025-03-11T18:00:00.000-05:00",
     "endDate": "2025-03-11T23:00:00.000-05:00",
     "location": "1114 E Cesar Chavez St",
     "tags": [
       "Networking",
-      "Business",
-      "Technology"
+      "Social Impact",
+      "Technology",
+      "Startup",
+      "Keynote"
     ],
     "url": "https://lu.ma/fgovdv4g",
-    "price": "Free event with registration required",
+    "price": "Free",
     "sponsors": [
-      "Charlie Rocket",
       "Digital Social Hour"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 135,
     "name": "3rd Annual Context Ventures & Scout Ventures Happy Hour",
     "thumbnailUrl": "70f80515-8ab5-41c5-9f51-25e21c103957.png",
-    "description": "The 3rd Annual Context Ventures & Scout Ventures Happy Hour is a networking event to discuss startups, defense tech, dual use, & military veteran topics. Join military veterans and civilian allies in Austin for a casual evening of networking and discussions.",
+    "description": "The 3rd Annual Context Ventures & Scout Ventures Happy Hour hosted by Tim Hsia at Zilker Brewing Co. to discuss startups, defense tech, dual use, & military veteran topics. Sponsored by Perkins Coie.",
     "time": "6:00 PM",
     "startDate": "2025-03-11T18:00:00.000-05:00",
     "endDate": "2025-03-11T20:00:00.000-05:00",
     "location": "Zilker Brewing Company and Taproom",
     "tags": [
       "Networking",
-      "Startup",
-      "Technology",
-      "Social Impact"
+      "Party",
+      "Startup"
     ],
     "url": "https://lu.ma/sxswhappyhour2025",
-    "price": "Free event. Registration required.",
+    "price": "Free",
     "sponsors": [
       "Perkins Coie"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 136,
@@ -3193,22 +3202,22 @@
       "Technology",
       "AI",
       "Networking",
-      "Panel"
+      "Keynote"
     ],
     "url": "https://lu.ma/idnehjwp",
-    "price": "Free, registration approval required",
+    "price": "Free",
     "sponsors": [
       "Glean",
-      "Windsurf",
-      "Arvind Jain"
+      "Codeium",
+      "WWT"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 137,
     "name": "SXSW AI & Innovation VIP Forum",
     "thumbnailUrl": "10494a43-2d52-48c9-b4cf-c8f2046a05c8.png",
-    "description": "Join us for an exclusive, invitation-only evening of world-class networking, Argentine asado, and curated wine tasting in the heart of Austin during SXSW. Hosted by the Austin AI Lab, powered by Shokworks, this intimate gathering brings together top executives, technologists, and entrepreneurs for meaningful conversations in an intimate setting.",
+    "description": "Join an exclusive, invitation-only evening of world-class networking, Argentine asado, and curated wine tasting in the heart of Austin during SXSW. Hosted by the Austin AI Lab, this gathering brings together top executives, technologists, and entrepreneurs for meaningful conversations in an intimate setting.",
     "time": "7:00 PM · 6:00 PM CST",
     "startDate": "2025-03-11T18:00:00.000-06:00",
     "endDate": "2025-03-11T21:00:00.000-06:00",
@@ -3216,56 +3225,54 @@
     "tags": [
       "AI",
       "Networking",
+      "Technology",
       "Food",
-      "Wine Tasting",
-      "Technology"
+      "Drinks",
+      "Music"
     ],
     "url": "https://lu.ma/wjx2l7gn",
-    "price": "Invitation required. RSVP to request attendance.",
+    "price": "Free",
     "sponsors": [
-      "Shokworks",
-      "Austin AI Lab"
+      "Shokworks"
     ],
-    "status": "RegistrationApproval Required"
+    "status": "Approval Required"
   },
   {
     "id": 138,
     "name": "The Ace Exchange",
     "thumbnailUrl": "7a1ee710-5060-4f58-8d14-8e544bd573f4.png",
-    "description": "The Ace Exchange: High-Stakes Poker Night is an invite-only poker event for top founders, investors, creators, and tech leaders hosted by Lumos House during SXSW 2025.",
+    "description": "The Ace Exchange is an invite-only poker night for top founders, investors, creators, and tech leaders, part of the Lumos House event series. The event offers high-stakes poker games and networking opportunities with curated technology leaders.",
     "time": "7:00 PM",
     "startDate": "2025-03-11T19:00:00.000-05:00",
     "endDate": "2025-03-11T22:30:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
-      "Technology",
       "Networking",
       "Social Impact"
     ],
     "url": "https://lu.ma/zgsye0oq",
-    "price": "Free for invite-only attendees",
+    "price": "Free",
     "sponsors": [
-      "Blindspot",
-      "Andrew Yeung"
+      "Blindspot"
     ],
-    "status": "Event status: Invite-only"
+    "status": "Invite Only"
   },
   {
     "id": 139,
     "name": "The Cometa Supper Club: SXSW 2025 Edition",
     "thumbnailUrl": "8b3fcdbe-e273-460b-ae66-ddacc95431bc.png",
-    "description": "Join the Cometa Supper Club Dinner at SXSW 2025 to meet Cometa Community Members, learn about Partner work and passions, and explore the buzz around Austin and SXSW.",
+    "description": "Join us for yet another Cometa Supper Club Dinner hosted at SXSW 2025! Meet Cometa Community Members, learn about the work and passions of our Partners, and explore the buzz around Austin and SXSW!",
     "time": "8:30 PM",
     "startDate": "2025-03-11T20:30:00.000-05:00",
     "endDate": "2025-03-11T23:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
       "Networking",
-      "Community",
-      "Dinner"
+      "Business",
+      "Social Impact"
     ],
     "url": "https://lu.ma/n6fwcxcb",
-    "price": "$135.00",
+    "price": "$135",
     "sponsors": [
       "The Cometa Collective"
     ],
@@ -3275,7 +3282,7 @@
     "id": 140,
     "name": "Presented by Michigan: JMSN at SXSW",
     "thumbnailUrl": "25b56879-3a0b-49b7-9ad9-57fae2a4ee1d.png",
-    "description": "Michigan presents Detroit-raised alt-R&B icon, JMSN at SXSW. An influential figure in the contemporary soul and alternative music scenes, the sought-after performer and producer brings his unforgettable stage presence to longtime fans and new converts at Michigan Day at SXSW.",
+    "description": "Michigan presents Detroit-raised alt-R&B icon, JMSN. An influential figure in the contemporary soul and alternative music scenes, the sought-after performer and producer brings his unforgettable stage presence to longtime fans and new converts at Michigan Day at SXSW. Join us, not only for a captivating performance with a special opening set from artist, Stoop Lee, but also an immersive experience that highlights Michigan’s thriving creator economy and bold innovation. Connect with visionary entrepreneurs, artists, and leaders shaping the future of creativity in Michigan. Come experience why You Can in Michigan—where originality thrives, and big ideas come to life.",
     "time": "10:00 PM",
     "startDate": "2025-03-11T22:00:00.000-05:00",
     "endDate": "2025-03-11T23:30:00.000-05:00",
@@ -3283,131 +3290,133 @@
     "tags": [
       "Music",
       "Art",
-      "Business"
+      "Business",
+      "Startup",
+      "Networking"
     ],
     "url": "https://lu.ma/uq8rhicw",
     "price": "Free",
     "sponsors": [
       "Michigan"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 141,
     "name": "The International House",
     "thumbnailUrl": "f3a4e9a9-4fd6-4c64-94e6-e2a19e5c07a0",
-    "description": "Join us for the highly anticipated return of the International House, hosted by IA during SXSW! This annual event has become a cornerstone of innovation and global entrepreneurship, bringing together founders, investors, and industry leaders from across the world! Stay tuned for more details about our exciting lineup and program.",
+    "description": "Join us for the highly anticipated return of the International House, hosted by IA during SXSW! This annual event has become a cornerstone of innovation and global entrepreneurship, bringing together founders, investors, and industry leaders from across the world!",
     "time": "10:00 AM",
     "startDate": "2025-03-12T10:00:00.000-05:00",
     "endDate": "2025-03-12T22:00:00.000-05:00",
     "location": "Austin Central Library, Austin Public Library",
     "tags": [
-      "Technology",
       "Business",
-      "Startup"
+      "Startup",
+      "Networking"
     ],
     "url": "https://lu.ma/h1fbfm3a",
-    "price": "Registration required, token ownership verification needed",
+    "price": "Free",
     "sponsors": [
       "International Accelerator"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 142,
     "name": "Private SXSW Launch: Authentic Texas BBQ Experience for Investors, Founders, and Product Leaders",
     "thumbnailUrl": "photo-1456049616707-070399496327",
-    "description": "Private SXSW Launch: Authentic Texas BBQ Experience for Investors, Founders, and Product Leaders. An exclusive escape for a select group of investors, product leaders, and founders to enjoy luxurious transport, exclusive networking, top-tier BBQ, and historic ambiance in an old Texan town.",
+    "description": "Private event offering an authentic Texas BBQ experience for investors, founders, and product leaders during SXSW. Event includes luxurious transport, exclusive networking, top-tier BBQ, and historic ambiance.",
     "time": "12:00 PM",
     "startDate": "2025-03-12T12:00:00.000-05:00",
     "endDate": "2025-03-12T16:00:00.000-05:00",
     "location": "Austin",
     "tags": [
-      "AI",
-      "Technology",
+      "Food",
+      "Drinks",
       "Networking",
-      "Startup",
-      "Food"
+      "AI",
+      "Startup"
     ],
     "url": "https://lu.ma/h9jf24za",
-    "price": "Registration Closed",
+    "price": "Free",
     "sponsors": [
       "SubSeq"
     ],
-    "status": "Event status: Registration Closed"
+    "status": "Registration Closed"
   },
   {
     "id": 143,
     "name": "International Pitch Competition @ The International House 2025",
     "thumbnailUrl": "a1f1356a-add6-4c09-af5d-3e2dfccca8a2.png",
-    "description": "Calling all international and foreign-born founders! This is your chance to showcase your startup and compete for a $500 cash prize at the International House International Pitch Competition.",
+    "description": "International Pitch Competition at The International House for international or foreign-born founders to showcase their startups and compete for a $500 cash prize",
     "time": "2:30 PM",
     "startDate": "2025-03-12T14:30:00.000-05:00",
     "endDate": "2025-03-12T16:00:00.000-05:00",
     "location": "Austin Central Library, Austin Public Library",
     "tags": [
       "Startup",
-      "Competition"
+      "Competition",
+      "Networking"
     ],
     "url": "https://lu.ma/ui7mowcx",
     "price": "Free",
     "sponsors": [
-      "International Accelerator"
+      "International Accelerator",
+      "The International House"
     ],
-    "status": "Registration Open"
+    "status": "Available"
   },
   {
     "id": 144,
     "name": "Resilient and Rising: The State and Future of Inclusion for US in Tech",
     "thumbnailUrl": "90d4f5c2-3925-4afe-a5ae-00c3baad6b4b.png",
-    "description": "Join Atlassian and Techqueria for a networking event focused on Latine talent in technology innovation. Meet leading Latine technologists, product leaders, and industry innovators at the Atlassian Austin office.",
+    "description": "Join Atlassian and Techqueria for a networking event aimed at driving technology innovation with Latine talent. Mix and mingle with industry leaders and tech enthusiasts at the Atlassian Austin office.",
     "time": "5:00 PM",
     "startDate": "2025-03-12T17:00:00.000-05:00",
     "endDate": "2025-03-12T19:30:00.000-05:00",
     "location": "Atlassian",
     "tags": [
+      "Technology",
       "Networking",
-      "Food",
-      "Drinks",
-      "Technology"
+      "Exhibition"
     ],
     "url": "https://lu.ma/g346ac1j",
     "price": "Free",
     "sponsors": [
-      "Atlassian",
-      "Techqueria"
+      "Atlassian"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 145,
     "name": "Climate Round Up: Innovation Showcase 2025",
     "thumbnailUrl": "89a8c952-734c-4a56-830d-a96469ff7f5b.png",
-    "description": "Monthly meetup in Austin for climate innovators to connect, share ideas, and offer help in exchange. Features a live product showcase, startup pitches, panels on tech and policy, and networking opportunities.",
+    "description": "Annual innovation showcase for climate tech startups, investors, and leaders to connect and learn about the latest trends and developments in the field. The event will feature startup pitches, panel discussions, product showcases, and networking opportunities with food and beverages provided.",
     "time": "5:00 PM",
     "startDate": "2025-03-12T17:00:00.000-05:00",
     "endDate": "2025-03-12T20:45:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
-      "Networking",
-      "Startup",
       "Technology",
+      "Business",
+      "Startup",
+      "Networking",
       "Panel",
       "Exhibition"
     ],
     "url": "https://lu.ma/sxsw-climate-2025",
-    "price": "Free with registration, subject to host approval",
+    "price": "Free",
     "sponsors": [
-      "Austin Climate Innovation",
-      "IAClima"
+      "Austin Climate Innovation"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 146,
     "name": "ATX Podcast Superfans MeetUp",
     "thumbnailUrl": "ac949ff6-893f-4092-ac5a-d2eedc702400.jpg",
-    "description": "ATX Podcast Superfans MeetUp hosted by Alice Huang at SXSW. Join fellow fans of All-In, Modern Wisdom, and My First Million for high-energy conversations and connections.",
+    "description": "Join the Austin game-changers, big thinkers, and podcast super fans for a high-energy meetup filled with next-level conversations and unexpected connections.",
     "time": "5:00 PM",
     "startDate": "2025-03-12T17:00:00.000-05:00",
     "endDate": "2025-03-12T19:00:00.000-05:00",
@@ -3417,82 +3426,80 @@
       "Social Impact"
     ],
     "url": "https://lu.ma/il9wfgs0",
-    "price": "Free to attend, registration required",
+    "price": "Free",
     "sponsors": [],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 147,
     "name": "Elevate & Unwind Happy Hour",
     "thumbnailUrl": "6d19de4d-7dc9-43c7-a4aa-c61c4adff5a4.png",
-    "description": "Join Panoplai & GoFasti for a happy hour event at Fogo De Chao - Austin during SXSW. Enjoy an open bar, complimentary hors d’oeuvres, and connect with industry professionals in the AI and tech space.",
+    "description": "Join Panoplai & GoFasti for a happy hour event at Fogo De Chao - Austin during SXSW. Enjoy open bar, complimentary hors d’oeuvres, and networking with industry professionals in the AI and tech space.",
     "time": "5:00 PM",
     "startDate": "2025-03-12T17:00:00.000-05:00",
     "endDate": "2025-03-12T19:30:00.000-05:00",
     "location": "Fogo De Chao - Austin",
     "tags": [
       "Drinks",
-      "Networking",
-      "AI",
-      "Technology"
+      "Networking"
     ],
     "url": "https://lu.ma/2ycemwhh",
-    "price": "Registration Approval Required",
+    "price": "Free",
     "sponsors": [
       "Panoplai",
-      "GoFasti"
+      "Forward Studio"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 148,
     "name": "Casting Call: Founder’s Feud at The International House 2025",
     "thumbnailUrl": "cf4813bc-63c7-489b-8d16-2fbe3af60e1a.png",
-    "description": "Founder’s Feud is a high-energy, startup-themed game show where startup founders compete with their knowledge of entrepreneurship, fundraising, and startup culture. It is open exclusively to founders ready to bring their A-game to the stage.",
+    "description": "Founder’s Feud is a high-energy, startup-themed game show where startup founders compete live on stage showcasing their knowledge of entrepreneurship, fundraising, and startup culture. It is an exclusive event open only to startup founders who are ready to bring their A-game.",
     "time": "5:00 PM",
     "startDate": "2025-03-12T17:00:00.000-05:00",
     "endDate": "2025-03-12T18:00:00.000-05:00",
     "location": "Austin Central Library, Austin Public Library",
     "tags": [
+      "Business",
       "Startup",
       "Networking",
-      "Game"
+      "Panel"
     ],
     "url": "https://lu.ma/mtu9rwds",
-    "price": "Registration required, token ownership verification through wallet needed",
+    "price": "Free",
     "sponsors": [
       "International Accelerator"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 149,
     "name": "『MELT』150+ Founders x Investors Dynamic Network for SXSW",
     "thumbnailUrl": "245a5c74-bd5f-401e-a0ac-52be9b23690c.png",
-    "description": "MELT Presents, a highly-selective founders and investors network event at SXSW, bringing together around 150 top-tier founders with engaged VCs and angel investors for a dynamic 2-hour networking session. The event is sponsored by cyber•Fund and focuses on startups in distributed AI and the cybereconomy.",
+    "description": "Highly-selective founders and investors network at SXSW with around 150 top-tier founders, VCs, and angel investors. Exclusive 2-hour networking session sponsored by cyber•Fund.",
     "time": "6:00 PM · 4:00 PM PDT",
     "startDate": "2025-03-12T16:00:00.000-07:00",
     "endDate": "2025-03-12T18:00:00.000-07:00",
     "location": "Austin, Texas",
     "tags": [
       "Networking",
-      "Technology",
-      "AI",
       "Business",
-      "Startup"
+      "Startup",
+      "Investment"
     ],
     "url": "https://lu.ma/7k9f332g",
-    "price": "Ticket prices vary depending on the type of pass chosen: Founder Pass, Investor Pass, or Enterprise Pass. Approval is required for all pass types.",
+    "price": "Free",
     "sponsors": [
       "cyber•Fund"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 150,
     "name": "BEYOND THE BLOCK ATX",
     "thumbnailUrl": "6d67b32c-4970-42ab-b794-503826836efb.jpg",
-    "description": "Third Planet Studio presents Beyond The Block Tour ATX as part of SXSW 2025 featuring live performances from top-tier Web3 artists, rising stars, and local talent, along with networking opportunities and meet and greets.",
+    "description": "Third Planet Studio Presents: Beyond The Block Tour ATX during SXSW 2025 featuring live performances from Web3 artists, rising stars, and local talent. The event offers networking opportunities and a cutting-edge experience for music and Web3 enthusiasts.",
     "time": "6:00 PM",
     "startDate": "2025-03-12T18:00:00.000-05:00",
     "endDate": "2025-03-13T02:00:00.000-05:00",
@@ -3501,41 +3508,42 @@
       "Music",
       "Web3",
       "Networking",
-      "Art"
+      "Keynote"
     ],
     "url": "https://lu.ma/k6r6btae",
-    "price": "Standard: $13, 3PS NFT PASS HOLDERS: Free",
+    "price": "$20",
     "sponsors": [
-      "HYPERFY.io"
+      "Third Planet Studio"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 151,
     "name": "SXSW AI HOUSE PARTY with Glean & Codeium",
     "thumbnailUrl": "a1de6466-8675-4dbb-a4d9-9959183526ac.jpg",
-    "description": "Join Glean & Codeium for an official SXSW party at Electric Shuffle in Downtown Austin! Enjoy an evening of cocktails, conversation, and cutting-edge AI insights. This event is open to everyone with a SXSW badge!",
+    "description": "Join Glean & Codeium for an official SXSW party at Electric Shuffle in Downtown Austin! Enjoy an evening of cocktails, conversation, and cutting-edge AI insights. Registering does NOT guarantee entry; it will be first come, first serve while capacity allows. You must have your SXSW badge to attend.",
     "time": "7:00 PM",
     "startDate": "2025-03-12T19:00:00.000-05:00",
     "endDate": "2025-03-12T21:00:00.000-05:00",
     "location": "Electric Shuffle Austin",
     "tags": [
       "AI",
-      "Party"
+      "Party",
+      "Networking"
     ],
     "url": "https://lu.ma/jslqyz57",
-    "price": "Registration required, first come first serve basis",
+    "price": "Free",
     "sponsors": [
       "Glean",
       "Codeium"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 152,
     "name": "Duetti Party in Austin",
     "thumbnailUrl": "229fa0ee-dd07-4742-9cec-accf8f90c70c.png",
-    "description": "Join us for our Duetti party at Devil May Care in Austin with free drinks and DJ sets — ​your RSVP includes a plus one.",
+    "description": "Duetti Party at Devil May Care in Austin with free drinks and DJ sets",
     "time": "8:00 PM",
     "startDate": "2025-03-12T20:00:00.000-05:00",
     "endDate": "2025-03-12T23:30:00.000-05:00",
@@ -3546,39 +3554,40 @@
       "Music"
     ],
     "url": "https://lu.ma/cxa4dgea",
-    "price": "Free entry on a first-come, first-served basis",
+    "price": "Free",
     "sponsors": [
       "Duetti"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 153,
     "name": "The International House After Dark",
     "thumbnailUrl": "25b0bbdd-2874-41b1-bb6b-af20caba373c.png",
-    "description": "The International House After Dark is a vibrant nightclub and dance party happening from 8:00 - 10:00 PM. Enjoy live DJ music, finger food, crafted cocktails, and networking with global innovators.",
+    "description": "The International House After Dark is a vibrant nightclub and dance party hosted by International Accelerator. Attendees can expect a live DJ, finger food & crafted cocktails, and exclusive networking with global innovators. It is an after-party aimed at unwinding, celebrating, and connecting in an electrifying atmosphere.",
     "time": "8:00 PM",
     "startDate": "2025-03-12T20:00:00.000-05:00",
     "endDate": "2025-03-12T22:00:00.000-05:00",
     "location": "Austin Central Library, Austin Public Library",
     "tags": [
       "Networking",
+      "Party",
       "Music",
       "Food",
-      "Party"
+      "Drinks"
     ],
     "url": "https://lu.ma/8zcl2v4m",
-    "price": "Free event with registration required",
+    "price": "Free",
     "sponsors": [
       "International Accelerator"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 154,
     "name": "8th Annual SXSW LATINAPALOOZA   featuring Patricia Vonne  No Badges Required          21+ FREE DAY SHOW!!!",
     "thumbnailUrl": "83c58b61-5e60-4d29-ae53-0a945ae3f7e1.png",
-    "description": "8th Annual SXSW LATINAPALOOZA featuring Patricia Vonne, an all-female showcase curated by Patricia Vonne showcasing Latina musical artists.",
+    "description": "The 8th Annual SXSW LATINAPALOOZA featuring Patricia Vonne is a showcase of Latina musical artists curated by Patricia Vonne. The event is open to all and features performances by various Latina performers representing diverse genres.",
     "time": "12:00 PM",
     "startDate": "2025-03-13T12:00:00.000-05:00",
     "endDate": "2025-03-13T18:00:00.000-05:00",
@@ -3586,18 +3595,21 @@
     "tags": [
       "Music",
       "Art",
-      "Festival"
+      "Social Impact",
+      "Networking"
     ],
     "url": "https://lu.ma/t9rbx7pc",
     "price": "Free",
-    "sponsors": [],
-    "status": "Live"
+    "sponsors": [
+      "SXSW"
+    ],
+    "status": "Available"
   },
   {
     "id": 155,
     "name": "Amplitude x Braze Austin Meetup - SXSW",
     "thumbnailUrl": "247532fb-2a79-4de4-91b1-752855f5b1b8",
-    "description": "Amplitude x Braze Austin Meetup at RichesArt Gallery in Austin, Texas. A casual meetup with no presentations or agenda, featuring great conversations, legendary barbecue, non-alcoholic drinks, and a live DJ.",
+    "description": "Amplitude x Braze Austin Meetup at RichesArt Gallery featuring legendary barbecue from La Barbecue, non-alcoholic drinks, and a live DJ. Connect with the community, share insights, and take a break from SXSW hustle.",
     "time": "12:00 PM",
     "startDate": "2025-03-13T12:00:00.000-05:00",
     "endDate": "2025-03-13T14:00:00.000-05:00",
@@ -3606,10 +3618,10 @@
       "Food",
       "Drinks",
       "Networking",
-      "Startup"
+      "Party"
     ],
     "url": "https://lu.ma/szh598np",
-    "price": "Event Full, Join Waitlist",
+    "price": "Free",
     "sponsors": [
       "Amplitude Community",
       "RichesArt Events"
@@ -3620,49 +3632,48 @@
     "id": 156,
     "name": "SXSW Austin Crypto Social",
     "thumbnailUrl": "7abd5e90-3281-41d2-a23a-0e17ddb00c0e.png",
-    "description": "Join us for the SXSW Austin Crypto Social Meetup: Unite & Network! This is the perfect afternoon for crypto enthusiasts to connect from 4 PM to 7 PM. Grab a drink and hang out with fellow geeks in one of Austin's great outdoor bars. Expect a laid-back atmosphere where you can meet new people, share ideas, and have some solid conversations.",
+    "description": "Join us for the SXSW Austin Crypto Social Meetup: Unite & Network! This is the perfect afternoon for crypto enthusiasts to connect from 4 PM to 7 PM. Grab a drink and hang out with fellow geeks in one of Austin's great outdoor bars. Expect a laid-back atmosphere where you can meet new people, share ideas, and have some solid conversations. Location to be announced—stay tuned!",
     "time": "4:00 PM",
     "startDate": "2025-03-13T16:00:00.000-05:00",
     "endDate": "2025-03-13T19:00:00.000-05:00",
     "location": "To Be Announced",
     "tags": [
       "Networking",
-      "Drinks",
-      "Technology",
-      "Web3"
+      "Social Impact"
     ],
     "url": "https://lu.ma/4jw21677",
     "price": "Free",
     "sponsors": [
       "ATX DAO"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 157,
     "name": "Austin DeoVR Networking Meet-Up",
     "thumbnailUrl": "f593f919-474c-4752-8e0c-0b4076170d37",
-    "description": "Join us for the VR Creators Networking Event to connect with fellow VR enthusiasts, developers, and creators. Whether you're experienced or just starting out, this event provides an opportunity to share ideas, collaborate, and make valuable connections in the world of VR creation and innovation.",
+    "description": "VR Creators Networking Event hosted by Nathalie & Karolina Báez featuring presentations on DeoVR and connecting VR enthusiasts, developers, and creators in person.",
     "time": "5:00 PM",
     "startDate": "2025-03-13T17:00:00.000-05:00",
     "endDate": "2025-03-13T20:00:00.000-05:00",
     "location": "Austin",
     "tags": [
       "Technology",
-      "Networking"
+      "Networking",
+      "Panel"
     ],
     "url": "https://lu.ma/pezruicj",
-    "price": "Free registration. Verification of token ownership required with your wallet.",
+    "price": "Free",
     "sponsors": [
       "DeoVR"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 158,
     "name": "Austin Eclipse Festival- Portal To A New World",
     "thumbnailUrl": "500f8353-7a7f-47d4-b63a-bfdb9353ae52.png",
-    "description": "The Austin Eclipse Festival- Portal To a New World is a part of the week-long conference, RegenWorld’25 during SXSW. It is a celebration gathering luminaries, change-makers, builders, and innovators across sectors of humanity dedicated to co-creating our regenerative future. Featuring nightly music and networking highlighting some of Austin’s finest musicians and special guests from around the world. The event includes dinner by Kaya Cafe, networking, opening circle, cacao ceremony, music sets, immersive sound experience, and live viewing of the Blood Moon Total Lunar Eclipse.",
+    "description": "Austin Eclipse Festival- Portal To a New World is a part of the week-long conference, RegenWorld’25, during SXSW. The event includes music, networking, ceremony, dancing, and a live viewing of a Blood Moon Total Lunar Eclipse accompanied by an immersive soundscape experience.",
     "time": "6:00 PM",
     "startDate": "2025-03-13T18:00:00.000-05:00",
     "endDate": "2025-03-14T02:00:00.000-05:00",
@@ -3670,43 +3681,40 @@
     "tags": [
       "Music",
       "Networking",
+      "Ceremony",
+      "Dancing",
       "Art",
       "Conference",
-      "Workshop",
-      "Health"
+      "Workshop"
     ],
     "url": "https://lu.ma/arj4ufx9",
-    "price": "Early Bird Tickets: $33, Regular Price: $44, Day of event: $55",
-    "sponsors": [
-      "RegenWorld’25",
-      "Cloud People",
-      "Kaya Cafe",
-      "Luma"
-    ],
-    "status": "Live"
+    "price": "$33",
+    "sponsors": [],
+    "status": "Available"
   },
   {
     "id": 159,
     "name": "Your Startup Sucks (SWSW) Pitch Comedy Show",
     "thumbnailUrl": "dc1ae3be-6dee-415b-a546-705283b696ec.png",
-    "description": "Your Startup Sucks (SWSW) Pitch Comedy Show is Austin’s premier live pitch startup comedy show where brave founders pitch their startups to a panel of seasoned VCs and former founders for feedback.",
+    "description": "Austin’s premier live pitch startup comedy show is back with Tequila 512! Watch brave and passionate founders pitch their (your) startups to a panel of seasoned VCs, and former founders for recognition and brutally honest (and hilarious) feedback. Enjoy open bar, mix and mingle before the show starts at 7:30 sharp.",
     "time": "6:30 PM",
     "startDate": "2025-03-13T18:30:00.000-05:00",
     "endDate": "2025-03-13T21:00:00.000-05:00",
     "location": "2201 Lake Austin Blvd",
     "tags": [
-      "Technology",
       "Startup",
       "Comedy",
+      "Pitch",
       "Networking",
+      "Open Bar",
       "Drinks"
     ],
     "url": "https://lu.ma/csaktahl",
-    "price": "$10.00",
+    "price": "$10",
     "sponsors": [
       "Tequila 512"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 160,
@@ -3721,21 +3729,22 @@
       "Technology",
       "AI",
       "Blockchain",
+      "Deep Tech",
       "VR/AR",
-      "Startup"
+      "Smart Cities"
     ],
     "url": "https://lu.ma/u9lefctx",
-    "price": "Earlybird - Expires Feb 27 (Require Approval 1), Regular Fee - Starting Feb 27 (Require Approval 0)",
+    "price": "$111",
     "sponsors": [
       "Earth05"
     ],
-    "status": "Event status (Live, Waitlist, Sold Out, etc.)"
+    "status": "Approval Required"
   },
   {
     "id": 161,
     "name": "Future of Fashion at SXSW: Where Fashion, Tech, and Community Intersect",
     "thumbnailUrl": "c3afc178-b407-48e7-b2e7-7a7ad4f5f241.png",
-    "description": "Join us for an immersive experience blending fashion, technology, and community at SXSW 2025, hosted by REFIND. Explore the forefront of fashion through digital innovation and creative collaboration.",
+    "description": "Join us for an immersive experience blending fashion, technology, and community at the Future of Fashion event hosted by REFIND at SXSW 2025. Explore the forefront of fashion through digital innovation and creative collaboration. Engage in insightful panels, interactive activations, demos, and networking opportunities. Experience a high-energy fashion show featuring visionary collections and a live musical performance.",
     "time": "12:00 PM",
     "startDate": "2025-03-14T12:00:00.000-05:00",
     "endDate": "2025-03-14T23:00:00.000-05:00",
@@ -3745,14 +3754,15 @@
       "Technology",
       "Community",
       "Networking",
-      "Art"
+      "Panel",
+      "Exhibition",
+      "Interactive",
+      "Music"
     ],
     "url": "https://lu.ma/e0kcffcy",
-    "price": "Ticket prices vary based on type. Limited availability, reserve your spot now.",
+    "price": "$35",
     "sponsors": [
-      "REFIND",
-      "BeReworn",
-      "Mix'd Fashion"
+      "REFIND"
     ],
     "status": "Available"
   },
@@ -3760,7 +3770,7 @@
     "id": 162,
     "name": "[SXSW] - Degens - Cinema Projection 🍿",
     "thumbnailUrl": "d5ecd19e-1e19-49d8-bea5-dc7d68a1953d.png",
-    "description": "Join us for a private screening of the first scenes of 'Degens' : a feature film on the crypto ecosystem. Cringe humor mixed with storytelling and inside jokes from the crypto industry. Exclusive screening at The Violet Crown Cinema in Austin during SXSW. Q&A session with writer and director, Eliott Mogenet.",
+    "description": "Join us for a private screening of the first scenes of 'Degens' : a feature film on the crypto ecosystem. Think HBO's 'Silicon Valley'—cringe humor mixed with storytelling and inside jokes from the crypto industry. Be the first to watch the first scenes of the show and discover bonuses and behind the scenes. The screening is followed by a Q&A session with Eliott Mogenet, writer and director. Registration is subject to approval by the host.",
     "time": "4:30 PM",
     "startDate": "2025-03-14T16:30:00.000-05:00",
     "endDate": "2025-03-14T18:00:00.000-05:00",
@@ -3770,41 +3780,40 @@
       "Crypto"
     ],
     "url": "https://lu.ma/2tqsxf1n",
-    "price": "Approval Required. Verify token ownership with your wallet.",
+    "price": "Free",
     "sponsors": [
-      "Degens The Film - World Tour 🌎"
+      "Degens The Film - World Tour"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 163,
     "name": "🥣⚡🧇  Official Unofficial SatoshiO's xSW Breakfast Party",
     "thumbnailUrl": "91381ec8-8767-4d93-acba-50ce41521ce8.png",
-    "description": "Official Unofficial SatoshiO's x Sweet Waffles Healthy Breakfast Party including healthy cereal, waffles, chicken and waffles, and discussions on Bitcoin and wellness.",
+    "description": "Official Unofficial SatoshiO's xSW Breakfast Party featuring healthy cereal, waffles, chicken and waffles, discussions on using Bitcoin in business, art, and wellness activities. Early Bird Discount available for tickets paid with Lightning or Bitcoin. Event is for individuals interested in health, Bitcoin, and business applications of cryptocurrency.",
     "time": "9:30 AM",
     "startDate": "2025-03-15T09:30:00.000-05:00",
     "endDate": "2025-03-15T11:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
       "Food",
-      "Technology",
+      "Art",
       "Business",
-      "Health",
-      "Networking",
-      "Party"
+      "Technology",
+      "Networking"
     ],
     "url": "https://lu.ma/486bur0j",
-    "price": "Early Bird Discount code: 50% off. Tickets paid on Lightning and Bitcoin receive a discount.",
+    "price": "$55",
     "sponsors": [
       "SatoshiO's Cereal"
     ],
-    "status": "Live"
+    "status": "Available"
   },
   {
     "id": 164,
     "name": "#ReverseSugarDaddy",
     "thumbnailUrl": "90a49d93-83b1-4c38-8c0b-c476a460b53d.jpg",
-    "description": "Join Larry Chiang for the #ReverseSugarDaddy party at Fairmont Spa Austin during SXSW. Explore the concept of reverse sugar daddy, gender reversal VC exercises, and empowering female entrepreneurs.",
+    "description": "Join Larry Chiang for the #ReverseSugarDaddy event at Fairmont Spa Austin during SXSW where they explore the concept of Gender reversal, VC exercises, paying seasoned executives as reverse sugar daddies, and empowering female entrepreneurs. Attendees will laugh, network, and learn about unique business models and party activations.",
     "time": "4:30 PM",
     "startDate": "2025-03-15T16:30:00.000-05:00",
     "endDate": "2025-03-15T17:15:00.000-05:00",
@@ -3812,35 +3821,38 @@
     "tags": [
       "Business",
       "Networking",
+      "Keynote",
       "Party"
     ],
     "url": "https://lu.ma/azg5nc4b",
-    "price": "Approval Required",
+    "price": "Free",
     "sponsors": [
-      "Larry Chiang"
+      "Reverse VC",
+      "Luma"
     ],
-    "status": "Registration Approval Required"
+    "status": "Approval Required"
   },
   {
     "id": 165,
     "name": "Startup Pitch & Networking in Austin",
     "thumbnailUrl": "447ec60d-0f6e-4853-bbbd-3aefc7d1e305.png",
-    "description": "Startup Pitch & Networking event in Austin featuring startup presentations, networking opportunities, and expert evaluations for tech and business startups.",
+    "description": "Startup Valley event focusing on driving innovation through startup events and networking in Austin, Texas. Participants can choose from different ticket types based on their preferences and engage with leading experts, founders, and investors in the Tech & Business industry. The event includes startup pitches, expert evaluations, networking opportunities, and access to a database of promising startups.",
     "time": "6:00 PM",
     "startDate": "2025-03-27T18:00:00.000-05:00",
     "endDate": "2025-03-27T21:00:00.000-05:00",
     "location": "Austin, Texas",
     "tags": [
       "Startup",
-      "Networking",
       "Technology",
       "Business",
-      "AI",
-      "Pitch",
-      "Venture Capital"
+      "Networking",
+      "Keynote",
+      "Panel",
+      "Art",
+      "AI"
     ],
     "url": "https://lu.ma/jjf2h60z",
-    "price": "Ticket pricing varies based on the type of ticket selected. Investor tickets are conditionally free.",
+    "price": "$10",
     "sponsors": [
       "Startup Valley"
     ],
