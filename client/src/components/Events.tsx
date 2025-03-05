@@ -68,8 +68,6 @@ const Events = ({ events }: EventsProps) => {
   
   filteredEvents.forEach(event => {
     try {
-      // Create date in event's timezone
-      const date = new Date(event.startDate);
       // Get YYYY-MM-DD in event's local timezone
       const dateKey = event.startDate.split('T')[0];
       

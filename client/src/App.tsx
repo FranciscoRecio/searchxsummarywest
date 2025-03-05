@@ -8,7 +8,7 @@ import eventData from './event_details.json';
 
 function App() {
   const [isAIModalOpen, setIsAIModalOpen] = useState(false);
-  const [events] = useState<Event[]>(eventData);
+  const [events] = useState<Event[]>(eventData as Event[]);
   const [recommendedEvents, setRecommendedEvents] = useState<Event[]>([]);
 
   // Load AI recommendations from localStorage on initial render
