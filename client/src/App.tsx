@@ -30,24 +30,8 @@ function App() {
         setRecommendedEvents(filteredEvents);
       } catch (error) {
         console.error('Error loading recommendations from localStorage:', error);
-        // Fallback to first 3 upcoming events if there's an error
-        const currentDate = new Date();
-        const currentDateStr = currentDate.toISOString().split('T')[0];
-        const upcomingEvents = events
-          .filter(event => event.startDate.split('T')[0] >= currentDateStr)
-          .slice(0, 3);
-        
-        setRecommendedEvents(upcomingEvents);
+        setRecommendedEvents([]); // Empty array instead of default events
       }
-    } else {
-      // Default to first 3 upcoming events if no recommendations exist
-      const currentDate = new Date();
-      const currentDateStr = currentDate.toISOString().split('T')[0];
-      const upcomingEvents = events
-        .filter(event => event.startDate.split('T')[0] >= currentDateStr)
-        .slice(0, 3);
-      
-      setRecommendedEvents(upcomingEvents);
     }
   }, [events]);
 
@@ -90,104 +74,140 @@ function App() {
       <main className="container mx-auto p-4 max-w-5xl">
         {/* Recommended Events Section */}
         <section className="mb-8">
-          <div className="flex justify-between items-center mb-4">
-            <h2 className="text-2xl font-bold">Recommended for You</h2>
-            <button 
-              className="btn btn-sm btn-outline btn-secondary gap-2"
-              onClick={() => setIsAIModalOpen(true)}
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-              </svg>
-              Find Events I Will Like
-            </button>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {recommendedEvents.map((event) => (
-              <div
-                key={event.id}
-                className="card bg-base-100 shadow-sm border border-base-200"
-              >
-                <figure className="aspect-square">
-                  <div 
-                    className="w-full h-full bg-gray-50 bg-center bg-cover bg-no-repeat"
-                    style={{ 
-                      backgroundImage: `url(/images/${event.thumbnailUrl})`,
-                      backgroundColor: '#f9fafb'
-                    }}
-                  />
-                </figure>
-                <div className="card-body">
-                  <h3 className="card-title">{event.name}</h3>
-                  <div className="relative">
-                    <p className="text-sm line-clamp-4">{event.description}</p>
-                  </div>
-                  <div className="flex items-center gap-2 text-sm text-gray-500">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 opacity-70"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                    </svg>
-                    <span>{event.location}</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-sm text-gray-500">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 opacity-70"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
-                    </svg>
-                    <span>
-                      {new Date(event.startDate).toLocaleDateString("en-US", {
-                        month: "short",
-                        day: "numeric",
-                      })}{" "}
-                      • {event.time}
-                    </span>
-                  </div>
-                  <div className="flex justify-between items-center mt-2">
-                    <div className="flex items-center gap-1">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
-                      </svg>
-                      <span className="font-medium">{event.price === 'Free' ? 'Free' : event.price}</span>
+          {!events.length ? (
+            <div className="text-center py-16 animate-pulse">
+              <div className="h-8 bg-gray-200 rounded w-64 mx-auto mb-8"></div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {[1, 2, 3].map((n) => (
+                  <div key={n} className="card bg-base-100 shadow-sm border border-base-200">
+                    <div className="aspect-square bg-gray-100"></div>
+                    <div className="card-body">
+                      <div className="h-6 bg-gray-200 rounded w-3/4 mb-4"></div>
+                      <div className="space-y-2">
+                        <div className="h-4 bg-gray-100 rounded"></div>
+                        <div className="h-4 bg-gray-100 rounded w-5/6"></div>
+                      </div>
                     </div>
-                    <a
-                      href={event.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn-link text-secondary flex items-center gap-1 no-underline hover:underline p-0"
-                    >
-                      Details
-                    </a>
                   </div>
-                </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </div>
+          ) : recommendedEvents.length > 0 ? (
+            <>
+              <div className="flex justify-between items-center mb-4">
+                <h2 className="text-2xl font-bold">Recommended for You</h2>
+                <button 
+                  className="btn btn-sm btn-outline btn-secondary gap-2"
+                  onClick={() => setIsAIModalOpen(true)}
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                  </svg>
+                  Find Events I Will Like
+                </button>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {recommendedEvents.map((event) => (
+                  <div
+                    key={event.id}
+                    className="card bg-base-100 shadow-sm border border-base-200"
+                  >
+                    <figure className="aspect-square">
+                      <div 
+                        className="w-full h-full bg-gray-50 bg-center bg-cover bg-no-repeat"
+                        style={{ 
+                          backgroundImage: `url(/images/${event.thumbnailUrl})`,
+                          backgroundColor: '#f9fafb'
+                        }}
+                      />
+                    </figure>
+                    <div className="card-body">
+                      <h3 className="card-title">{event.name}</h3>
+                      <div className="relative">
+                        <p className="text-sm line-clamp-4">{event.description}</p>
+                      </div>
+                      <div className="flex items-center gap-2 text-sm text-gray-500">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-4 w-4 opacity-70"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                          />
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                          />
+                        </svg>
+                        <span>{event.location}</span>
+                      </div>
+                      <div className="flex items-center gap-2 text-sm text-gray-500">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-4 w-4 opacity-70"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                          />
+                        </svg>
+                        <span>
+                          {new Date(event.startDate).toLocaleDateString("en-US", {
+                            month: "short",
+                            day: "numeric",
+                          })}{" "}
+                          • {event.time}
+                        </span>
+                      </div>
+                      <div className="flex justify-between items-center mt-2">
+                        <div className="flex items-center gap-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
+                          </svg>
+                          <span className="font-medium">{event.price === 'Free' ? 'Free' : event.price}</span>
+                        </div>
+                        <a
+                          href={event.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-link text-secondary flex items-center gap-1 no-underline hover:underline p-0"
+                        >
+                          Details
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </>
+          ) : (
+            <div className="text-center py-16">
+              <div className="text-3xl font-bold mb-2">Let's Find Your Perfect SXSW Events!</div>
+              <div className="text-gray-500 mb-8">Get personalized recommendations based on your interests</div>
+              <button 
+                className="btn btn-secondary gap-2"
+                onClick={() => setIsAIModalOpen(true)}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                </svg>
+                Find Events I Will Like
+              </button>
+            </div>
+          )}
         </section>
 
         {/* Events Section with Search and Filters */}

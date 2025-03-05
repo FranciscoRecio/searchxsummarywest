@@ -101,11 +101,13 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
       const currentDate = new Date();
       const currentDateStr = currentDate.toISOString().split('T')[0]; // YYYY-MM-DD
 
-      // Create a simplified version of the event data (only upcoming events)
+      // Create a simplified version of the event data (only upcoming and available events)
       const simplifiedEventData = eventData
         .filter(event => {
           const eventDateStr = event.startDate.split('T')[0];
-          return eventDateStr >= currentDateStr;
+          const isUpcoming = eventDateStr >= currentDateStr;
+          const isAvailable = !['Sold Out', 'Registration Closed'].includes(event.status);
+          return isUpcoming && isAvailable;
         })
         .map(event => {
           const { 
