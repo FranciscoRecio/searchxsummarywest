@@ -385,7 +385,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
           <>
             <h2 className="text-2xl font-bold mb-4">Personalized Event Recommendations</h2>
             <p className="mb-6 text-sm text-gray-500">
-              Answer a few questions and we'll suggest events we think you would like based on your preferences.
+              Answer a few questions and we'll suggest events we think you would like based on your preferences (est. 1 minute)
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -417,7 +417,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
                   </svg>
                 </div>
                 <h3 className="font-bold mb-2">Personality Test</h3>
-                <p className="text-xs text-gray-400">A deeper analysis of your preferences based on your personality type.</p>
+                <p className="text-xs text-gray-400">A 5 question quiz to help understand your preferences.</p>
               </div>
             </div>
           </>
