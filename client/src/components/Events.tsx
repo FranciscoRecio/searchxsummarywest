@@ -5,12 +5,38 @@ interface EventsProps {
   events: Event[];
 }
 
+// Static list of all available tags
+const ALL_TAGS = [
+  'Food',
+  'Drinks',
+  'Technology',
+  'AI',
+  'Music',
+  'Film',
+  'Art',
+  'Business',
+  'Startup',
+  'Education',
+  'Gaming',
+  'Social Impact',
+  'Health',
+  'Networking',
+  'Keynote',
+  'Panel',
+  'Party',
+  'Exhibition',
+  'Conference',
+  'Workshop',
+  'Web3'
+] as const;
+
 const Events = ({ events }: EventsProps) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [inputValue, setInputValue] = useState('');
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [showFreeOnly, setShowFreeOnly] = useState(false);
   const [showPastEvents, setShowPastEvents] = useState(false);
+  const [selectedStatuses, setSelectedStatuses] = useState<string[]>([]);
   const searchDebounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   
   // Handle debounced search input
@@ -31,7 +57,7 @@ const Events = ({ events }: EventsProps) => {
   }, [inputValue]);
   
   // Get all unique tags from events
-  const allTags = Array.from(new Set(events.flatMap(event => event.tags)));
+  const allTags = ALL_TAGS;
   
   // Get current date for filtering past/upcoming events
   const currentDate = new Date();
@@ -56,7 +82,11 @@ const Events = ({ events }: EventsProps) => {
       const isPastEvent = eventDateStr < currentDateStr;
       const matchesTimeFilter = showPastEvents ? isPastEvent : !isPastEvent;
       
-      return matchesSearch && matchesTags && matchesFree && matchesTimeFilter;
+      const matchesStatus = 
+        selectedStatuses.length === 0 || 
+        selectedStatuses.includes(event.status);
+      
+      return matchesSearch && matchesTags && matchesFree && matchesTimeFilter && matchesStatus;
     } catch (error) {
       console.warn(`Error filtering event: ${event.name}`, error);
       return false;
@@ -140,7 +170,7 @@ const Events = ({ events }: EventsProps) => {
         <div className="flex flex-wrap gap-2">
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-outline flex items-center gap-2">
-              Tags
+              Filters
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
@@ -157,6 +187,31 @@ const Events = ({ events }: EventsProps) => {
                   <span className="label-text ml-2">Free Events Only</span>
                 </label>
               </li>
+              
+              <li className="divider"></li>
+              <li className="menu-title">
+                <span>Status</span>
+              </li>
+              {['Available', 'Waitlist', 'Approval Required', 'Sold Out', 'Registration Closed', 'Invite Only', 'Limited Spots'].map(status => (
+                <li key={status}>
+                  <label className="label cursor-pointer justify-start">
+                    <input 
+                      type="checkbox"
+                      className="checkbox checkbox-info" 
+                      checked={selectedStatuses.includes(status)}
+                      onChange={() => {
+                        if (selectedStatuses.includes(status)) {
+                          setSelectedStatuses(selectedStatuses.filter(s => s !== status));
+                        } else {
+                          setSelectedStatuses([...selectedStatuses, status]);
+                        }
+                      }}
+                    />
+                    <span className="label-text ml-2">{status}</span>
+                  </label>
+                </li>
+              ))}
+              <li className="divider"></li>
               
               <li className="menu-title">
                 <span>Filter by Tags</span>
@@ -217,9 +272,9 @@ const Events = ({ events }: EventsProps) => {
                       </figure>
                       <div className="card-body">
                         <div className="flex justify-between items-start">
-                          <h3 className="card-title">{event.name}</h3>
+                          <h3 className="card-title pr-4">{event.name}</h3>
                           {event.status && (
-                            <span className="badge badge-secondary">{event.status}</span>
+                            <span className="badge badge-secondary whitespace-nowrap">{event.status}</span>
                           )}
                         </div>
                         <div className="relative">
