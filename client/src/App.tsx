@@ -195,8 +195,8 @@ function App() {
             </>
           ) : (
             <div className="text-center py-16">
-              <div className="text-3xl font-bold mb-2">Let's Find Your Perfect SXSW Events!</div>
-              <div className="text-gray-500 mb-8">Get personalized recommendations based on your interests</div>
+              <div className="text-[3.5rem] font-bold mb-2">Find Your Perfect SXSW Events!</div>
+              <div className="text-gray-500 mb-8">Personalized recommendations based on your interests</div>
               <button 
                 className="btn btn-secondary gap-2 rounded-xl"
                 onClick={() => setIsAIModalOpen(true)}
@@ -204,7 +204,7 @@ function App() {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                 </svg>
-                Find Events I Will Like
+                Find Events for Me!
               </button>
             </div>
           )}
