@@ -68,8 +68,6 @@ const Events = ({ events }: EventsProps) => {
   
   filteredEvents.forEach(event => {
     try {
-      // Create date in event's timezone
-      const date = new Date(event.startDate);
       // Get YYYY-MM-DD in event's local timezone
       const dateKey = event.startDate.split('T')[0];
       
@@ -208,11 +206,13 @@ const Events = ({ events }: EventsProps) => {
                 <div className="space-y-4">
                   {groupedEvents[dateKey].map(event => (
                     <div key={event.id} className="card card-side bg-base-100 shadow-sm border border-base-200">
-                      <figure className="w-48 h-48 flex-shrink-0">
-                        <img 
-                          src={`/images/${event.thumbnailUrl}`} 
-                          alt={event.name} 
-                          className="w-full h-full object-contain bg-gray-50"
+                      <figure className="aspect-square w-64 flex-shrink-0">
+                        <div 
+                          className="w-full h-full bg-gray-50 bg-center bg-cover bg-no-repeat"
+                          style={{ 
+                            backgroundImage: `url(/images/${event.thumbnailUrl})`,
+                            backgroundColor: '#f9fafb'
+                          }}
                         />
                       </figure>
                       <div className="card-body">
@@ -222,7 +222,9 @@ const Events = ({ events }: EventsProps) => {
                             <span className="badge badge-secondary">{event.status}</span>
                           )}
                         </div>
-                        <p>{event.description}</p>
+                        <div className="relative">
+                          <p className="text-sm line-clamp-4">{event.description}</p>
+                        </div>
                         {event.sponsors.length > 0 && (
                           <div className="text-sm text-gray-500">
                             Sponsored by: {event.sponsors.join(', ')}

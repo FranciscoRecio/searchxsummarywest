@@ -97,20 +97,29 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
         setStep('results');
       }
       
-      // Create a simplified version of the event data
-      const simplifiedEventData = eventData.map(event => {
-        const { 
-          id, 
-          description, 
-          tags 
-        } = event;
-        
-        return {
-          id,
-          description,
-          tags
-        };
-      });
+      // Get current date for filtering past events
+      const currentDate = new Date();
+      const currentDateStr = currentDate.toISOString().split('T')[0]; // YYYY-MM-DD
+
+      // Create a simplified version of the event data (only upcoming events)
+      const simplifiedEventData = eventData
+        .filter(event => {
+          const eventDateStr = event.startDate.split('T')[0];
+          return eventDateStr >= currentDateStr;
+        })
+        .map(event => {
+          const { 
+            id, 
+            description, 
+            tags 
+          } = event;
+          
+          return {
+            id,
+            description,
+            tags
+          };
+        });
       
       // Prepare the data to send to OpenAI based on which path the user took
       let prompt = '';
@@ -125,8 +134,8 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
           Here are the available events:
           ${JSON.stringify(simplifiedEventData, null, 2)}
           
-          Based on the user's interests and additional information, please select 10 events that would be most relevant to them.
-          Return ONLY a JSON array of event IDs, like this: [1, 5, 10, 15, 20, 25, 30, 35, 40, 45]
+          Based on the user's interests and additional information, please select 9 events that would be most relevant to them.
+          Return ONLY a JSON array of event IDs, like this: [1, 5, 10, 15, 20, 25, 30, 35, 40]
         `;
       } else if (step === 'personality' || step === 'results') {
         // Format personality quiz answers for the prompt
@@ -147,8 +156,8 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
           Here are the available events:
           ${JSON.stringify(simplifiedEventData, null, 2)}
           
-          Based on the user's personality profile, please select 10 events that would be most relevant to them.
-          Return ONLY a JSON array of event IDs, like this: [1, 5, 10, 15, 20, 25, 30, 35, 40, 45]
+          Based on the user's personality profile, please select 9 events that would be most relevant to them.
+          Return ONLY a JSON array of event IDs, like this: [1, 5, 10, 15, 20, 25, 30, 35, 40]
         `;
       }
       
