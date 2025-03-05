@@ -380,7 +380,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
 
   return (
     <dialog id="ai_modal" className="modal" onClose={handleDialogClose}>
-      <div className="modal-box bg-gradient-to-b from-amber-50/50 to-blue-50/70 border border-base-200">
+      <div className="modal-box bg-gradient-to-b from-amber-50/50 to-blue-50/70 border border-base-200 rounded-xl">
         {step === 'intro' && (
           <>
             <h2 className="text-2xl font-bold mb-4">Personalized Event Recommendations</h2>
@@ -390,10 +390,10 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               <div 
-                className="border border-gray-100 rounded-lg p-4 hover:border-secondary cursor-pointer transition-colors flex flex-col items-center text-center bg-white/80 shadow-sm"
+                className="border border-gray-100 rounded-xl p-4 hover:border-secondary cursor-pointer transition-colors flex flex-col items-center text-center bg-white/80 shadow-sm"
                 onClick={() => setStep('classic')}
               >
-                <div className="p-3 rounded-full mb-3">
+                <div className="p-3 rounded-xl mb-3">
                   {/* Clipboard Check icon for Classic Questions */}
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-secondary" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2" />
@@ -406,10 +406,10 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
               </div>
               
               <div 
-                className="border border-gray-100 rounded-lg p-4 hover:border-secondary cursor-pointer transition-colors flex flex-col items-center text-center bg-white/80 shadow-sm"
+                className="border border-gray-100 rounded-xl p-4 hover:border-secondary cursor-pointer transition-colors flex flex-col items-center text-center bg-white/80 shadow-sm"
                 onClick={() => setStep('personality')}
               >
-                <div className="p-3 rounded-full mb-3">
+                <div className="p-3 rounded-xl mb-3">
                   {/* Brain icon for Personality Test */}
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-secondary" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z" />
@@ -441,12 +441,12 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
               {interestOptions.map(option => (
                 <div 
                   key={option.name}
-                  className={`border rounded-lg p-3 cursor-pointer transition-colors text-center flex flex-col items-center justify-center h-24 relative ${
+                  className={`border rounded-xl p-3 cursor-pointer transition-colors text-center flex flex-col items-center justify-center h-24 relative ${
                     interests.includes(option.name) ? 'border-secondary' : 'border-gray-200 hover:border-secondary'
                   } bg-white/80`}
                   onClick={() => handleInterestToggle(option.name)}
                 >
-                  <div className={`absolute top-2 right-2 rounded-full w-5 h-5 flex items-center justify-center border ${
+                  <div className={`absolute top-2 right-2 rounded-xl w-5 h-5 flex items-center justify-center border ${
                     interests.includes(option.name) 
                       ? 'bg-secondary text-white border-secondary' 
                       : 'bg-white border-gray-300'
@@ -468,7 +468,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
                 Anything else you're looking for? (Optional)
               </label>
               <textarea 
-                className="w-full border border-gray-100 rounded-lg p-3 h-24 bg-white/90"
+                className="w-full border border-gray-100 rounded-xl p-3 h-24 bg-white/90"
                 placeholder="Tell us more about what you're interested in..."
                 value={additionalInfo}
                 onChange={(e) => setAdditionalInfo(e.target.value)}
@@ -478,7 +478,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
             
             <div className="modal-action">
               <button 
-                className={`btn btn-secondary ${isLoading ? 'loading' : ''}`}
+                className={`btn btn-secondary ${isLoading ? 'loading' : ''} rounded-xl`}
                 onClick={handleSubmit}
                 disabled={isLoading}
               >
@@ -503,14 +503,14 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
             </div>
             
             <div className="space-y-6 mb-6">
-              <div className="bg-white/80 rounded-lg p-4 shadow-sm">
+              <div className="bg-white/80 rounded-xl p-4 shadow-sm">
                 <h3 className="font-bold mb-2">How do you recharge after a long day?</h3>
                 <div className="space-y-2">
                   <label className="flex items-center gap-2 cursor-pointer">
                     <input 
                       type="radio" 
                       name="recharge" 
-                      className="radio radio-secondary" 
+                      className="radio radio-secondary rounded-xl" 
                       checked={personalityAnswers.recharge === 'A'}
                       onChange={() => handlePersonalityChange('recharge', 'A')}
                     />
@@ -520,7 +520,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
                     <input 
                       type="radio" 
                       name="recharge" 
-                      className="radio radio-secondary" 
+                      className="radio radio-secondary rounded-xl" 
                       checked={personalityAnswers.recharge === 'B'}
                       onChange={() => handlePersonalityChange('recharge', 'B')}
                     />
@@ -529,14 +529,14 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
                 </div>
               </div>
               
-              <div className="bg-white/80 rounded-lg p-4 shadow-sm">
+              <div className="bg-white/80 rounded-xl p-4 shadow-sm">
                 <h3 className="font-bold mb-2">What gets you hyped?</h3>
                 <div className="space-y-2">
                   <label className="flex items-center gap-2 cursor-pointer">
                     <input 
                       type="radio" 
                       name="excitement" 
-                      className="radio radio-secondary" 
+                      className="radio radio-secondary rounded-xl" 
                       checked={personalityAnswers.excitement === 'A'}
                       onChange={() => handlePersonalityChange('excitement', 'A')}
                     />
@@ -546,7 +546,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
                     <input 
                       type="radio" 
                       name="excitement" 
-                      className="radio radio-secondary" 
+                      className="radio radio-secondary rounded-xl" 
                       checked={personalityAnswers.excitement === 'B'}
                       onChange={() => handlePersonalityChange('excitement', 'B')}
                     />
@@ -555,14 +555,14 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
                 </div>
               </div>
               
-              <div className="bg-white/80 rounded-lg p-4 shadow-sm">
+              <div className="bg-white/80 rounded-xl p-4 shadow-sm">
                 <h3 className="font-bold mb-2">How do you feel about new tech or gadgets?</h3>
                 <div className="space-y-2">
                   <label className="flex items-center gap-2 cursor-pointer">
                     <input 
                       type="radio" 
                       name="technology" 
-                      className="radio radio-secondary" 
+                      className="radio radio-secondary rounded-xl" 
                       checked={personalityAnswers.technology === 'A'}
                       onChange={() => handlePersonalityChange('technology', 'A')}
                     />
@@ -572,7 +572,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
                     <input 
                       type="radio" 
                       name="technology" 
-                      className="radio radio-secondary" 
+                      className="radio radio-secondary rounded-xl" 
                       checked={personalityAnswers.technology === 'B'}
                       onChange={() => handlePersonalityChange('technology', 'B')}
                     />
@@ -581,14 +581,14 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
                 </div>
               </div>
               
-              <div className="bg-white/80 rounded-lg p-4 shadow-sm">
+              <div className="bg-white/80 rounded-xl p-4 shadow-sm">
                 <h3 className="font-bold mb-2">What's your take on schedules?</h3>
                 <div className="space-y-2">
                   <label className="flex items-center gap-2 cursor-pointer">
                     <input 
                       type="radio" 
                       name="schedule" 
-                      className="radio radio-secondary" 
+                      className="radio radio-secondary rounded-xl" 
                       checked={personalityAnswers.schedule === 'A'}
                       onChange={() => handlePersonalityChange('schedule', 'A')}
                     />
@@ -598,7 +598,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
                     <input 
                       type="radio" 
                       name="schedule" 
-                      className="radio radio-secondary" 
+                      className="radio radio-secondary rounded-xl" 
                       checked={personalityAnswers.schedule === 'B'}
                       onChange={() => handlePersonalityChange('schedule', 'B')}
                     />
@@ -607,14 +607,14 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
                 </div>
               </div>
               
-              <div className="bg-white/80 rounded-lg p-4 shadow-sm">
+              <div className="bg-white/80 rounded-xl p-4 shadow-sm">
                 <h3 className="font-bold mb-2">Pick your crowd vibe:</h3>
                 <div className="space-y-2">
                   <label className="flex items-center gap-2 cursor-pointer">
                     <input 
                       type="radio" 
                       name="crowd" 
-                      className="radio radio-secondary" 
+                      className="radio radio-secondary rounded-xl" 
                       checked={personalityAnswers.crowd === 'A'}
                       onChange={() => handlePersonalityChange('crowd', 'A')}
                     />
@@ -624,7 +624,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
                     <input 
                       type="radio" 
                       name="crowd" 
-                      className="radio radio-secondary" 
+                      className="radio radio-secondary rounded-xl" 
                       checked={personalityAnswers.crowd === 'B'}
                       onChange={() => handlePersonalityChange('crowd', 'B')}
                     />
@@ -636,7 +636,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
             
             <div className="modal-action">
               <button 
-                className={`btn btn-secondary ${isLoading ? 'loading' : ''}`}
+                className={`btn btn-secondary ${isLoading ? 'loading' : ''} rounded-xl`}
                 onClick={handleSubmit}
                 disabled={isLoading || Object.values(personalityAnswers).some(answer => answer === '')}
               >
@@ -652,11 +652,11 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
               <h2 className="text-2xl font-bold">Your SXSW Personality</h2>
             </div>
             
-            <div className="bg-white/90 rounded-lg p-6 shadow-sm mb-6">
+            <div className="bg-white/90 rounded-xl p-6 shadow-sm mb-6">
               {renderPersonalityDescription()}
               
               <div className="text-center mt-4">
-                <div className="inline-flex items-center px-4 py-2 font-semibold text-sm bg-secondary/10 text-secondary rounded-full">
+                <div className="inline-flex items-center px-4 py-2 font-semibold text-sm bg-secondary/10 text-secondary rounded-xl">
                   <svg className="animate-spin -ml-1 mr-3 h-4 w-4 text-secondary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
@@ -668,7 +668,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
             
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <div className="bg-secondary/20 p-2 rounded-full">
+                <div className="bg-secondary/20 p-2 rounded-xl">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
@@ -680,7 +680,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
               </div>
               
               <div className="flex items-start gap-3">
-                <div className="bg-secondary/20 p-2 rounded-full">
+                <div className="bg-secondary/20 p-2 rounded-xl">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                   </svg>
@@ -700,9 +700,9 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
               <h2 className="text-2xl font-bold">Recommendations Ready!</h2>
             </div>
             
-            <div className="bg-white/90 rounded-lg p-6 shadow-sm mb-6">
+            <div className="bg-white/90 rounded-xl p-6 shadow-sm mb-6">
               <div className="mb-4 flex justify-center">
-                <div className="bg-secondary/20 p-4 rounded-full">
+                <div className="bg-secondary/20 p-4 rounded-xl">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -715,7 +715,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
               </p>
               
               {personalityType && (
-                <div className="bg-secondary/10 p-4 rounded-lg mb-4">
+                <div className="bg-secondary/10 p-4 rounded-xl mb-4">
                   <h4 className="font-bold text-secondary mb-2">Your SXSW Personality</h4>
                   {renderPersonalityDescription()}
                   <p className="text-sm text-gray-600 mt-2">
@@ -727,7 +727,7 @@ const AIModal = ({ isOpen, onClose, onRecommendationsReceived }: AIModalProps) =
             
             <div className="modal-action">
               <button 
-                className="btn btn-secondary"
+                className="btn btn-secondary rounded-xl"
                 onClick={onClose}
               >
                 View My Recommendations
