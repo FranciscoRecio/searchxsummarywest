@@ -17,22 +17,52 @@ function App() {
     if (savedRecommendations) {
       try {
         const recommendedIds = JSON.parse(savedRecommendations);
-        const filteredEvents = events.filter(event => recommendedIds.includes(event.id));
+        // Get current date for filtering past events
+        const currentDate = new Date();
+        const currentDateStr = currentDate.toISOString().split('T')[0]; // YYYY-MM-DD
+        
+        // Filter events by ID and ensure they're upcoming events
+        const filteredEvents = events.filter(event => {
+          const eventDateStr = event.startDate.split('T')[0];
+          return recommendedIds.includes(event.id) && eventDateStr >= currentDateStr;
+        });
+        
         setRecommendedEvents(filteredEvents);
       } catch (error) {
         console.error('Error loading recommendations from localStorage:', error);
-        // Fallback to first 3 events if there's an error
-        setRecommendedEvents(events.slice(0, 3));
+        // Fallback to first 3 upcoming events if there's an error
+        const currentDate = new Date();
+        const currentDateStr = currentDate.toISOString().split('T')[0];
+        const upcomingEvents = events
+          .filter(event => event.startDate.split('T')[0] >= currentDateStr)
+          .slice(0, 3);
+        
+        setRecommendedEvents(upcomingEvents);
       }
     } else {
-      // Default to first 3 events if no recommendations exist
-      setRecommendedEvents(events.slice(0, 3));
+      // Default to first 3 upcoming events if no recommendations exist
+      const currentDate = new Date();
+      const currentDateStr = currentDate.toISOString().split('T')[0];
+      const upcomingEvents = events
+        .filter(event => event.startDate.split('T')[0] >= currentDateStr)
+        .slice(0, 3);
+      
+      setRecommendedEvents(upcomingEvents);
     }
   }, [events]);
 
   // Handler for when new recommendations are received
   const handleRecommendationsReceived = (eventIds: number[]) => {
-    const newRecommendations = events.filter(event => eventIds.includes(event.id));
+    // Get current date for filtering past events
+    const currentDate = new Date();
+    const currentDateStr = currentDate.toISOString().split('T')[0]; // YYYY-MM-DD
+    
+    // Filter events by ID and ensure they're upcoming events
+    const newRecommendations = events.filter(event => {
+      const eventDateStr = event.startDate.split('T')[0];
+      return eventIds.includes(event.id) && eventDateStr >= currentDateStr;
+    });
+    
     setRecommendedEvents(newRecommendations);
   };
 
@@ -87,7 +117,9 @@ function App() {
                 </figure>
                 <div className="card-body">
                   <h3 className="card-title">{event.name}</h3>
-                  <p className="text-sm line-clamp-5">{event.description}</p>
+                  <div className="relative">
+                    <p className="text-sm line-clamp-4">{event.description}</p>
+                  </div>
                   <div className="flex items-center gap-2 text-sm text-gray-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
