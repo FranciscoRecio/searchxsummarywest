@@ -18,15 +18,30 @@ async function fetchWebPageContent(url) {
         const html = await response.text();
         const $ = cheerio.load(html);
         
-        // Extract date information from JSON-LD
-        let eventDateTime = null;
+        // Extract date and price information from JSON-LD
+        let eventData = null;
         $('script[type="application/ld+json"]').each((i, el) => {
             try {
                 const jsonData = JSON.parse($(el).html());
+                console.log('JSON-LD data:', JSON.stringify(jsonData, null, 2)); // For testing
+                
                 if (jsonData['@type'] === 'Event') {
-                    eventDateTime = {
+                    const price = jsonData.offers?.[0]?.price;
+                    const formattedPrice = price === 0 ? 'Free' : 
+                                          price ? `$${price}` : undefined;
+
+                    const status = jsonData.eventStatus?.split('/').pop() || ''; // Gets "EventScheduled" from URL
+                    const availability = jsonData.offers?.[0]?.availability?.split('/').pop() || ''; // Gets "InStock" from URL
+
+                    eventData = {
                         startDate: jsonData.startDate,
-                        endDate: jsonData.endDate
+                        endDate: jsonData.endDate,
+                        price: formattedPrice,
+                        priceCurrency: jsonData.offers?.[0]?.priceCurrency,
+                        availability: availability,
+                        eventStatus: status,
+                        offerName: jsonData.offers?.[0]?.name,
+                        offers: jsonData.offers // Keep full offers array for reference
                     };
                 }
             } catch (e) {
@@ -40,7 +55,7 @@ async function fetchWebPageContent(url) {
         
         return {
             content: $('body').text().trim(),
-            datetime: eventDateTime
+            eventData
         };
     } catch (error) {
         console.error('Error fetching webpage:', error);
@@ -59,10 +74,11 @@ async function summarizeContent(content) {
 {
     "description": "Brief summary of the main event details",
     "tags": ["array", "of", "applicable", "tags", "from", "the", "list", "below"],
-    "price": "Pricing and ticket information",
-    "sponsors": ["Array", "of", "sponsor", "names"],
-    "status": "Event status (Live, Waitlist, Sold Out, etc.)"
+    "sponsors": ["Array", "of", "official", "event", "sponsors", "only", "(not", "participants", "or", "venues)"],
+    "status": "Event status (must be one of: Available, Waitlist, Approval Required, Sold Out, Registration Closed, Invite Only, Limited Spots)"
 }
+
+For sponsors, only include organizations that are explicitly mentioned as sponsors or presenters of the event. Do not include venues, participants, or mentioned companies that aren't sponsoring.
 
 Available tags:
 - Food
@@ -92,14 +108,12 @@ Event Content: ${content}`
             max_tokens: 4096
         });
         
-        // Parse the JSON response
         return JSON.parse(response.choices[0].message.content);
     } catch (error) {
         console.error('Error getting summary from OpenAI:', error);
         return {
             description: '',
             tags: [],
-            price: '',
             sponsors: [],
             status: ''
         };
@@ -168,37 +182,35 @@ async function fetchEventDetails(events) {
     }
 }
 
-async function fetchAndSummarizeEvents() {
+async function fetchEventContents() {
     try {
         const overviews = JSON.parse(await fs.readFile('event_overviews.json', 'utf-8'));
-        const detailedEvents = [];
+        const eventContents = [];
 
         for (let i = 0; i < overviews.length; i++) {
             const event = overviews[i];
-            console.log(`\nProcessing event ${i + 1} of ${overviews.length}: ${event.name}`);
+            console.log(`\nFetching content for event ${i + 1} of ${overviews.length}: ${event.name}`);
 
             const pageData = await fetchWebPageContent(event.url);
             if (pageData) {
-                console.log('Getting summary from OpenAI...');
-                const details = await summarizeContent(pageData.content);
-
-                detailedEvents.push({
+                eventContents.push({
                     id: event.index,
                     name: event.name,
                     thumbnailUrl: event.thumbnailUrl,
-                    description: details.description,
+                    content: pageData.content,
                     time: event.time,
-                    startDate: pageData.datetime?.startDate || '',
-                    endDate: pageData.datetime?.endDate || '',
+                    startDate: pageData.eventData?.startDate || '',
+                    endDate: pageData.eventData?.endDate || '',
                     location: event.location,
-                    tags: details.tags,
                     url: event.url,
-                    price: details.price,
-                    sponsors: details.sponsors,
-                    status: details.status
+                    jsonPrice: pageData.eventData?.price,
+                    jsonStatus: pageData.eventData?.eventStatus,
+                    jsonAvailability: pageData.eventData?.availability,
+                    jsonOfferName: pageData.eventData?.offerName,
+                    jsonOffers: pageData.eventData?.offers
                 });
 
-                await fs.writeFile('event_details.json', JSON.stringify(detailedEvents, null, 2));
+                await fs.writeFile('event_contents.json', JSON.stringify(eventContents, null, 2));
                 
                 if (i < overviews.length - 1) {
                     await new Promise(resolve => setTimeout(resolve, 1000));
@@ -206,15 +218,61 @@ async function fetchAndSummarizeEvents() {
             }
         }
 
-        console.log('\nAll events processed and saved to event_details.json');
+        console.log('\nAll event contents saved to event_contents.json');
 
     } catch (error) {
-        console.error('Error processing events:', error);
+        console.error('Error fetching event contents:', error);
     }
 }
 
-// Remove test function since we don't need it anymore
-// async function testSingleEventPage() { ... }
+// Test function for a single event
+async function testSingleEventPage() {
+    const url = 'https://lu.ma/hdue6sat'; // Building the Future: Charter Cities event
+    const result = await fetchWebPageContent(url);
+    console.log('Event data:', result.eventData);
+}
 
-parseEventOverviews();
-fetchAndSummarizeEvents();
+async function summarizeEvents() {
+    try {
+        const eventContents = JSON.parse(await fs.readFile('event_contents.json', 'utf-8'));
+        const detailedEvents = [];
+
+        for (let i = 0; i < eventContents.length; i++) {
+            const event = eventContents[i];
+            console.log(`\nSummarizing event ${i + 1} of ${eventContents.length}: ${event.name}`);
+
+            const details = await summarizeContent(event.content);
+            detailedEvents.push({
+                id: event.id,
+                name: event.name,
+                thumbnailUrl: event.thumbnailUrl,
+                description: details.description,
+                time: event.time,
+                startDate: event.startDate,
+                endDate: event.endDate,
+                location: event.location,
+                tags: details.tags,
+                url: event.url,
+                price: event.jsonPrice,
+                sponsors: details.sponsors,
+                status: details.status
+            });
+
+            await fs.writeFile('event_details.json', JSON.stringify(detailedEvents, null, 2));
+            
+            if (i < eventContents.length - 1) {
+                await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+        }
+
+        console.log('\nAll events summarized and saved to event_details.json');
+
+    } catch (error) {
+        console.error('Error summarizing events:', error);
+    }
+}
+
+// Comment out what we don't need
+//parseEventOverviews();
+//fetchEventContents();
+summarizeEvents();

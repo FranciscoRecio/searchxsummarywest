@@ -208,11 +208,11 @@ const Events = ({ events }: EventsProps) => {
                 <div className="space-y-4">
                   {groupedEvents[dateKey].map(event => (
                     <div key={event.id} className="card card-side bg-base-100 shadow-sm border border-base-200">
-                      <figure className="w-1/4">
+                      <figure className="w-48 h-48 flex-shrink-0">
                         <img 
                           src={`/images/${event.thumbnailUrl}`} 
                           alt={event.name} 
-                          className="h-full w-full object-cover" 
+                          className="w-full h-full object-contain bg-gray-50"
                         />
                       </figure>
                       <div className="card-body">
