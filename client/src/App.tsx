@@ -1,6 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
-import { useState } from "react";
 import { Event } from "./types";
 import Events from "./components/Events";
 import AIModal from "./components/AIModal";
@@ -10,9 +9,32 @@ import eventData from './event_details.json';
 function App() {
   const [isAIModalOpen, setIsAIModalOpen] = useState(false);
   const [events] = useState<Event[]>(eventData);
+  const [recommendedEvents, setRecommendedEvents] = useState<Event[]>([]);
 
-  // First 3 events for recommendations
-  const recommendedEvents = events.slice(0, 3);
+  // Load AI recommendations from localStorage on initial render
+  useEffect(() => {
+    const savedRecommendations = localStorage.getItem('aiRecommendedEvents');
+    if (savedRecommendations) {
+      try {
+        const recommendedIds = JSON.parse(savedRecommendations);
+        const filteredEvents = events.filter(event => recommendedIds.includes(event.id));
+        setRecommendedEvents(filteredEvents);
+      } catch (error) {
+        console.error('Error loading recommendations from localStorage:', error);
+        // Fallback to first 3 events if there's an error
+        setRecommendedEvents(events.slice(0, 3));
+      }
+    } else {
+      // Default to first 3 events if no recommendations exist
+      setRecommendedEvents(events.slice(0, 3));
+    }
+  }, [events]);
+
+  // Handler for when new recommendations are received
+  const handleRecommendationsReceived = (eventIds: number[]) => {
+    const newRecommendations = events.filter(event => eventIds.includes(event.id));
+    setRecommendedEvents(newRecommendations);
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-50/60 via-amber-50/50 to-blue-50/70">
@@ -65,7 +87,7 @@ function App() {
                 </figure>
                 <div className="card-body">
                   <h3 className="card-title">{event.name}</h3>
-                  <p className="text-sm">{event.description}</p>
+                  <p className="text-sm line-clamp-5">{event.description}</p>
                   <div className="flex items-center gap-2 text-sm text-gray-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -148,6 +170,7 @@ function App() {
       <AIModal 
         isOpen={isAIModalOpen}
         onClose={() => setIsAIModalOpen(false)}
+        onRecommendationsReceived={handleRecommendationsReceived}
       />
     </div>
   );
