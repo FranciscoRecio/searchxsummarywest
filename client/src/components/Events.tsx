@@ -139,13 +139,13 @@ const Events = ({ events }: EventsProps) => {
         <h2 className="text-2xl font-bold">Events</h2>
         <div className="join">
           <button 
-            className={`join-item btn btn-sm ${!showPastEvents ? 'btn-active' : ''}`}
+            className={`join-item btn btn-sm ${!showPastEvents ? 'btn-active' : ''} rounded-xl`}
             onClick={() => setShowPastEvents(false)}
           >
             Upcoming
           </button>
           <button 
-            className={`join-item btn btn-sm ${showPastEvents ? 'btn-active' : ''}`}
+            className={`join-item btn btn-sm ${showPastEvents ? 'btn-active' : ''} rounded-xl`}
             onClick={() => setShowPastEvents(true)}
           >
             Past
@@ -160,7 +160,7 @@ const Events = ({ events }: EventsProps) => {
             <input 
               type="text" 
               placeholder="Search events..." 
-              className="input input-bordered w-full" 
+              className="input input-bordered w-full rounded-xl" 
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
             />
@@ -169,13 +169,13 @@ const Events = ({ events }: EventsProps) => {
         
         <div className="flex flex-wrap gap-2">
           <div className="dropdown dropdown-end">
-            <label tabIndex={0} className="btn btn-outline flex items-center gap-2">
+            <label tabIndex={0} className="btn btn-outline flex items-center gap-2 rounded-xl">
               Filters
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </label>
-            <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow-sm bg-base-100 rounded-box w-52">
+            <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow-sm bg-base-100 rounded-xl w-52">
               <li>
                 <label className="label cursor-pointer justify-start font-semibold">
                   <input 
@@ -258,12 +258,12 @@ const Events = ({ events }: EventsProps) => {
                   </div>
                 </div>
                 
-                <div className="space-y-4">
+                <div className="space-y-8">
                   {groupedEvents[dateKey].map(event => (
-                    <div key={event.id} className="card card-side bg-base-100 shadow-sm border border-base-200">
+                    <div key={event.id} className="card card-side bg-base-100 shadow-sm border border-base-200 rounded-xl">
                       <figure className="aspect-square w-64 flex-shrink-0">
                         <div 
-                          className="w-full h-full bg-gray-50 bg-center bg-cover bg-no-repeat"
+                          className="w-full h-full bg-gray-50 bg-center bg-cover bg-no-repeat rounded-l-xl"
                           style={{ 
                             backgroundImage: `url(/images/${event.thumbnailUrl})`,
                             backgroundColor: '#f9fafb'
@@ -274,7 +274,7 @@ const Events = ({ events }: EventsProps) => {
                         <div className="flex justify-between items-start">
                           <h3 className="card-title pr-4">{event.name}</h3>
                           {event.status && (
-                            <span className="badge badge-secondary whitespace-nowrap">{event.status}</span>
+                            <span className="badge badge-secondary whitespace-nowrap rounded-xl">{event.status}</span>
                           )}
                         </div>
                         <div className="relative">
@@ -287,7 +287,7 @@ const Events = ({ events }: EventsProps) => {
                         )}
                         <div className="flex flex-wrap gap-2 mt-2">
                           {event.tags.map(tag => (
-                            <div key={tag} className="badge badge-outline">{tag}</div>
+                            <div key={tag} className="badge badge-outline rounded-xl">{tag}</div>
                           ))}
                         </div>
                         <div className="flex justify-between items-center mt-2">

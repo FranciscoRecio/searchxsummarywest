@@ -51,38 +51,38 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-50/60 via-amber-50/50 to-blue-50/70">
+    <div className="min-h-screen bg-gradient-to-b from-amber-50/80 via-sky-100/70 to-amber-50/80">
       {/* Header */}
-      <header className="bg-white bg-opacity-80 backdrop-blur-sm shadow-sm">
-        <div className="container mx-auto p-4 max-w-5xl">
+      <header className="backdrop-blur-sm bg-gradient-to-b from-sky-100/70 to-transparent">
+        <div className="container mx-auto p-4 max-w-6xl">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-1">
               <img src={sxswLogo} alt="SXSW Logo" className="h-8 w-8" />
               <h1 className="text-3xl font-bold">SXSW</h1>
             </div>
-            <div className="text-sm text-gray-500">
+            <div className="text-sm text-gray-400">
               Austin — March 7-15, 2025
             </div>
           </div>
-          <p className="mt-2 text-sm">
+          <p className="mt-2 text-sm text-gray-400">
             SXSW (South by Southwest) is an annual festival in Austin, Texas,
             blending music, film, interactive media, and tech.
           </p>
         </div>
       </header>
 
-      <main className="container mx-auto p-4 max-w-5xl">
+      <main className="container mx-auto p-4 max-w-6xl">
         {/* Recommended Events Section */}
         <section className="mb-8">
           {!events.length ? (
             <div className="text-center py-16 animate-pulse">
-              <div className="h-8 bg-gray-200 rounded w-64 mx-auto mb-8"></div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {[1, 2, 3].map((n) => (
-                  <div key={n} className="card bg-base-100 shadow-sm border border-base-200">
-                    <div className="aspect-square bg-gray-100"></div>
+              <div className="h-8 bg-gray-200 rounded-xl w-64 mx-auto mb-8"></div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {[1, 2, 3, 4].map((n) => (
+                  <div key={n} className="card bg-base-100 shadow-sm border border-base-200 rounded-xl">
+                    <div className="aspect-square bg-gray-100 rounded-t-xl"></div>
                     <div className="card-body">
-                      <div className="h-6 bg-gray-200 rounded w-3/4 mb-4"></div>
+                      <div className="h-6 bg-gray-200 rounded-xl w-3/4 mb-4"></div>
                       <div className="space-y-2">
                         <div className="h-4 bg-gray-100 rounded"></div>
                         <div className="h-4 bg-gray-100 rounded w-5/6"></div>
@@ -97,7 +97,7 @@ function App() {
               <div className="flex justify-between items-center mb-4">
                 <h2 className="text-2xl font-bold">Recommended for You</h2>
                 <button 
-                  className="btn btn-sm btn-outline btn-secondary gap-2"
+                  className="btn btn-sm btn-outline btn-secondary gap-2 rounded-xl"
                   onClick={() => setIsAIModalOpen(true)}
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -106,15 +106,15 @@ function App() {
                   Find Events I Will Like
                 </button>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {recommendedEvents.map((event) => (
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {recommendedEvents.slice(0, 8).map((event) => (
                   <div
                     key={event.id}
-                    className="card bg-base-100 shadow-sm border border-base-200"
+                    className="card bg-base-100 shadow-sm border border-base-200 rounded-xl"
                   >
                     <figure className="aspect-square">
                       <div 
-                        className="w-full h-full bg-gray-50 bg-center bg-cover bg-no-repeat"
+                        className="w-full h-full bg-gray-50 bg-center bg-cover bg-no-repeat rounded-t-xl"
                         style={{ 
                           backgroundImage: `url(/images/${event.thumbnailUrl})`,
                           backgroundColor: '#f9fafb'
@@ -198,7 +198,7 @@ function App() {
               <div className="text-3xl font-bold mb-2">Let's Find Your Perfect SXSW Events!</div>
               <div className="text-gray-500 mb-8">Get personalized recommendations based on your interests</div>
               <button 
-                className="btn btn-secondary gap-2"
+                className="btn btn-secondary gap-2 rounded-xl"
                 onClick={() => setIsAIModalOpen(true)}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -215,7 +215,7 @@ function App() {
       </main>
 
       <footer className="p-4 mt-8">
-        <div className="container mx-auto text-center max-w-5xl">
+        <div className="container mx-auto text-center max-w-6xl">
           <p>© 2025 SXSW. All rights reserved.</p>
         </div>
       </footer>
