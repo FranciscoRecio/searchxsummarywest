@@ -195,7 +195,7 @@ function App() {
             </>
           ) : (
             <div className="text-center py-16">
-              <div className="text-[3.5rem] font-bold mb-2">Find Your Perfect SXSW Events!</div>
+              <div className="text-[3.5rem] font-bold mb-2">Find The Best SXSW Events</div>
               <div className="text-gray-500 mb-8">Personalized recommendations based on your interests</div>
               <button 
                 className="btn btn-secondary gap-2 rounded-xl"
