@@ -1,15 +1,70 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import { Event } from "./types";
 import Events from "./components/Events";
+import AIModal from "./components/AIModal";
 import sxswLogo from "./assets/sxsw-logo.png";
 import eventData from './event_details.json';
 
 function App() {
+  const [isAIModalOpen, setIsAIModalOpen] = useState(false);
   const [events] = useState<Event[]>(eventData);
+  const [recommendedEvents, setRecommendedEvents] = useState<Event[]>([]);
 
-  // First 3 events for recommendations
-  const recommendedEvents = events.slice(0, 3);
+  // Load AI recommendations from localStorage on initial render
+  useEffect(() => {
+    const savedRecommendations = localStorage.getItem('aiRecommendedEvents');
+    if (savedRecommendations) {
+      try {
+        const recommendedIds = JSON.parse(savedRecommendations);
+        // Get current date for filtering past events
+        const currentDate = new Date();
+        const currentDateStr = currentDate.toISOString().split('T')[0]; // YYYY-MM-DD
+        
+        // Filter events by ID and ensure they're upcoming events
+        const filteredEvents = events.filter(event => {
+          const eventDateStr = event.startDate.split('T')[0];
+          return recommendedIds.includes(event.id) && eventDateStr >= currentDateStr;
+        });
+        
+        setRecommendedEvents(filteredEvents);
+      } catch (error) {
+        console.error('Error loading recommendations from localStorage:', error);
+        // Fallback to first 3 upcoming events if there's an error
+        const currentDate = new Date();
+        const currentDateStr = currentDate.toISOString().split('T')[0];
+        const upcomingEvents = events
+          .filter(event => event.startDate.split('T')[0] >= currentDateStr)
+          .slice(0, 3);
+        
+        setRecommendedEvents(upcomingEvents);
+      }
+    } else {
+      // Default to first 3 upcoming events if no recommendations exist
+      const currentDate = new Date();
+      const currentDateStr = currentDate.toISOString().split('T')[0];
+      const upcomingEvents = events
+        .filter(event => event.startDate.split('T')[0] >= currentDateStr)
+        .slice(0, 3);
+      
+      setRecommendedEvents(upcomingEvents);
+    }
+  }, [events]);
+
+  // Handler for when new recommendations are received
+  const handleRecommendationsReceived = (eventIds: number[]) => {
+    // Get current date for filtering past events
+    const currentDate = new Date();
+    const currentDateStr = currentDate.toISOString().split('T')[0]; // YYYY-MM-DD
+    
+    // Filter events by ID and ensure they're upcoming events
+    const newRecommendations = events.filter(event => {
+      const eventDateStr = event.startDate.split('T')[0];
+      return eventIds.includes(event.id) && eventDateStr >= currentDateStr;
+    });
+    
+    setRecommendedEvents(newRecommendations);
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-50/60 via-amber-50/50 to-blue-50/70">
@@ -35,7 +90,18 @@ function App() {
       <main className="container mx-auto p-4 max-w-5xl">
         {/* Recommended Events Section */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Recommended for You</h2>
+          <div className="flex justify-between items-center mb-4">
+            <h2 className="text-2xl font-bold">Recommended for You</h2>
+            <button 
+              className="btn btn-sm btn-outline btn-secondary gap-2"
+              onClick={() => setIsAIModalOpen(true)}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+              </svg>
+              Find Events I Will Like
+            </button>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {recommendedEvents.map((event) => (
               <div
@@ -51,7 +117,9 @@ function App() {
                 </figure>
                 <div className="card-body">
                   <h3 className="card-title">{event.name}</h3>
-                  <p className="text-sm">{event.description}</p>
+                  <div className="relative">
+                    <p className="text-sm line-clamp-4">{event.description}</p>
+                  </div>
                   <div className="flex items-center gap-2 text-sm text-gray-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -129,6 +197,13 @@ function App() {
           <p>© 2025 SXSW. All rights reserved.</p>
         </div>
       </footer>
+
+      {/* AI Modal */}
+      <AIModal 
+        isOpen={isAIModalOpen}
+        onClose={() => setIsAIModalOpen(false)}
+        onRecommendationsReceived={handleRecommendationsReceived}
+      />
     </div>
   );
 }
