@@ -154,89 +154,86 @@ const Events = ({ events }: EventsProps) => {
       </div>
 
       {/* Search and Filters */}
-      <div className="flex flex-col md:flex-row gap-4 mb-6">
+      <div className="flex items-center gap-4 mb-6">
         <div className="form-control flex-grow">
-          <div className="input-group">
+          <div className="input-group w-full flex">
             <input 
               type="text" 
               placeholder="Search events..." 
-              className="input input-bordered w-full rounded-xl" 
+              className="input input-bordered w-full rounded-xl rounded-r-none" 
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
             />
-          </div>
-        </div>
-        
-        <div className="flex flex-wrap gap-2">
-          <div className="dropdown dropdown-end">
-            <label tabIndex={0} className="btn btn-outline flex items-center gap-2 rounded-xl">
-              Filters
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-              </svg>
-            </label>
-            <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow-sm bg-base-100 rounded-xl w-52">
-              <li>
-                <label className="label cursor-pointer justify-start font-semibold">
-                  <input 
-                    type="checkbox" 
-                    className="checkbox checkbox-info" 
-                    checked={showFreeOnly}
-                    onChange={(e) => setShowFreeOnly(e.target.checked)}
-                  />
-                  <span className="label-text ml-2">Free Events Only</span>
-                </label>
-              </li>
-              
-              <li className="divider"></li>
-              <li className="menu-title">
-                <span>Status</span>
-              </li>
-              {['Available', 'Waitlist', 'Approval Required', 'Sold Out', 'Registration Closed', 'Invite Only', 'Limited Spots'].map(status => (
-                <li key={status}>
-                  <label className="label cursor-pointer justify-start">
-                    <input 
-                      type="checkbox"
-                      className="checkbox checkbox-info" 
-                      checked={selectedStatuses.includes(status)}
-                      onChange={() => {
-                        if (selectedStatuses.includes(status)) {
-                          setSelectedStatuses(selectedStatuses.filter(s => s !== status));
-                        } else {
-                          setSelectedStatuses([...selectedStatuses, status]);
-                        }
-                      }}
-                    />
-                    <span className="label-text ml-2">{status}</span>
-                  </label>
-                </li>
-              ))}
-              <li className="divider"></li>
-              
-              <li className="menu-title">
-                <span>Filter by Tags</span>
-              </li>
-              
-              {allTags.map(tag => (
-                <li key={tag}>
-                  <label className="label cursor-pointer justify-start">
+            <div className="dropdown dropdown-end">
+              <label tabIndex={0} className="btn btn-outline rounded-xl rounded-l-none border-l-0">
+                Filters
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </label>
+              <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow-sm bg-base-100 rounded-xl w-52">
+                <li>
+                  <label className="label cursor-pointer justify-start font-semibold">
                     <input 
                       type="checkbox" 
                       className="checkbox checkbox-info" 
-                      checked={selectedTags.includes(tag)}
-                      onChange={(e) => {
-                        if (e.target.checked) {
-                          setSelectedTags([...selectedTags, tag]);
-                        } else {
-                          setSelectedTags(selectedTags.filter(t => t !== tag));
-                        }
-                      }}
+                      checked={showFreeOnly}
+                      onChange={(e) => setShowFreeOnly(e.target.checked)}
                     />
-                    <span className="label-text ml-2">{tag}</span>
+                    <span className="label-text ml-2">Free Events Only</span>
                   </label>
                 </li>
-              ))}
-            </ul>
+                
+                <li className="divider"></li>
+                <li className="menu-title">
+                  <span>Status</span>
+                </li>
+                {['Available', 'Waitlist', 'Approval Required', 'Sold Out', 'Registration Closed', 'Invite Only', 'Limited Spots'].map(status => (
+                  <li key={status}>
+                    <label className="label cursor-pointer justify-start">
+                      <input 
+                        type="checkbox"
+                        className="checkbox checkbox-info" 
+                        checked={selectedStatuses.includes(status)}
+                        onChange={() => {
+                          if (selectedStatuses.includes(status)) {
+                            setSelectedStatuses(selectedStatuses.filter(s => s !== status));
+                          } else {
+                            setSelectedStatuses([...selectedStatuses, status]);
+                          }
+                        }}
+                      />
+                      <span className="label-text ml-2">{status}</span>
+                    </label>
+                  </li>
+                ))}
+                <li className="divider"></li>
+                
+                <li className="menu-title">
+                  <span>Filter by Tags</span>
+                </li>
+                
+                {allTags.map(tag => (
+                  <li key={tag}>
+                    <label className="label cursor-pointer justify-start">
+                      <input 
+                        type="checkbox" 
+                        className="checkbox checkbox-info" 
+                        checked={selectedTags.includes(tag)}
+                        onChange={(e) => {
+                          if (e.target.checked) {
+                            setSelectedTags([...selectedTags, tag]);
+                          } else {
+                            setSelectedTags(selectedTags.filter(t => t !== tag));
+                          }
+                        }}
+                      />
+                      <span className="label-text ml-2">{tag}</span>
+                    </label>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
